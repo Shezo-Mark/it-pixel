@@ -1,0 +1,9 @@
+/*--------------*\
+    header Section
+\*--------------*/
+.dropdown-menu{
+  @include grid-xxxl {
+     max-width: 1550px !important;
+     width: 1550px !important;
+  }
+}

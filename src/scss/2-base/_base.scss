@@ -1,0 +1,88 @@
+/*--------------*\
+    Base
+\*--------------*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $main-font-family;
+  font-size: $body--main-font;
+  color: $body-main-color;
+  font-weight: $body-main-font-weight;
+  position: relative;
+  z-index: -2;
+  line-height: 1.7rem;
+}
+@include grid-xxxl {
+   .container{
+    max-width: 1550px;
+   }
+ }
+ h1,h2,h3,h4{
+  color:  #5C677D;
+ }
+h1,h2,h3,h4,h5,h6,p{
+  margin-bottom: 0;
+}
+p{
+  margin-bottom: 0;
+}
+ul{
+  padding-left: 0;
+  margin-bottom: 0;
+}
+a{
+  //color: $white;
+  display: inline-block;
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+    color: #92C93E;
+  }
+}
+.primary_font{
+  font-size: $body-primary-font;
+}
+.secondrey_font{
+  font-size: $body-secondrey-font;
+}
+h1{
+  font-size: $size-1;
+  font-weight: 800;
+  @include grid-md-down {
+    font-size: 30px;
+  }
+}
+h2{
+  font-size: $size-2;
+  font-weight: 700;
+  @include grid-md-down {
+    font-size: 26px;
+  }
+}
+h3{
+  font-size: $size-3;
+  font-weight: 700;
+  @include grid-md-down {
+    font-size: 23px;
+  }
+}
+h4{
+  font-size: $size-4;
+  font-weight: 700;
+}
+.bg_green{
+  background-color: #92C93E;
+}
+.bg_purple{
+  background-color: #8986C0;
+}
+.text_green{
+  color: #92C93E;
+}
+.text_purpe{
+  color: #8986C0;
+}
