@@ -7,6 +7,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { WebFilesComponent } from './web-files.component';
 import { BannerSectionComponent } from './shared/banner-section/banner-section.component';
 import { HomeComponent } from './components/home/home.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { HomeComponent } from './components/home/home.component';
     BannerSectionComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,

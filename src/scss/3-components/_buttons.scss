@@ -12,21 +12,22 @@
 .btn_brand{
   box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.18) !important;
   border-radius: 0px!important;
-  padding: 10px 30px 10px 30px !important;
-  background-color: $brand-purple !important;
-  font-weight: 500 !important;
+  padding: 7px 35px 7px 35px !important;
+  background: $brand-purple !important;
+  font-weight: 700 !important;
   font-size: 16px !important;
   color: $white !important;
   letter-spacing: 2px !important;
   transition: .5s !important;
+
   &.sm{
     padding: 6px 30px 6px 30px !important;
     font-size: 13px !important;
   }
   &:hover{
-    background-color: $brand-green !important;
+    background: $brand-gray !important;
     border-radius: 0 !important;
-    color: $white !important;
+    color: $dark !important;
   }
 }
 .btn_brand_blue{

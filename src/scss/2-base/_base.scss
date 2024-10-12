@@ -16,19 +16,25 @@ body {
   z-index: -2;
   line-height: 1.7rem;
 }
+.banner{
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
 @include grid-xxxl {
    .container{
     max-width: 1550px;
    }
  }
  h1,h2,h3,h4{
-  color:  #5C677D;
+  color:  #4d4d4d;
  }
 h1,h2,h3,h4,h5,h6,p{
   margin-bottom: 0;
 }
 p{
   margin-bottom: 0;
+  color: #5C677D;
 }
 ul{
   padding-left: 0;
@@ -51,28 +57,28 @@ a{
 }
 h1{
   font-size: $size-1;
-  font-weight: 800;
+  font-weight: 900;
   @include grid-md-down {
     font-size: 30px;
   }
 }
 h2{
   font-size: $size-2;
-  font-weight: 700;
+  font-weight: 900;
   @include grid-md-down {
     font-size: 26px;
   }
 }
 h3{
   font-size: $size-3;
-  font-weight: 700;
+  font-weight: 800;
   @include grid-md-down {
     font-size: 23px;
   }
 }
 h4{
   font-size: $size-4;
-  font-weight: 700;
+  font-weight: 800;
 }
 .bg_green{
   background-color: #92C93E;
@@ -83,6 +89,28 @@ h4{
 .text_green{
   color: #92C93E;
 }
+.bg_linear{
+  background: linear-gradient(237.31deg, #7BCD75 0%, #77C1C4);
+}
 .text_purpe{
   color: #8986C0;
+}
+.sub_title{
+  color: #5C677D;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+}
+.section{
+  padding: 80px 0;
+  @include grid-md-down {
+    padding: 40px 0;
+  }
+}
+.section_bg{
+  background-image: url('../../assets/images/banner-gif/section-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
