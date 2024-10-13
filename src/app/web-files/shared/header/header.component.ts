@@ -1,4 +1,4 @@
-import { Component  } from '@angular/core';
+import { Component, HostListener   } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,6 +7,20 @@ import { Component  } from '@angular/core';
 })
 export class HeaderComponent {
   is_loading = false;
+  headerClass: string = '';
+
+  @HostListener('window:scroll', [])
+  onScroll(): void {
+    const currentScroll: number = window.pageYOffset;
+    const toggleClass = 'is-active';
+
+    if (currentScroll > 75) {
+      this.headerClass = toggleClass;
+    } else {
+      this.headerClass = '';
+    }
+  }
+
     constructor(){
       this.is_loading = true;
       setTimeout(() => {

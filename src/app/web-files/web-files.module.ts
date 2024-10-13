@@ -9,6 +9,8 @@ import { BannerSectionComponent } from './shared/banner-section/banner-section.c
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
+import { ConsultationComponent } from './shared/consultation/consultation.component';
+import { CaseStudiesComponent } from './shared/case-studies/case-studies.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { AboutComponent } from './components/about/about.component';
     FooterComponent,
     HomeComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    ConsultationComponent,
+    CaseStudiesComponent
   ],
   imports: [
     CommonModule,

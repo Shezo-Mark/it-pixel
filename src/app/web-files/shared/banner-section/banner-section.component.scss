@@ -3,4 +3,21 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 40px 20px;
     background-color: white;
+    input,textarea,select, select option{
+      color: #4d4d4d;
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 0 !important;
+      &:focus{
+        outline: none;
+        box-shadow: none;
+        border: 1px solid #7BCD75;
+      }
+    }
+    span{
+      border-radius: 0;
+      i{
+        font-size: 13px;
+      }
+    }
 }
