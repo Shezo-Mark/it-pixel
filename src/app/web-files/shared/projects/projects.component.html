@@ -1,0 +1,209 @@
+<section class="section section_projects section_bg">
+  <div class="container">
+   <h2 class="mb-2">Our Projects</h2>
+   <p class="mb-3">We’re proud of the work we put in for our clients. Take a look at what these previous results could look like for you.</p>
+   <div class="row">
+       <div class="project_filter_nav">
+         <button class="filter_link" [ngClass]="isAllCase?'is_checked':''" (click)="Subject=''; isAllCase=true;">All Case Studies</button>
+         <button class="filter_link" [ngClass]="Subject=='Html'?'is_checked':''" (click)="Subject='Html'; isAllCase=false;">Html & Css</button>
+         <button class="filter_link" [ngClass]="Subject=='Sass'?'is_checked':''" (click)="Subject='Sass'; isAllCase=false;">Scss & Sass</button>
+         <button class="filter_link" [ngClass]="Subject=='Less'?'is_checked':''" (click)="Subject='Less'; isAllCase=false;">Less</button>
+         <button class="filter_link" [ngClass]="Subject=='Bootstrap'?'is_checked':''" (click)="Subject='Bootstrap'; isAllCase=false;">Bootstrap</button>
+         <button class="filter_link" [ngClass]="Subject=='Tailwind'?'is_checked':''" (click)="Subject='Tailwind'; isAllCase=false;">Tailwind Css</button>
+         <button class="filter_link" [ngClass]="Subject=='Bulma'?'is_checked':''" (click)="Subject='Bulma'; isAllCase=false;">Bulma Css</button>
+         <button class="filter_link" [ngClass]="Subject=='Php'?'is_checked':''" (click)="Subject='Php'; isAllCase=false;">Php MySql</button>
+         <button class="filter_link" [ngClass]="Subject=='Laravel'?'is_checked':''" (click)="Subject='Laravel'; isAllCase=false;">Laravel</button>
+         <button class="filter_link" [ngClass]="Subject=='Angular'?'is_checked':''" (click)="Subject='Angular'; isAllCase=false;">Angular</button>
+         <button class="filter_link" [ngClass]="Subject=='Wix'?'is_checked':''" (click)="Subject='Wix'; isAllCase=false;">Wix</button>
+         <button class="filter_link" [ngClass]="Subject=='Ui'?'is_checked':''" (click)="Subject='Ui'; isAllCase=false;">Ui/Ux</button>
+         <button class="filter_link" [ngClass]="Subject=='WebFlow'?'is_checked':''" (click)="Subject='WebFlow'; isAllCase=false;">WebFlow</button>
+         <button class="filter_link" [ngClass]="Subject=='Wordpress'?'is_checked':''" (click)="Subject='Wordpress'; isAllCase=false;">Wordpress</button>
+         <button class="filter_link" [ngClass]="Subject=='Custom_Theme'?'is_checked':''" (click)="Subject='Custom_Theme'; isAllCase=false;">Wordpress Builders</button>
+         <button class="filter_link" [ngClass]="Subject=='Theme_Development'?'is_checked':''" (click)="Subject='Theme_Development'; isAllCase=false;">Wordpress Custom Theme Development</button>
+         <button class="filter_link" [ngClass]="Subject=='Theme_Customization'?'is_checked':''" (click)="Subject='Theme_Customization'; isAllCase=false;">Wordpress Theme Customization</button>
+       </div>
+       <div class="project_filter_data">
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Html'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Html Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Sass'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Sass Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Tailwind'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Tailwind Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Bulma'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Bulma Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Bootstrap'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Bootstrap Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Ui'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Ui/Ux Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Less'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Less Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Php'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Php Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Laravel'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Laravel Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Angular'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Angular Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Wix'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Wix Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='WebFlow'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>WebFlow Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Wordpress'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Wordpress Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Custom_Theme'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Custom_Theme Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Theme_Development'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Theme_Development Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-md-4" *ngIf="isAllCase==true || Subject=='Theme_Customization'">
+             <div class="project_item">
+               <a class="case_thumb">
+                 <img src="../../../../assets/images/site-images/about.jpg" alt="">
+              </a>
+              <div class="case_Info">
+                 <a href=""><h3>Theme_Customization Here</h3></a>
+                 <a href="">Read More ⟶</a>
+              </div>
+             </div>
+           </div>
+
+               <div class="text-center w-100 mt-md-5 mt-4">
+                 <button class="btn btn_brand mt-md-3 mt-2">View More Projects</button>
+               </div>
+       </div>
+     </div>
+  </div>
+</section>

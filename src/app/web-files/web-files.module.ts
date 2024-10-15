@@ -12,6 +12,8 @@ import { AboutComponent } from './components/about/about.component';
 import { ConsultationComponent } from './shared/consultation/consultation.component';
 import { CaseStudiesComponent } from './shared/case-studies/case-studies.component';
 import { ServicesComponent } from './shared/services/services.component';
+import { ProjectsComponent } from './shared/projects/projects.component';
+import { ClientSliderComponent } from './shared/client-slider/client-slider.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { ServicesComponent } from './shared/services/services.component';
     AboutComponent,
     ConsultationComponent,
     CaseStudiesComponent,
-    ServicesComponent
+    ServicesComponent,
+    ProjectsComponent,
+    ClientSliderComponent
   ],
   imports: [
     CommonModule,
