@@ -14,6 +14,7 @@ import { CaseStudiesComponent } from './shared/case-studies/case-studies.compone
 import { ServicesComponent } from './shared/services/services.component';
 import { ProjectsComponent } from './shared/projects/projects.component';
 import { ClientSliderComponent } from './shared/client-slider/client-slider.component';
+import { DevelopmentProcessComponent } from './shared/development-process/development-process.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ClientSliderComponent } from './shared/client-slider/client-slider.comp
     CaseStudiesComponent,
     ServicesComponent,
     ProjectsComponent,
-    ClientSliderComponent
+    ClientSliderComponent,
+    DevelopmentProcessComponent
   ],
   imports: [
     CommonModule,
