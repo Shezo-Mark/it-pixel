@@ -2,7 +2,9 @@
    <div class="laoder"><img src="../../../../assets/images/header_icons/loader-white.svg" alt=""></div>
 </div>
 
-<button class="scroll_top btn btn_brand" style="padding: 6px 15px !important; position: fixed; right: 0; bottom: 0;">
+<button class="scroll_top btn btn_brand"
+(click)="scrollToTop()"
+[class.show]="isVisible">
   <i class="fs-12 fa-solid fa-angles-up"></i>
 </button>
 
@@ -214,7 +216,7 @@
                       </div>
                     </a>
                       </li>
-                    
+
                   </div>
 
             </div>

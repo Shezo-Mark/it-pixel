@@ -28,7 +28,17 @@
   }
 }
 
-
+.scroll_top{
+  padding: 6px 15px !important;
+   position: fixed;
+    right: -100%;
+    bottom: 0;
+     z-index: 9999999;
+     transition: .9s;
+  &.show{
+    right: 0;
+  }
+}
 
 
 

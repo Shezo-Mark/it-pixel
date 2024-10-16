@@ -15,6 +15,8 @@ import { ServicesComponent } from './shared/services/services.component';
 import { ProjectsComponent } from './shared/projects/projects.component';
 import { ClientSliderComponent } from './shared/client-slider/client-slider.component';
 import { DevelopmentProcessComponent } from './shared/development-process/development-process.component';
+import { MarketingFieldsComponent } from './shared/marketing-fields/marketing-fields.component';
+import { ServicesDetailsComponent } from './services-details/services-details.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { DevelopmentProcessComponent } from './shared/development-process/develo
     ServicesComponent,
     ProjectsComponent,
     ClientSliderComponent,
-    DevelopmentProcessComponent
+    DevelopmentProcessComponent,
+    MarketingFieldsComponent,
+    ServicesDetailsComponent
   ],
   imports: [
     CommonModule,

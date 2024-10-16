@@ -1,53 +1,18 @@
 <section class="section_process section">
-     <div class="container">
-        <h2 class="mb-2">Our Web Design Process</h2>
-        <p class="mb-3">With our years of experience in web design and development, we have perfected our process to ensure that our clients are happy with the end result.</p>  
-        
-        <div class="process_main">
-          <div class="process_item">
-               <div class="process_box">
-                    <h4>Discovery & Planning</h4>
-                    <p>The first step in our web design process is discovery and planning. During this phase, we will learn more about your company, your goals, and your target audience. We will also start to plan out the structure and design of your website.</p>
-                    <span class="process_design">1</span>
-               </div>
-          </div>
-          <div class="process_item">
-               <div class="process_box">
-                    <h4>Discovery & Planning</h4>
-                    <p>The first step in our web design process is discovery and planning. During this phase, we will learn more about your company, your goals, and your target audience. We will also start to plan out the structure and design of your website.</p>
-                    <span class="process_design">2</span>
-               </div>
-          </div>
-          <div class="process_item">
-               <div class="process_box">
-                    <h4>Discovery & Planning</h4>
-                    <p>The first step in our web design process is discovery and planning. During this phase, we will learn more about your company, your goals, and your target audience. We will also start to plan out the structure and design of your website.</p>
-                    <span class="process_design">3</span>
-               </div>
-          </div>
-          <div class="process_item">
-               <div class="process_box">
-                    <h4>Discovery & Planning</h4>
-                    <p>The first step in our web design process is discovery and planning. During this phase, we will learn more about your company, your goals, and your target audience. We will also start to plan out the structure and design of your website.</p>
-                    <span class="process_design">4</span>
-               </div>
-          </div>
-          <div class="process_item">
-               <div class="process_box">
-                    <h4>Discovery & Planning</h4>
-                    <p>The first step in our web design process is discovery and planning. During this phase, we will learn more about your company, your goals, and your target audience. We will also start to plan out the structure and design of your website.</p>
-                    <span class="process_design">5</span>
-               </div>
-          </div>
-          <div class="process_item">
-               <div class="process_box">
-                    <h4>Discovery & Planning</h4>
-                    <p>The first step in our web design process is discovery and planning. During this phase, we will learn more about your company, your goals, and your target audience. We will also start to plan out the structure and design of your website.</p>
-                    <span class="process_design">6</span>
-               </div>
-          </div>
+  <div class="container">
+    <h2 class="mb-2 text-center">Our Web Design Process</h2>
+    <p class="mb-3 w-50 mx-auto text-center">With our years of experience in web design and development, we have perfected our process to ensure that our clients are happy with the end result.</p>
 
-          
+    <div class="process_main">
+      <div *ngFor="let step of processSteps" class="process_item">
+        <div class="process_box">
+          <div class="process_info">
+            <h4>{{ step.title }}</h4>
+            <p>{{ step.description }}</p>
+          </div>
+          <span class="process_design">{{ step.id }}</span>
         </div>
-     </div>
+      </div>
+    </div>
+  </div>
 </section>

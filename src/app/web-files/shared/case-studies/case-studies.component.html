@@ -5,72 +5,17 @@
       <p class="mb-3">We’re proud of the work we put in for our clients. Take a look at what these previous results could look like for you.</p>
 
       <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" *ngFor="let caseStudy of caseStudies">
                <div class="case_item">
                 <a class="case_thumb">
-                    <img src="../../../../assets/images/site-images/case-1.jpg" alt="">
+                  <img [src]="caseStudy.image" alt="{{ caseStudy.title }}">
                 </a>
                 <div class="case_Info">
-                  <h3>Mobile App Design</h3>
-                    <a href="">View Case Study ⟶</a>
+                  <h3>{{ caseStudy.title }}</h3>
+                  <a href="">View Case Study ⟶</a>
                 </div>
                </div>
             </div>
-            <div class="col-md-4">
-              <div class="case_item">
-               <a class="case_thumb">
-                   <img src="../../../../assets/images/site-images/case-1.jpg" alt="">
-               </a>
-               <div class="case_Info">
-                 <h3>Mobile App Design</h3>
-                   <a href="">View Case Study ⟶</a>
-               </div>
-              </div>
-           </div>
-           <div class="col-md-4">
-            <div class="case_item">
-             <a class="case_thumb">
-                 <img src="../../../../assets/images/site-images/case-1.jpg" alt="">
-             </a>
-             <div class="case_Info">
-               <h3>Mobile App Design</h3>
-                 <a href="">View Case Study ⟶</a>
-             </div>
-            </div>
-         </div>
-         <div class="col-md-4">
-          <div class="case_item">
-           <a class="case_thumb">
-               <img src="../../../../assets/images/site-images/case-1.jpg" alt="">
-           </a>
-           <div class="case_Info">
-             <h3>Mobile App Design</h3>
-               <a href="">View Case Study ⟶</a>
-           </div>
-          </div>
-       </div>
-       <div class="col-md-4">
-        <div class="case_item">
-         <a class="case_thumb">
-             <img src="../../../../assets/images/site-images/case-1.jpg" alt="">
-         </a>
-         <div class="case_Info">
-           <h3>Mobile App Design</h3>
-             <a href="">View Case Study ⟶</a>
-         </div>
-        </div>
-     </div>
-     <div class="col-md-4">
-      <div class="case_item">
-       <a class="case_thumb">
-           <img src="../../../../assets/images/site-images/case-1.jpg" alt="">
-       </a>
-       <div class="case_Info">
-         <h3>Mobile App Design</h3>
-           <a href="">View Case Study ⟶</a>
-       </div>
-      </div>
-   </div>
           <div class="text-center">
               <button class="btn btn_brand mt-md-5 mt-4">View More Case Studies</button>
           </div>

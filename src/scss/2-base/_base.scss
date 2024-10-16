@@ -24,6 +24,19 @@ body {
   position: relative;
   overflow: hidden;
 }
+.banner_half{
+  height: 50vh;
+  position: relative;
+  &:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(137, 134, 192,0.8);
+  }
+}
 @include grid-xxxl {
    .container{
     max-width: 1550px;
@@ -116,4 +129,5 @@ h4{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
