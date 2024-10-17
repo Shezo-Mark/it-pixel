@@ -1,4 +1,4 @@
-<div class="banner_component banner">
+<!-- <div class="banner_component banner">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
            <div class="col-md-7">
@@ -52,4 +52,62 @@
            </div>
         </div>
     </div>
+</div> -->
+
+
+<div class="banner_component banner bg_banner" [ngStyle]="{'background-image': 'url(' + backgroundImage + ')'}">
+  <div class="container h-100">
+      <div class="row h-100 align-items-center">
+          <div class="col-md-7">
+              <small class="sub_title" [innerHTML]="bannerContent.subTitle"></small>
+              <h1 [innerHTML]="bannerContent.heading"></h1>
+              <p class="mt-md-4 mt-3" [innerHTML]="bannerContent.paragraph"></p>
+              <button class="btn btn_brand mt-md-3 mt-2">{{ bannerContent.buttonText }}</button>
+          </div>
+          <div class="col-md-5">
+              <div class="banner_filter">
+                  <!-- <img [src]="bannerContent.imageUrl" alt="Banner Image" class="img-fluid"> -->
+                  <h4 class="mb-md-4 mb-3">Have a specific inquiry?</h4>
+                  <form action="">
+                      <div class="row mb-3">
+                          <div class="col-md-6">
+                              <div class="input-group">
+                                  <span class="input-group-text" id="name"><i class="fa-regular fa-user"></i></span>
+                                  <input type="text" class="form-control" placeholder="Enter Your Name" aria-label="Username" aria-describedby="name">
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="input-group">
+                                  <span class="input-group-text" id="email"><i class="fa-regular fa-envelope"></i></span>
+                                  <input type="email" class="form-control" placeholder="Enter Your Email" aria-label="Email" aria-describedby="email">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="input-group mb-3">
+                          <span class="input-group-text" id="number"><i class="fa-solid fa-mobile-screen"></i></span>
+                          <input type="text" class="form-control" placeholder="Enter Your Phone Number" aria-label="Phone Number" aria-describedby="number">
+                      </div>
+                      <div class="input-group mb-3">
+                          <span class="input-group-text" id="subject"><i class="fa-solid fa-pen"></i></span>
+                          <input type="text" class="form-control" placeholder="Write Subject" aria-label="Subject" aria-describedby="subject">
+                      </div>
+                      <div class="mb-3">
+                          <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+                      </div>
+                      <div class="">
+                          <select class="form-select" aria-label="Default select example">
+                              <option selected>Open this select menu</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                          </select>
+                      </div>
+                      <div class="text-end">
+                          <button class="btn btn_brand mt-md-4 mt-3 ms-auto">Submit Form</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
