@@ -1,25 +1,21 @@
-
+<!-- case-studies.component.html -->
 <section class="section_case_studies section">
-     <div class="container">
-      <h2 class="mb-2">Case Studies</h2>
-      <p class="mb-3">We’re proud of the work we put in for our clients. Take a look at what these previous results could look like for you.</p>
+  <div class="container">
+    <h2 class="mb-2">Case Studies</h2>
+    <p class="mb-3">We’re proud of the work we put in for our clients. Take a look at what these previous results could look like for you.</p>
 
-      <div class="row">
-            <div class="col-md-4" *ngFor="let caseStudy of caseStudies">
-               <div class="case_item">
-                <a class="case_thumb">
-                  <img [src]="caseStudy.image" alt="{{ caseStudy.title }}">
-                </a>
-                <div class="case_Info">
-                  <h3>{{ caseStudy.title }}</h3>
-                  <a href="">View Case Study ⟶</a>
-                </div>
-               </div>
-            </div>
-          <div class="text-center">
-              <button class="btn btn_brand mt-md-5 mt-4">View More Case Studies</button>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let caseStudy of caseStudies">
+        <div class="case_item">
+          <a class="case_thumb" [routerLink]="['/case-study-details', caseStudy.id]">
+            <img [src]="caseStudy.image" alt="{{ caseStudy.title }}">
+          </a>
+          <div class="case_Info">
+            <h3>{{ caseStudy.title }}</h3>
+            <a [routerLink]="['/case-study-details', caseStudy.id]">View Case Study ⟶</a>
           </div>
-
         </div>
-     </div>
+      </div>
+    </div>
+  </div>
 </section>

@@ -6,6 +6,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './shared/services/services.component';
 import { ServicesDetailsComponent } from './services-details/services-details.component';
+import { CaseStudiesComponent } from './shared/case-studies/case-studies.component';
+import { CaseStudyDetailsComponent } from './components/case-study-details/case-study-details.component';
+
 
 
 const routes: Routes = [
@@ -36,7 +39,16 @@ const routes: Routes = [
     {
       path:'services-details/:id',
       component: ServicesDetailsComponent,
-    }
+    },
+    { 
+      path: 'case-study', 
+      component: CaseStudiesComponent 
+    },
+    { 
+      path: 'case-study-details/:id', 
+      component: CaseStudyDetailsComponent 
+    }, 
+    
   ]
   }
 ];

@@ -17,6 +17,7 @@ import { ClientSliderComponent } from './shared/client-slider/client-slider.comp
 import { DevelopmentProcessComponent } from './shared/development-process/development-process.component';
 import { MarketingFieldsComponent } from './shared/marketing-fields/marketing-fields.component';
 import { ServicesDetailsComponent } from './services-details/services-details.component';
+import { CaseStudyDetailsComponent } from './components/case-study-details/case-study-details.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ServicesDetailsComponent } from './services-details/services-details.co
     ClientSliderComponent,
     DevelopmentProcessComponent,
     MarketingFieldsComponent,
-    ServicesDetailsComponent
+    ServicesDetailsComponent,
+    CaseStudyDetailsComponent,
   ],
   imports: [
     CommonModule,

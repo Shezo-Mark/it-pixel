@@ -32,13 +32,13 @@ export class HeaderComponent {
   }
 
   scrollToTop() {
-    const scrollStep = -window.scrollY / (500 / 15); // Adjust duration here (500 ms)
+    const scrollStep = -window.scrollY / (30 / 1); // Adjust duration here (500 ms)
     const scrollInterval = setInterval(() => {
       if (window.scrollY !== 0) {
         window.scrollBy(0, scrollStep);
       } else {
         clearInterval(scrollInterval);
       }
-    }, 15);
+    }, 1);
   }
 }

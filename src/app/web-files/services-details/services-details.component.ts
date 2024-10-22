@@ -21,12 +21,13 @@ export class ServicesDetailsComponent {
   getCardDetails(id: number) {
     // This would typically come from a service
     const cards = [
-      { id: 1, title: 'Card 1 Title', text: 'Card 1 full content...', imgSrc: '../../../../assets/images/site-images/about.jpg' },
-      { id: 2, title: 'Card 2 Title', text: 'Card 2 full content...', imgSrc: '../../../../assets/images/site-images/about.jpg' },
-      { id: 3, title: 'Card 3 Title', text: 'Card 3 full content...', imgSrc: '../../../../assets/images/site-images/about.jpg' },
-      { id: 4, title: 'Card 4 Title', text: 'Card 4 full content...', imgSrc: '../../../../assets/images/site-images/about.jpg' },
-      { id: 5, title: 'Card 5 Title', text: 'Card 5 full content...', imgSrc: '../../../../assets/images/site-images/about.jpg' }
+      { id: 1, title: 'Card 1 Title', text: 'Card 1 full content...', imgSrc: '../../../../assets/images/site-images/project-1.jpg' },
+      { id: 2, title: 'Card 2 Title', text: 'Card 2 full content...', imgSrc: '../../../../assets/images/site-images/project-2.jpg' },
+      { id: 3, title: 'Card 3 Title', text: 'Card 3 full content...', imgSrc: '../../../../assets/images/site-images/project-3.jpg' },
+      { id: 4, title: 'Card 4 Title', text: 'Card 4 full content...', imgSrc: '../../../../assets/images/site-images/project-4.jpg' },
+      { id: 5, title: 'Card 5 Title', text: 'Card 5 full content...', imgSrc: '../../../../assets/images/site-images/project-5.jpg' }
     ];
+    
 
     return cards.find(card => card.id === id);
   }
