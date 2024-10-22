@@ -16,7 +16,7 @@ import { ProjectsComponent } from './shared/projects/projects.component';
 import { ClientSliderComponent } from './shared/client-slider/client-slider.component';
 import { DevelopmentProcessComponent } from './shared/development-process/development-process.component';
 import { MarketingFieldsComponent } from './shared/marketing-fields/marketing-fields.component';
-import { ServicesDetailsComponent } from './services-details/services-details.component';
+import { ServicesDetailsComponent } from './components/services-details/services-details.component';
 import { CaseStudyDetailsComponent } from './components/case-study-details/case-study-details.component';
 
 
@@ -37,6 +37,7 @@ import { CaseStudyDetailsComponent } from './components/case-study-details/case-
     DevelopmentProcessComponent,
     MarketingFieldsComponent,
     ServicesDetailsComponent,
+    CaseStudiesComponent,
     CaseStudyDetailsComponent,
   ],
   imports: [

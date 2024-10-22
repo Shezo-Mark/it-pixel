@@ -5,9 +5,10 @@ import { WebFilesComponent } from './web-files.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './shared/services/services.component';
-import { ServicesDetailsComponent } from './services-details/services-details.component';
+import { ServicesDetailsComponent } from './components/services-details/services-details.component';
 import { CaseStudiesComponent } from './shared/case-studies/case-studies.component';
 import { CaseStudyDetailsComponent } from './components/case-study-details/case-study-details.component';
+import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 
 
 
@@ -48,6 +49,10 @@ const routes: Routes = [
       path: 'case-study-details/:id', 
       component: CaseStudyDetailsComponent 
     }, 
+    { 
+      path: 'project-detail', 
+      component: ProjectDetailsComponent 
+    },
     
   ]
   }
