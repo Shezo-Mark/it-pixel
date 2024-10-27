@@ -18,6 +18,9 @@ import { DevelopmentProcessComponent } from './shared/development-process/develo
 import { MarketingFieldsComponent } from './shared/marketing-fields/marketing-fields.component';
 import { ServicesDetailsComponent } from './components/services-details/services-details.component';
 import { CaseStudyDetailsComponent } from './components/case-study-details/case-study-details.component';
+import { WhyChooseUsComponent } from './shared/why-choose-us/why-choose-us.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { TestimonialsComponent } from './shared/testimonials/testimonials.component';
 
 
 @NgModule({
@@ -39,10 +42,13 @@ import { CaseStudyDetailsComponent } from './components/case-study-details/case-
     ServicesDetailsComponent,
     CaseStudiesComponent,
     CaseStudyDetailsComponent,
+    WhyChooseUsComponent,
+    TestimonialsComponent,
   ],
   imports: [
     CommonModule,
-    WebFilesRoutingModule
+    WebFilesRoutingModule,
+    CarouselModule
   ]
 })
 export class WebFilesModule { }

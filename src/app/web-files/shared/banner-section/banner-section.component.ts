@@ -12,13 +12,6 @@ export class BannerSectionComponent implements OnInit {
 
     // Define banner content for different routes
     private bannerData: { [key: string]: any } = {
-      home: {
-        subTitle: 'ABOUT US',
-        heading: 'We believe in building <br> high value',
-        paragraph: 'We connect, explore, create, empower and grow together.',
-        buttonText: 'Contact Us',
-        imageUrl: '../../../../assets/images/banner-gif/home-banner.png', // Update with correct path
-      },
       services: {
         subTitle: 'OUR SERVICES',
         heading: 'We provide excellent <br> solutions',
@@ -27,18 +20,19 @@ export class BannerSectionComponent implements OnInit {
         imageUrl: '../../../../assets/images/banner-gif/services-banner.png', // Update with correct path
       },
       about: {
-        subTitle: 'About Us',
+        subTitle: 'ABOUT US',
         heading: 'We are born in a <br> connected world.',
-        paragraph: 'We are here to assist you with your queries.',
-        buttonText: 'Reach Out',
+        paragraph: 'And there’s almost nothing that we understand better.',
+        buttonText: 'Contact Us',
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with correct path
+        buttonUrl:'/contact',
       },
       contact: {
         subTitle: 'CONTACT US',
-        heading: 'Let’s get in touch <br> today',
-        paragraph: 'We are here to assist you with your queries.',
-        buttonText: 'Reach Out',
+        heading: 'Are you ready for a no <br> obligation quote?',
+        buttonText: 'Email Us',
         imageUrl: '../../../../assets/images/banner-gif/contact-banner.png', // Update with correct path
+        buttonUrl:'mailto:shehzadamin697@gmail',
       }
     };
 

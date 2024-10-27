@@ -1,0 +1,37 @@
+<section class="section_testimonials section">
+  <div class="container">
+   <h2 class="mb-2">What Our Customers Say</h2>
+   <p class="mb-3">Support is only a click away. Find out more about how Digital Engage can help you.</p>
+     <div class="row">
+       <owl-carousel-o [options]="customOptions">
+         <ng-container *ngFor="let slide of slidesStore">
+           <ng-template carouselSlide [id]="slide.id">
+
+             <div class="client_info">
+              <div class="client_header d-flex align-items-center justify-content-between">
+                  <div class="renk d-flex align-items-center">
+                     <span><i class="fa-solid fa-star"></i></span>
+                     <span><i class="fa-solid fa-star"></i></span>
+                     <span><i class="fa-solid fa-star"></i></span>
+                     <span><i class="fa-solid fa-star"></i></span>
+                     <span><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <div class="upw_logo">
+                    <img [src]="slide.src" [alt]="slide.alt">
+                  </div>
+              </div>
+              <div class="client_description">
+                 <p>{{slide.description}}</p>
+              </div>
+              <div class="client_details">
+                   <h4>{{slide.name}}</h4>
+                   <p>{{slide.roll}}</p>
+              </div>
+          </div>
+           </ng-template>
+         </ng-container>
+
+       </owl-carousel-o>
+     </div>
+  </div>
+</section>

@@ -1,21 +1,10 @@
 <section class="section_b_tabs section section_bg">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <div class="tab_links nav flex-column me-3">
-          <button
-            *ngFor="let tab of tabLink; let i = index"
-            class="nav-link"
-            [class.active]="selectedTab === i"
-            (click)="selectedTab = i"
-            [attr.id]="tab.id"
-          >
-            {{ tab.title }}
-          </button>
-        </div>
-      </div>
       <div class="col-md-8">
-        <div class="tab-content ps-md-5 ps-0">
+        <h2 class="mb-2">Our Services</h2>
+        <p class="mb-3">Support is only a click away. Find out more about how Digital Engage can help you.</p>
+        <div class="tab-content">
           <div *ngFor="let tabContent of tabContents; let i = index"
                class="tab-pane fade"
                [class.show]="selectedTab === i"
@@ -38,6 +27,19 @@
               <button class="btn btn_brand">Learn More</button>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="tab_links nav flex-column me-3">
+          <button
+            *ngFor="let tab of tabLink; let i = index"
+            class="nav-link"
+            [class.active]="selectedTab === i"
+            (click)="selectedTab = i"
+            [attr.id]="tab.id"
+          >
+            {{ tab.title }}
+          </button>
         </div>
       </div>
     </div>
