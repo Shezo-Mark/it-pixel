@@ -21,6 +21,7 @@ import { CaseStudyDetailsComponent } from './components/case-study-details/case-
 import { WhyChooseUsComponent } from './shared/why-choose-us/why-choose-us.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TestimonialsComponent } from './shared/testimonials/testimonials.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
 
 
 @NgModule({
@@ -44,6 +45,7 @@ import { TestimonialsComponent } from './shared/testimonials/testimonials.compon
     CaseStudyDetailsComponent,
     WhyChooseUsComponent,
     TestimonialsComponent,
+    BlogsComponent,
   ],
   imports: [
     CommonModule,
