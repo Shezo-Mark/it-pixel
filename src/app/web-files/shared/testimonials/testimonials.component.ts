@@ -56,7 +56,7 @@ export class TestimonialsComponent {
     pullDrag: true,
     dots: true,
     navSpeed: 700,
-    autoplay: true,
+    autoplay: false,
     smartSpeed: 1000,
     autoplayHoverPause: true,
     navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
@@ -69,7 +69,7 @@ export class TestimonialsComponent {
         items: 2
       },
       940: {
-        items: 3
+        items: 1.1
       }
     },
 

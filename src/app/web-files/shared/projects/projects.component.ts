@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
   isAllCase: boolean = true;
+  projectLinks: boolean = false;
   Subject: string = '';
   // Define filter options
   filterOptions = [
@@ -59,4 +60,5 @@ export class ProjectsComponent {
     }
     return this.projects.filter(project => project.subject === subject);
   }
+
 }

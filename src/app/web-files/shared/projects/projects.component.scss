@@ -1,27 +1,76 @@
 .section_projects{
+  .dateFilter{
+    width: 366px;
+    text-align: right;
+    margin-left: auto;
+    position: relative;
+    overflow-x: hidden;
+    padding: 0;
+    height: 673px;
+    > button{
+      width: 100%;
+    }
   .project_filter_nav{
+    display: flex;
+    flex-flow: column;
+    z-index: 9999999;
+    margin-top: 12px;
+    background: linear-gradient(237.31deg, #7BCD75 0%, #77C1C4) !important;
+    height: 616px;
+    overflow-y: auto;
+    position: absolute;
+    top: 40px;
+    right: -100%;
+    width: 100%;
+    transition: .2s;
+    &.is_checked{
+      right: 0;
+    }
+      &::-webkit-scrollbar {
+        width: 2px;
+      }
+      &::-webkit-scrollbar-track {
+        background: #7BCD75 ;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: #77C1C4;
+      }
+      &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    .filter_search{
+       input{
+        border-radius: 0;
+        border: 2px solid #77C1C4;
+        &:focus{
+          outline: none;
+          box-shadow: none;
+        }
+       }
+    }
     .filter_link{
-      background: linear-gradient(180deg, #FFFFFF 0%, #E7E7E7 0%) !important;
+      background-color: transparent ;
       border: none;
-      padding: 5px 15px;
-      min-width: 200px;
-      color: #4d4d4d;
-      margin-bottom: 20px;
-      margin-left: 18px;
-      font-weight: 600;
-      &.is_checked{
-      background: linear-gradient(237.31deg, #7BCD75 0%, #77C1C4) !important;
+      padding: 10px 15px;
+      min-width: 100%;
       color: white;
+      font-weight: 600;
+      text-align: left;
+      &.is_checked{
+        background: linear-gradient(180deg, #FFFFFF 0%, #E7E7E7 0%) !important;
+        color: #4d4d4d;
       }
       &:hover{
-        background: linear-gradient(237.31deg, #7BCD75 0%, #77C1C4) !important;
-        color: white;
+        background: linear-gradient(180deg, #FFFFFF 0%, #E7E7E7 0%) !important;
+        color: #4d4d4d;
       }
       &:last-of-type{
         margin-right: 0;
       }
     }
   }
+}
+
   .project_filter_data {
     display: flex;
     flex-wrap: wrap;
@@ -81,3 +130,27 @@
     }
   }
 }
+
+// .dateFilter{
+//   position: absolute;
+//   top: -113px;
+//   right: 0;
+//   width: fit-content;
+//   text-align: right;
+//   .DateFiltreNav{
+//     display: flex;
+//     flex-flow: column;
+//     z-index: 9999999;
+//     position: relative;
+//     background: linear-gradient(237.31deg, #7BCD75 0%, #77C1C4) !important;
+//     button{
+//       border: 1px solid transparent;
+//       text-align: left;
+//       padding: 7px 15px;
+//       background: transparent;
+//       &:hover{
+//         background: linear-gradient(180deg, #FFFFFF 0%, #E7E7E7 0%) !important;
+//       }
+//     }
+//   }
+// }
