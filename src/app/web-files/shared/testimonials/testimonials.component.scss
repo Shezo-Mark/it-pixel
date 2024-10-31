@@ -28,6 +28,11 @@ owl-carousel-o{
   padding: 20px 0;
   .owl-item {
     padding: 10px;
+    transition: .5s all;
+    &.center{
+      transform: scale(1.1);
+      // margin: 0 50px;
+    }
   }
 }
 ::ng-deep .owl-nav{

@@ -13,7 +13,7 @@ export class TestimonialsComponent {
       src: "../../../../assets/images/site-images/upwork-logo.svg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
-      name: "Shehzad Amin",
+      name: "Mubashir Rafique",
       roll:"Web Developer"
     },
     {
@@ -21,7 +21,7 @@ export class TestimonialsComponent {
       src: "../../../../assets/images/site-images/upwork-logo.svg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
-      name: "Laura",
+      name: "Shehzad Amin",
       roll:"CEO - It-Pixel"
     },
     {
@@ -29,7 +29,7 @@ export class TestimonialsComponent {
       src: "../../../../assets/images/site-images/upwork-logo.svg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
-      name: "Shehzad Amin",
+      name: "Ismail Ahamad",
       roll:"Web Developer"
     },
     {
@@ -37,7 +37,7 @@ export class TestimonialsComponent {
       src: "../../../../assets/images/site-images/upwork-logo.svg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
-      name: "Shehzad Amin",
+      name: "Muhammad Amin",
       roll:"Web Developer"
     },
     {
@@ -45,7 +45,7 @@ export class TestimonialsComponent {
       src: "../../../../assets/images/site-images/upwork-logo.svg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
-      name: "Shehzad Amin",
+      name: "Ahmad Khalid",
       roll:"Web Developer"
     },
     {
@@ -86,6 +86,7 @@ export class TestimonialsComponent {
     navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
     nav: true,
     center: true, // Enable center mode
+    margin: 20,
     responsive: {
       0: {
         items: 1
@@ -95,7 +96,7 @@ export class TestimonialsComponent {
       },
       940: {
         items: 3.5
-      }
+      },
     },
 
   }
