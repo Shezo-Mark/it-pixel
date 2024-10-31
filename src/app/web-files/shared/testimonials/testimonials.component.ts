@@ -48,6 +48,30 @@ export class TestimonialsComponent {
       name: "Shehzad Amin",
       roll:"Web Developer"
     },
+    {
+      id: '6',
+      src: "../../../../assets/images/site-images/upwork-logo.svg" ,
+      alt: "upwork-logo" ,
+      description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
+      name: "Shehzad Amin",
+      roll:"Web Developer"
+    },
+    {
+      id: '7',
+      src: "../../../../assets/images/site-images/upwork-logo.svg" ,
+      alt: "upwork-logo" ,
+      description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
+      name: "Shehzad Amin",
+      roll:"Web Developer"
+    },
+    {
+      id: '8',
+      src: "../../../../assets/images/site-images/upwork-logo.svg" ,
+      alt: "upwork-logo" ,
+      description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
+      name: "Shehzad Amin",
+      roll:"Web Developer"
+    },
   ];
   customOptions: OwlOptions = {
     loop: true,
@@ -61,6 +85,7 @@ export class TestimonialsComponent {
     autoplayHoverPause: true,
     navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
     nav: true,
+    center: true, // Enable center mode
     responsive: {
       0: {
         items: 1
@@ -69,9 +94,10 @@ export class TestimonialsComponent {
         items: 2
       },
       940: {
-        items: 1.1
+        items: 3.5
       }
     },
 
   }
+
 }
