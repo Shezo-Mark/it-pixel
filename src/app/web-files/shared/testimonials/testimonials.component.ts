@@ -86,7 +86,7 @@ export class TestimonialsComponent {
     navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
     nav: true,
     center: true, // Enable center mode
-    margin: 20,
+    // margin: 20,
     responsive: {
       0: {
         items: 1
