@@ -3,10 +3,12 @@
     width: 366px;
     text-align: right;
     margin-left: auto;
-    position: relative;
+    position: absolute;
     overflow-x: hidden;
     padding: 0;
     height: 673px;
+    right: 10px;
+    top: -53px;
     > button{
       width: 100%;
     }
@@ -39,14 +41,31 @@
         background: #555;
       }
     .filter_search{
+      position: relative;
        input{
         border-radius: 0;
         border: 2px solid #77C1C4;
+        padding-right: 45px;
         &:focus{
           outline: none;
           box-shadow: none;
         }
        }
+       button{
+        position: absolute;
+        right: 0;
+        top: 2px;
+        width: 41px;
+        height: 91%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(237.31deg, #7BCD75 0%, #77C1C4) !important;
+        i{
+          color: #E7E7E7;
+        }
+      }
     }
     .filter_link{
       background-color: transparent ;

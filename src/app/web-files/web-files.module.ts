@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { WebFilesRoutingModule } from './web-files-routing.module';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -22,6 +21,8 @@ import { WhyChooseUsComponent } from './shared/why-choose-us/why-choose-us.compo
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TestimonialsComponent } from './shared/testimonials/testimonials.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { BlogsComponent } from './components/blogs/blogs.component';
   imports: [
     CommonModule,
     WebFilesRoutingModule,
-    CarouselModule
+    CarouselModule,
+    FormsModule
   ]
 })
 export class WebFilesModule { }

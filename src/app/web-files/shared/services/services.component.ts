@@ -1,3 +1,4 @@
+import {Router } from '@angular/router';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,8 +7,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./services.component.scss']
 })
 export class ServicesComponent {
+  isBlogScreen = false;
+  constructor(private router : Router){
+    if(router.url=="/blogs"){
+      this.isBlogScreen = true;
+    }else{
+      this.isBlogScreen = false;
+    }
+  }
+  get displayedCards() {
+    return this.isBlogScreen ? this.servicesCards : this.servicesCards.slice(0, 3);
+  }
   servicesCards = [
-    { id: 1, title: 'Card 1 Title', text: 'Some quick example text...', imgSrc: '../../../../assets/images/site-images/project-1.jpg' },
+      { id: 1, title: 'Card 1 Title', text: 'Some quick example text...', imgSrc: '../../../../assets/images/site-images/project-1.jpg' },
       { id: 2, title: 'Card 2 Title', text: 'Some quick example text...', imgSrc: '../../../../assets/images/site-images/project-2.jpg' },
       { id: 3, title: 'Card 3 Title', text: 'Some quick example text...', imgSrc: '../../../../assets/images/site-images/project-3.jpg' },
       { id: 4, title: 'Card 4 Title', text: 'Some quick example text...', imgSrc: '../../../../assets/images/site-images/project-4.jpg' },

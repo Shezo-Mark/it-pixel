@@ -9,6 +9,8 @@ export class ProjectsComponent {
   isAllCase: boolean = true;
   projectLinks: boolean = false;
   Subject: string = '';
+  filterText:string='Filter Project By Category';
+  searchText: string = '';
   // Define filter options
   filterOptions = [
     { name: 'All Case Studies', subject: '' },
