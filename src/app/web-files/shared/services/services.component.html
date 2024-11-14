@@ -12,7 +12,9 @@
           </div>
           <hr>
           <!-- Dynamically link to the details page based on the card's id -->
-          <a [routerLink]="['/services-details', card.id]">Read More ⟶</a>
+          <!-- <a [routerLink]="['/services-details', card.id]">Read More ⟶</a> -->
+          <a [routerLink]="['/services-details', card.id]" [state]="card">Learn More</a>
+
         </div>
       </div>
     </div>

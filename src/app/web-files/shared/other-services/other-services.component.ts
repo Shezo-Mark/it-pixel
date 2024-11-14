@@ -2,15 +2,15 @@ import { Component } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  selector: 'app-other-services',
+  templateUrl: './other-services.component.html',
+  styleUrls: ['./other-services.component.scss']
 })
-export class ContactComponent {
-  Serve = [
+export class OtherServicesComponent {
+  OurTeam = [
     {
       id: '1',
-      src: "../../../../assets/images/site-images/about.jpg" ,
+      src: "../../../../assets/images/team-picture/team-3.jpg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
       name: "Mubashir Rafique",
@@ -18,7 +18,7 @@ export class ContactComponent {
     },
     {
       id: '2',
-      src: "../../../../assets/images/site-images/about.jpg" ,
+      src: "../../../../assets/images/team-picture/team-5.jpg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
       name: "Shehzad Amin",
@@ -26,7 +26,7 @@ export class ContactComponent {
     },
     {
       id: '3',
-      src: "../../../../assets/images/site-images/about.jpg" ,
+      src: "../../../../assets/images/team-picture/team-1.jpg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
       name: "Ismail Ahamad",
@@ -34,7 +34,7 @@ export class ContactComponent {
     },
     {
       id: '4',
-      src: "../../../../assets/images/site-images/about.jpg" ,
+      src: "../../../../assets/images/team-picture/team-2.jpg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
       name: "Muhammad Amin",
@@ -42,7 +42,7 @@ export class ContactComponent {
     },
     {
       id: '5',
-      src: "../../../../assets/images/site-images/about.jpg" ,
+      src: "../../../../assets/images/team-picture/team-3.jpg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
       name: "Ahmad Khalid",
@@ -50,7 +50,7 @@ export class ContactComponent {
     },
     {
       id: '6',
-      src: "../../../../assets/images/site-images/about.jpg" ,
+      src: "../../../../assets/images/team-picture/team-4.jpg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
       name: "Shehzad Amin",
@@ -58,20 +58,13 @@ export class ContactComponent {
     },
     {
       id: '7',
-      src: "../../../../assets/images/site-images/about.jpg" ,
+      src: "../../../../assets/images/team-picture/team-1.jpg" ,
       alt: "upwork-logo" ,
       description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
       name: "Shehzad Amin",
       roll:"Web Developer"
     },
-    {
-      id: '8',
-      src: "../../../../assets/images/site-images/about.jpg" ,
-      alt: "upwork-logo" ,
-      description:"At first, I wondered if the heavy use of technology might actually hamper their effectiveness, but my concerns were unfounded.",
-      name: "Shehzad Amin",
-      roll:"Web Developer"
-    },
+
   ];
   customOptions: OwlOptions = {
     loop: true,

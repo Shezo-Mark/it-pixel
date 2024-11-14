@@ -1,25 +1,21 @@
-<!-- case-study-details.component.html -->
-<main>
-    <section class="section_details banner_half">
-      <img [src]="caseStudy.image" alt="{{ caseStudy.title }}" class="img-fluid">
-      <div class="container h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-md-7">
-            <small class="sub_title">CASE STUDY DETAILS</small>
-            <h1>{{ caseStudy.title }}</h1>
-          </div>
-        </div>
+<section class="section_details banner_half">
+  <img [src]="caseStudy.image" alt="{{ caseStudy.title }}" class="img-fluid">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-md-7">
+        <small class="sub_title">CASE STUDY DETAILS</small>
+        <h1>{{ caseStudy.title }}</h1>
       </div>
-    </section>
-  
-    <section class="section_case_study_content section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p>{{ caseStudy.text }}</p>
-          </div>
-        </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_case_study_content section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p>{{ caseStudy.text }}</p>
       </div>
-    </section>
-  </main>
-  
+    </div>
+  </div>
+</section>

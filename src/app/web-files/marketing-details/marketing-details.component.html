@@ -1,10 +1,10 @@
 <section class="section_details banner_half">
-  <img [src]="card.imgSrc" alt="{{ card.title }}" class="img-fluid">
+  <img [src]="tabContent.image" class="img-fluid">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
        <div class="col-md-7">
            <small class="sub_title">BLOG DETAILS</small>
-           <h1>{{ card.title }}</h1>
+           <h1>{{tabContent.heading}}</h1>
        </div>
       </div>
     </div>
@@ -14,7 +14,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p>{{ card.text }}</p>
+        <p *ngFor="let item of tabContent.paragraphs">{{item.description}}</p>
       </div>
     </div>
   </div>

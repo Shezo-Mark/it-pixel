@@ -22,6 +22,10 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TestimonialsComponent } from './shared/testimonials/testimonials.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
 import { FormsModule } from '@angular/forms';
+import { OtherServicesComponent } from './shared/other-services/other-services.component';
+import { SearchEngineOptComponent } from './search-engine-opt/search-engine-opt.component';
+import { AccordiansComponent } from './shared/accordians/accordians.component';
+import { MarketingDetailsComponent } from './marketing-details/marketing-details.component';
 
 
 
@@ -47,6 +51,10 @@ import { FormsModule } from '@angular/forms';
     WhyChooseUsComponent,
     TestimonialsComponent,
     BlogsComponent,
+    OtherServicesComponent,
+    SearchEngineOptComponent,
+    AccordiansComponent,
+    MarketingDetailsComponent,
   ],
   imports: [
     CommonModule,

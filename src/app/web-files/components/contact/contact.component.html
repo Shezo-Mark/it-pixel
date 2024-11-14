@@ -1,5 +1,32 @@
-<main>
-    <section class="section_contact bg_banner">
-         <app-banner-section></app-banner-section>
-    </section>
-</main>
+<section class="section_contact bg_banner">
+  <app-banner-section></app-banner-section>
+</section>
+<section class="section_serve section">
+<div class="container">
+ <h2 class="mb-2">Who We Serve</h2>
+<p class="mb-3">Support is only a click away. Find out more about how Digital Engage can help you.</p>
+</div>
+<div class="container-fluid p-0">
+  <div class="row w-100">
+    <owl-carousel-o [options]="customOptions">
+      <ng-container *ngFor="let slide of Serve">
+        <ng-template carouselSlide [id]="slide.id">
+       <div class="card">
+         <img  [src]="slide.src" [alt]="slide.alt" class="card-img-top">
+         <div class="card-body">
+           <h5>{{slide.name}}</h5>
+           <p>{{slide.roll}}</p>
+           <p>{{slide.description}}</p>
+           <hr>
+           <!-- Dynamically link to the details page based on the card's id -->
+           <a href="">Read More ⟶</a>
+         </div>
+       </div>
+
+        </ng-template>
+      </ng-container>
+
+    </owl-carousel-o>
+  </div>
+</div>
+</section>

@@ -9,6 +9,9 @@ import { ServicesDetailsComponent } from './components/services-details/services
 import { CaseStudiesComponent } from './shared/case-studies/case-studies.component';
 import { CaseStudyDetailsComponent } from './components/case-study-details/case-study-details.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
+import { SearchEngineOptComponent } from './search-engine-opt/search-engine-opt.component';
+import { MarketingFieldsComponent } from './shared/marketing-fields/marketing-fields.component';
+import { MarketingDetailsComponent } from './marketing-details/marketing-details.component';
 
 
 
@@ -41,23 +44,31 @@ const routes: Routes = [
       path:'services-details/:id',
       component: ServicesDetailsComponent,
     },
-    { 
-      path: 'case-study', 
-      component: CaseStudiesComponent 
+    {
+      path: 'case-study',
+      component: CaseStudiesComponent
     },
-    { 
-      path: 'case-study-details/:id', 
-      component: CaseStudyDetailsComponent 
-    }, 
-    { 
-      path: 'blogs', 
+    {
+      path: 'case-study-details/:id',
+      component: CaseStudyDetailsComponent
+    },
+    {
+      path: 'blogs',
       component: BlogsComponent
     },
-    // { 
-    //   path: 'project-detail', 
-    //   component: ProjectDetailsComponent 
-    // },
-    
+    {
+      path: 'seo',
+      component: SearchEngineOptComponent
+    },
+    {
+      path: 'marketing',
+      component: MarketingFieldsComponent
+    },
+    {
+      path: 'marketing/:id',
+      component: MarketingDetailsComponent
+    },
+
   ]
   }
 ];

@@ -1,0 +1,37 @@
+.card{
+  border-radius: 0 !important;
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  img{
+      border-radius: 0 !important;
+  }
+  h5{
+      color: #8986C0;
+      font-weight: bold;
+  }
+  p{
+    &:first-of-type{
+      font-weight: bold;
+      color: #8986C0;
+      letter-spacing: 1px;
+    }
+      font-size: 13px;
+      color: #4d4d4d;
+  }
+}
+owl-carousel-o{
+  padding: 0;
+}
+::ng-deep .owl-stage-outer{
+  padding: 20px 0;
+  .owl-item {
+    padding: 10px;
+    transition: .5s all;
+  }
+}
+::ng-deep .owl-nav{
+  position: absolute;
+  top: -42px;
+  right: 16px;
+}

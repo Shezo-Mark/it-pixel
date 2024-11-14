@@ -1,0 +1,27 @@
+<section class="section_serve section">
+  <div class="container">
+    <h2 class="mb-2">Our Team</h2>
+   <p class="mb-3">Support is only a click away. Find out more about how Digital Engage can help you.</p>
+  </div>
+  <div class="container-fluid p-0">
+     <div class="row w-100">
+       <owl-carousel-o [options]="customOptions">
+         <ng-container *ngFor="let slide of OurTeam">
+           <ng-template carouselSlide [id]="slide.id">
+          <div class="card">
+            <img  [src]="slide.src" [alt]="slide.alt" class="card-img-top">
+            <div class="card-body">
+              <h5>{{slide.name}}</h5>
+              <p>{{slide.roll}}</p>
+              <p>{{slide.description}}</p>
+
+            </div>
+          </div>
+
+           </ng-template>
+         </ng-container>
+
+       </owl-carousel-o>
+     </div>
+  </div>
+</section>

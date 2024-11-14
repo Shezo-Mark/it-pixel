@@ -1,0 +1,30 @@
+<section class="section_accordians section">
+  <div class="container">
+   <h2 class="mb-2">Critical Reasons To Incorporate SEO Into your Marketing Mix</h2>
+   <p class="mb-5">Support is only a click away. Find out more about how Digital Engage can help you.</p>
+
+   <div class="row">
+     <div class="accordion" id="accordionExample">
+       <div class="accordion-item" *ngFor="let item of accordionItems">
+         <h2 class="accordion-header" [id]="'heading' + item.id">
+           <button class="accordion-button" type="button"
+                   [attr.data-bs-toggle]="'collapse'"
+                   [attr.data-bs-target]="'#collapse' + item.id"
+                   [attr.aria-expanded]="item.expanded ? 'true' : 'false'"
+                   [attr.aria-controls]="'collapse' + item.id">
+             {{ item.title }}
+           </button>
+         </h2>
+         <div [id]="'collapse' + item.id" class="accordion-collapse collapse"
+              [class.show]="item.expanded"
+              [attr.aria-labelledby]="'heading' + item.id"
+              data-bs-parent="#accordionExample">
+           <div class="accordion-body">
+             <strong>{{ item.body }}</strong>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  </div>
+</section>

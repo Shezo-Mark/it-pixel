@@ -33,7 +33,15 @@ export class BannerSectionComponent implements OnInit {
         buttonText: 'Email Us',
         imageUrl: '../../../../assets/images/banner-gif/contact-banner.png', // Update with correct path
         buttonUrl:'mailto:shehzadamin697@gmail',
-      }
+      },
+      seo: {
+        subTitle: 'Search Engine Optimization',
+        heading: 'High Performance SEO Services',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with correct path
+        buttonUrl:'/contact',
+      },
+
     };
 
     constructor(private router: Router) {}
