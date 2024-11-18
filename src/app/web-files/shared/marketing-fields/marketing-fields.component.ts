@@ -108,19 +108,51 @@ export class MarketingFieldsComponent implements OnInit {
 
   updateTabContent(): void {
     const route = this.activatedRoute.snapshot.routeConfig?.path;
-
     // Change the tab contents based on the route
     switch(route) {
+
       case 'seo':
         this.tabContents = [
-          { id: '1', heading: 'SEO Strategy', image: './../../../assets/images/site-images/seo.webp', paragraphs: [{ description: 'Our SEO strategy includes on-page and off-page optimization techniques.' }] },
-          { id: '2', heading: 'Keyword Research', image: 'assets/images/keyword-research.jpg', paragraphs: [{ description: 'We perform thorough keyword research to find the best keywords for your business.' }] },
-          { id: '3', heading: 'Link Building', image: 'assets/images/link-building.jpg', paragraphs: [{ description: 'Our link-building strategies focus on acquiring high-quality backlinks.' }] }
+          { id: '1', heading: 'SEO SERVICES', image: './../../../assets/images/services/seo-1.webp',
+            paragraphs:[
+              {id:1, descrption: 'Effective SEO that turns your investment in marketing into more sales, more revenue and more customers for our clients. '},
+              {id:2, descrption: 'Affordable and custom pricing options '},
+              {id:3, descrption: 'Top rankings that drive laser targeted web traffic '},
+              {id:4, descrption: 'Experience and success across a broad range of industries '},
+              {id:5, descrption: 'The talented team of innovative thinkers '},
+              {id:6, descrption: 'Exceptional support and service '},
+            ]
+          },
+          { id: '2', heading: 'Why is SEO So Important?', image: 'assets/images/services/seo-2.webp',
+            paragraphs:[
+              {id:1, descrption: 'The consumer’s decision-making journey has evolved in such a way that a search engine query is often the first step in their process. According to a recent study conducted by Forrester, 71 percent of consumers originate their buying decision journey and 74% to complete it (i.e. making a purchase).'},
+              {id:2, descrption: 'In 2019 and beyond, if you are NOT showing up front and center on Google when and where your prospective clients need you, your brand stands to LOSE up to 71% of ALL potential sales. Not to mention the loss in brand recognition and perceived authority and trust.'},
+              {id:3, descrption: 'Other than SEO our professional team has expertise in services like, <a href="/paid-search">Paid search</a>,<a href="/paid-search"> Reputation management</a>, <a href="/paid-search">Managed IT services</a>, <a href="/paid-search">Video and photos services</a>, <a href="/paid-search">Branding and logo agency</a>, <a href="/paid-search">Website hosting services</a>, <a href="/paid-search">Website support services</a>, <a href="#">Local SEO Services</a> and others. <a href="#">Call us today to learn more</a> about our services.'},
+            ]
+          },
+          { id: '3', heading: 'Holistic SEO Strategies Custom Made to Perform', image: 'assets/images/services/seo-3.webp',
+            paragraphs:[
+              {id:1, descrption: 'At <a href="#">Digital Engage</a> we want to be your valued partner in business. Our team takes the time to understand your market, audience, competitive landscape, and internal and external opportunities and threats to continued success and growth.'},
+              {id:2, descrption: 'We take this information and our analysts put together a strategy that is custom-tailored not just to your industry and market, but uniquely to YOUR brand.'},
+              {id:3, descrption: 'If you’re looking for “cookie cutter” chop-shop SEO services, you’ve come to the wrong place. We believe that every dollar you invest with us should yield a strong ROI and help set you up for continued success.'},
+            ]
+         },
+         { id: '4', heading: 'Benefits of SEO Services with Digital Engage', image: 'assets/images/services/seo-4.webp',
+          paragraphs:[
+            {id:1, descrption: 'Each SEO package is designed to move the needle on those key performance metrics that matter most to your company'},
+            {id:2, descrption: 'An increase in targeted web traffic'},
+            {id:3, descrption: 'Enhanced brand visibility and recognition in your market'},
+            {id:3, descrption: 'Improved trust and authority in the industry'},
+            {id:3, descrption: 'Boosted sales and increased revenue'},
+            {id:3, descrption: 'More leads, phone calls, messages, and walk-ins'},
+          ]
+       },
         ];
         this.tabLink = [
-          { id: '1', title: 'SEO Strategy' },
-          { id: '2', title: 'Keyword Research' },
-          { id: '3', title: 'Link Building' }
+          { id: '1', title: 'SEO SERVICES' },
+          { id: '2', title: 'Why is SEO So Important?' },
+          { id: '3', title: 'Holistic SEO Strategies Custom Made to Perform' },
+          { id: '4', title: 'Benefits of SEO Services with Digital Engage' },
         ];
         break;
 

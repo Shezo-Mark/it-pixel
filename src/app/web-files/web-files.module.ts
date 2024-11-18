@@ -26,6 +26,7 @@ import { OtherServicesComponent } from './shared/other-services/other-services.c
 import { SearchEngineOptComponent } from './search-engine-opt/search-engine-opt.component';
 import { AccordiansComponent } from './shared/accordians/accordians.component';
 import { MarketingDetailsComponent } from './marketing-details/marketing-details.component';
+import { PaidSearchComponent } from './components/paid-search/paid-search.component';
 
 
 
@@ -55,6 +56,7 @@ import { MarketingDetailsComponent } from './marketing-details/marketing-details
     SearchEngineOptComponent,
     AccordiansComponent,
     MarketingDetailsComponent,
+    PaidSearchComponent,
   ],
   imports: [
     CommonModule,

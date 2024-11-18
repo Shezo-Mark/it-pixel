@@ -64,7 +64,7 @@
             <div class="tab_info">
               <h3 [innerHTML]="tabContent.heading"></h3>
               <p *ngFor="let paragraph of tabContent.paragraphs">
-                <span [innerHTML]="paragraph.description"></span>
+                  <span [innerHTML]="paragraph.descrption"></span>
               </p>
               <button class="btn btn_brand" [routerLink]="['/marketing', tabContent.id]" [state]="tabContent">Learn More</button>
             </div>

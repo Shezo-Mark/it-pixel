@@ -12,6 +12,7 @@ import { BlogsComponent } from './components/blogs/blogs.component';
 import { SearchEngineOptComponent } from './search-engine-opt/search-engine-opt.component';
 import { MarketingFieldsComponent } from './shared/marketing-fields/marketing-fields.component';
 import { MarketingDetailsComponent } from './marketing-details/marketing-details.component';
+import { PaidSearchComponent } from './components/paid-search/paid-search.component';
 
 
 
@@ -59,6 +60,10 @@ const routes: Routes = [
     {
       path: 'seo',
       component: SearchEngineOptComponent
+    },
+    {
+      path: 'paid-search',
+      component: PaidSearchComponent
     },
     {
       path: 'marketing',

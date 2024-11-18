@@ -12,7 +12,6 @@ export class MarketingDetailsComponent {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    debugger;
     // Accessing the state passed from the previous route
     this.tabContent = history.state;  // 'history.state' contains the state passed during navigation
 

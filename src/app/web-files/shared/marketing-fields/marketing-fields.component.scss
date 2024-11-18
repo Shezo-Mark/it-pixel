@@ -43,9 +43,9 @@
      p{
       font-size: 14px;
       max-width: 70%;
-      + p{
-          margin-top: 20px;
-      }
+       &:first-of-type{
+        margin-top: 20px;
+       }
       span{
         // color: red;
         a{

@@ -3,7 +3,7 @@
   <div class="container h-100">
     <div class="row h-100 align-items-center">
        <div class="col-md-7">
-           <small class="sub_title">BLOG DETAILS</small>
+           <small class="sub_title">Service Detail</small>
            <h1>{{tabContent.heading}}</h1>
        </div>
       </div>
@@ -14,7 +14,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p *ngFor="let item of tabContent.paragraphs">{{item.description}}</p>
+        <p *ngFor="let paragraph of tabContent.paragraphs">
+          <span [innerHTML]="paragraph.descrption"></span>
+      </p>
       </div>
     </div>
   </div>

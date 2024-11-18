@@ -12,7 +12,7 @@ export class ServicesDetailsComponent {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    debugger;
+
     // Accessing the state passed from the previous route
     this.card = history.state;  // 'history.state' contains the state passed during navigation
 
@@ -29,7 +29,7 @@ export class ServicesDetailsComponent {
   // ngOnInit(): void {
   //   this.cardId = Number(this.route.snapshot.paramMap.get('id'));
   //   this.card = this.getCardDetails(this.cardId);
-  //   // debugger;
+  //   //
   // }
 
   // getCardDetails(id: number) {
