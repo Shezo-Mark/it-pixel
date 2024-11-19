@@ -1,20 +1,86 @@
-<section class="section_services section_bg section">
-  <div class="container">
-    <h2 class="mb-2">Our Blogs</h2>
+<!-- <section class="section_b_tabs section section_bg">
+  <div class="container">     <h2 class="mb-2">Our Services</h2>
     <p class="mb-3">Support is only a click away. Find out more about how Digital Engage can help you.</p>
-    <div class="row mt-md-5 mt-4">
-      <div class="col-md-4" *ngFor="let card of displayedCards">
-        <div class="card">
-          <img [src]="card.imgSrc" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">{{ card.title }}</h4>
-            <p class="card-text">{{ card.text }}</p>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="tab-content">
+          <div *ngFor="let tabContent of tabContents; let i = index"
+               class="tab-pane fade"
+               [class.show]="selectedTab === i"
+               [class.active]="selectedTab === i"
+               [class.fade]="selectedTab === i"
+               [attr.id]="tabContent.id"
+          >
+            <div class="tab_thumb">
+              <img
+                [src]="tabContent.image"
+                class="img-fluid"
+                alt="">
+            </div>
+            <div class="tab_info">
+              <h3 [innerHTML]="tabContent.heading"></h3>
+               <p *ngFor="let paragraph of tabContent.paragraphs">
+                <span [innerHTML]=" paragraph.description"></span>
+              </p>
+              <button class="btn btn_brand">Learn More</button>
+            </div>
           </div>
-          <hr>
-          <!-- Dynamically link to the details page based on the card's id -->
-          <!-- <a [routerLink]="['/services-details', card.id]">Read More ⟶</a> -->
-          <a [routerLink]="['/services-details', card.id]" [state]="card">Learn More</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="tab_links nav flex-column me-3">
+          <button
+            *ngFor="let tab of tabLink; let i = index"
+            class="nav-link"
+            [class.active]="selectedTab === i"
+            (click)="selectedTab = i"
+            [attr.id]="tab.id"
+          >
+            {{ tab.title }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
 
+
+<section class="section_b_tabs section section_bg">
+  <div class="container">
+    <h2 class="mb-2">Our Services</h2>
+    <p class="mb-3">Support is only a click away. Find out more about how Digital Engage can help you.</p>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="tab-content">
+          <div *ngFor="let tabContent of tabContents; let i = index"
+               class="tab-pane fade"
+               [class.show]="selectedTab === i"
+               [class.active]="selectedTab === i"
+               [class.fade]="selectedTab === i"
+               [attr.id]="tabContent.id">
+            <div class="tab_thumb">
+              <img [src]="tabContent.image" class="img-fluid" alt="">
+            </div>
+            <div class="tab_info">
+              <h3 [innerHTML]="tabContent.heading"></h3>
+              <p *ngFor="let paragraph of tabContent.paragraphs">
+                  <span [innerHTML]="paragraph.descrption"></span>
+              </p>
+              <button class="btn btn_brand" [routerLink]="['/service-detail', tabContent.id]" [state]="tabContent">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="tab_links nav flex-column me-3">
+          <button
+            *ngFor="let tab of tabLink; let i = index"
+            class="nav-link"
+            [class.active]="selectedTab === i"
+            (click)="setSelectedTab(i)"
+            [attr.id]="tab.id">
+            {{ tab.title }}
+          </button>
         </div>
       </div>
     </div>

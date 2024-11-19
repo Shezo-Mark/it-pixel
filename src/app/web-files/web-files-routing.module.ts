@@ -4,15 +4,15 @@ import { HomeComponent } from './components/home/home.component';
 import { WebFilesComponent } from './web-files.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
-import { ServicesComponent } from './shared/services/services.component';
-import { ServicesDetailsComponent } from './components/services-details/services-details.component';
 import { CaseStudiesComponent } from './shared/case-studies/case-studies.component';
 import { CaseStudyDetailsComponent } from './components/case-study-details/case-study-details.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
-import { SearchEngineOptComponent } from './search-engine-opt/search-engine-opt.component';
-import { MarketingFieldsComponent } from './shared/marketing-fields/marketing-fields.component';
-import { MarketingDetailsComponent } from './marketing-details/marketing-details.component';
+import { SearchEngineOptComponent } from './components/search-engine-opt/search-engine-opt.component';
 import { PaidSearchComponent } from './components/paid-search/paid-search.component';
+import { BlogComponent } from './shared/blog/blog.component';
+import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
+import { ServiceDetailsComponent } from './components/service-details/service-details.component';
+import { ServicesComponent } from './shared/services/services.component';
 
 
 
@@ -38,12 +38,12 @@ const routes: Routes = [
       component:AboutComponent,
     },
     {
-      path:'services',
-      component:ServicesComponent,
+      path:'blog',
+      component:BlogComponent,
     },
     {
-      path:'services-details/:id',
-      component: ServicesDetailsComponent,
+      path:'blog-details/:id',
+      component: BlogDetailsComponent,
     },
     {
       path: 'case-study',
@@ -66,12 +66,12 @@ const routes: Routes = [
       component: PaidSearchComponent
     },
     {
-      path: 'marketing',
-      component: MarketingFieldsComponent
+      path: 'services',
+      component: ServicesComponent
     },
     {
-      path: 'marketing/:id',
-      component: MarketingDetailsComponent
+      path: 'service-detail/:id',
+      component: ServiceDetailsComponent
     },
 
   ]

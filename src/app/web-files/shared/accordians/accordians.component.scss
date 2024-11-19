@@ -4,16 +4,27 @@
     .accordion-header{
       button{
         font-weight: 900;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: transparent;
+        &:focus{
+          // outline: none;
+          box-shadow: none;
+          border-bottom: 1px solid #dee2e6;
+        }
       }
     }
-    .accordion-body{
-      strong{
-        display: block;
-        margin-bottom: 7px;
-        font-size: 15px;
-      }
-      a{
-        margin-top: 10px;
+    .accordion-collapse{
+      .accordion-body{
+        strong{
+          display: block;
+          margin-bottom: 7px;
+          font-size: 15px;
+          font-weight: 400;
+        }
+        a{
+          margin-top: 10px;
+        }
       }
     }
   }

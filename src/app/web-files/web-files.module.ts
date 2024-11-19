@@ -10,12 +10,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { ConsultationComponent } from './shared/consultation/consultation.component';
 import { CaseStudiesComponent } from './shared/case-studies/case-studies.component';
-import { ServicesComponent } from './shared/services/services.component';
 import { ProjectsComponent } from './shared/projects/projects.component';
 import { ClientSliderComponent } from './shared/client-slider/client-slider.component';
 import { DevelopmentProcessComponent } from './shared/development-process/development-process.component';
-import { MarketingFieldsComponent } from './shared/marketing-fields/marketing-fields.component';
-import { ServicesDetailsComponent } from './components/services-details/services-details.component';
 import { CaseStudyDetailsComponent } from './components/case-study-details/case-study-details.component';
 import { WhyChooseUsComponent } from './shared/why-choose-us/why-choose-us.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
@@ -23,10 +20,14 @@ import { TestimonialsComponent } from './shared/testimonials/testimonials.compon
 import { BlogsComponent } from './components/blogs/blogs.component';
 import { FormsModule } from '@angular/forms';
 import { OtherServicesComponent } from './shared/other-services/other-services.component';
-import { SearchEngineOptComponent } from './search-engine-opt/search-engine-opt.component';
+import { SearchEngineOptComponent } from './components/search-engine-opt/search-engine-opt.component';
 import { AccordiansComponent } from './shared/accordians/accordians.component';
-import { MarketingDetailsComponent } from './marketing-details/marketing-details.component';
 import { PaidSearchComponent } from './components/paid-search/paid-search.component';
+import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
+import { BlogComponent } from './shared/blog/blog.component';
+import { ServiceDetailsComponent } from './components/service-details/service-details.component';
+import { ServicesComponent } from './shared/services/services.component';
+import { BannerSectionTwoComponent } from './shared/banner-section-two/banner-section-two.component';
 
 
 
@@ -41,12 +42,9 @@ import { PaidSearchComponent } from './components/paid-search/paid-search.compon
     AboutComponent,
     ConsultationComponent,
     CaseStudiesComponent,
-    ServicesComponent,
     ProjectsComponent,
     ClientSliderComponent,
     DevelopmentProcessComponent,
-    MarketingFieldsComponent,
-    ServicesDetailsComponent,
     CaseStudiesComponent,
     CaseStudyDetailsComponent,
     WhyChooseUsComponent,
@@ -55,8 +53,12 @@ import { PaidSearchComponent } from './components/paid-search/paid-search.compon
     OtherServicesComponent,
     SearchEngineOptComponent,
     AccordiansComponent,
-    MarketingDetailsComponent,
     PaidSearchComponent,
+    BlogComponent,
+    BlogDetailsComponent,
+    ServicesComponent,
+    ServiceDetailsComponent,
+    BannerSectionTwoComponent
   ],
   imports: [
     CommonModule,

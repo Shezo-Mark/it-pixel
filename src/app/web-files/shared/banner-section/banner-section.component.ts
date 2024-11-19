@@ -41,6 +41,14 @@ export class BannerSectionComponent implements OnInit {
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with correct path
         buttonUrl:'/contact',
       },
+      'paid-search': {
+        subTitle: 'Marketing',
+        heading: 'Paid Search Marketing',
+        paragraph: 'Pay Per Call Marketing is a performance-focused service we provide for our clients where we set up campaigns that generate actual inbound phone calls from interested prospects.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
 
     };
 

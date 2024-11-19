@@ -1,0 +1,19 @@
+
+<div class="banner_component_two banner bg_banner" [ngStyle]="{'background-image': 'url(' + backgroundImage + ')'}">
+  <div class="container h-100">
+      <div class="row h-100 align-items-center">
+          <div class="col-md-7">
+              <small class="sub_title" [innerHTML]="bannerContent.subTitle"></small>
+              <h1 [innerHTML]="bannerContent.heading"></h1>
+              <p class="mt-md-4 mt-3" [innerHTML]="bannerContent.paragraph"></p>
+              <a *ngIf="bannerContent.buttonUrl.startsWith('mailto:') || bannerContent.buttonUrl.startsWith('http')"
+              [href]="bannerContent.buttonUrl" class="btn btn_brand mt-md-3 mt-2">{{ bannerContent.buttonText }}</a>
+
+              <a *ngIf="!bannerContent.buttonUrl.startsWith('mailto:') && !bannerContent.buttonUrl.startsWith('http')"
+              [routerLink]="bannerContent.buttonUrl" class="btn btn_brand mt-md-3 mt-2">{{ bannerContent.buttonText }}</a>
+          </div>
+          <div class="col-md-5">
+          </div>
+      </div>
+  </div>
+</div>

@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-services-details',
-  templateUrl: './services-details.component.html',
-  styleUrls: ['./services-details.component.scss']
+  selector: 'app-blog-details',
+  templateUrl: './blog-details.component.html',
+  styleUrls: ['./blog-details.component.scss']
 })
-export class ServicesDetailsComponent {
+export class BlogDetailsComponent {
   card: any;
 
   constructor(private route: ActivatedRoute) {}
