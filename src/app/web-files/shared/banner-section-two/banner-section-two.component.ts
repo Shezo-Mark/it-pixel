@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./banner-section-two.component.scss']
 })
 export class BannerSectionTwoComponent {
-  bannerContent: any;
+    bannerContent: any;
     backgroundImage: string = '';
 
     // Define banner content for different routes
