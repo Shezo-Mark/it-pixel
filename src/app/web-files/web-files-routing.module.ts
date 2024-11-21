@@ -13,6 +13,7 @@ import { BlogComponent } from './shared/blog/blog.component';
 import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
 import { ServiceDetailsComponent } from './components/service-details/service-details.component';
 import { ServicesComponent } from './shared/services/services.component';
+import { SocialMediaComponent } from './components/social-media/social-media.component';
 
 
 
@@ -72,6 +73,10 @@ const routes: Routes = [
     {
       path: 'service-detail/:id',
       component: ServiceDetailsComponent
+    },
+    {
+      path: 'social-media',
+      component: SocialMediaComponent
     },
 
   ]

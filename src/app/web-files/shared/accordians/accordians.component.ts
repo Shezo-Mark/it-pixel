@@ -158,6 +158,33 @@ export class AccordiansComponent {
           },
         ];
         break;
+
+        case 'social-media':
+          this.accordionItems = [
+            {
+              id: 1,
+              title: '1. Laser-Focused Targeting',
+              expanded: true,
+              body: [
+                {
+                  id:1,
+                  descrption: 'With social media, you have the opportunity to target your audience on levels never before possible. From impressive segmentation to engaging based on interests, social media puts you in front of the right prospective customers at the right time.'
+                },
+              ]
+            },
+            {
+              id: 2,
+              title: '1. Laser-Focused Targeting',
+              expanded: true,
+              body: [
+                {
+                  id:1,
+                  descrption: 'With social media, you have the opportunity to target your audience on levels never before possible. From impressive segmentation to engaging based on interests, social media puts you in front of the right prospective customers at the right time.'
+                },
+              ]
+            },
+          ]
+          break;
       default:
         this.accordionItems = [
           { id: 1, title: 'Default Item 1', expanded: true, body: 'Default content.' },

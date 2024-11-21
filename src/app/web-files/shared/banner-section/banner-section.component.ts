@@ -49,6 +49,14 @@ export class BannerSectionComponent implements OnInit {
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
         buttonUrl: '/contact',
       },
+      'social-media': {
+        subTitle: 'Social Media',
+        heading: 'Social Ad Marketing',
+        paragraph: 'The rules of engagement have changed & we can help you stay on top of your game.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
 
     };
 

@@ -11,7 +11,7 @@
         transform: translateX(-50%);
         width: 1px;
         height: calc(100% - 60px);
-        background-color: #8986C0;
+        background:#6979FE;
     }
 
     .process_item {
@@ -30,7 +30,7 @@
         &:nth-child(odd) {
             .process_box {
               .process_info{
-                border-left: 6px solid #8986C0;
+                border-left: 6px solid #6979FE;
              }
               .process_design {
                 left: -15px;
@@ -42,7 +42,7 @@
           .process_box {
             .process_info{
               text-align: right;
-              border-right: 6px solid #8986C0;
+              border-right: 6px solid #6979FE;
            }
             .process_design {
               right: -15px;
@@ -69,7 +69,7 @@
                 position: absolute;
                 top: 50%;
                 transform: translateY(-50%);
-                background-color: #8986C0;
+                background: linear-gradient(237.31deg, #6979FE 0%, #9F68FB);
                 clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
                 width: 30px;
                 height: 30px;
@@ -107,7 +107,7 @@
                         .process_box .process_info{
                             text-align: left;
                             border-right:  unset;
-                            border-left: 6px solid #8986C0;
+                            border-left: 6px solid #6979FE;
                             .process_design {
                                 left: -15px;
                                 right: auto;

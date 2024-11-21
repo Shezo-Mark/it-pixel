@@ -28,6 +28,7 @@ import { BlogComponent } from './shared/blog/blog.component';
 import { ServiceDetailsComponent } from './components/service-details/service-details.component';
 import { ServicesComponent } from './shared/services/services.component';
 import { BannerSectionTwoComponent } from './shared/banner-section-two/banner-section-two.component';
+import { SocialMediaComponent } from './components/social-media/social-media.component';
 
 
 
@@ -58,7 +59,8 @@ import { BannerSectionTwoComponent } from './shared/banner-section-two/banner-se
     BlogDetailsComponent,
     ServicesComponent,
     ServiceDetailsComponent,
-    BannerSectionTwoComponent
+    BannerSectionTwoComponent,
+    SocialMediaComponent
   ],
   imports: [
     CommonModule,

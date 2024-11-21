@@ -259,7 +259,40 @@ export class ServicesComponent implements OnInit {
             { id: '5', title: 'Work with a Sales Team? Need Calls Routed? – No problem!' },
           ];
           break;
-         case 'home':
+          case 'social-media':
+            this.tabContents = [
+              {
+                id: '1',
+                heading: 'Social Media Management Services',
+                image: './../../../assets/images/services/service-6.webp',
+                paragraphs:[
+                  {
+                  id:1,
+                  descrption: 'We have the perfect solution – LIVE hot call transfers from prospects ready to hear about what you have to offer.'},
+                  {id:2, descrption: 'Affordable pricing tiers'},
+                  {id:3, descrption: 'Guaranteed results'},
+                  {id:4, descrption: 'Optimized for dozens of niches'},
+                  {id:5, descrption: 'Expert team of pay per call specialists'},
+                  {id:6, descrption: 'Outstanding support'},
+                ]
+              },
+              {
+                id: '2',
+                heading: 'You Have Enough to Do – like running a business!',
+                image: './../../../assets/images/services/service-6.webp',
+                paragraphs:[
+                  {id:1, descrption: 'Let us handle the heavy lifting and time-intensive social media activities so you can focus on doing what you do best'},
+                  {id:2, descrption: 'Running a business is hard enough. At <a href="">Digital Engage</a>, our social media experts can manage your social presence, taking the bulk of the workload off your daily “to-do” list.'},
+                  {id:3, descrption: 'Our professional team can also help you with services like Search engine optimization, Paid search, Reputation management, Managed IT services, Video and photo services, Branding and logo agency, Website hosting services, Website support services, Local SEO Services, and others. Call us today to learn more about our services'},
+                ]
+              },
+            ];
+            this.tabLink = [
+              { id: '1', title: 'Social Media Management Services' },
+              { id: '2', title: 'You Have Enough to Do – like running a business!' },
+            ];
+            break;
+          case 'home':
           this.tabContents = [
             {
               id: '1',

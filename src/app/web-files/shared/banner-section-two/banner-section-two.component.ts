@@ -14,8 +14,8 @@ export class BannerSectionTwoComponent {
     private bannerData: { [key: string]: any } = {
       blogs: {
         subTitle: 'Blogs',
-        heading: 'Our Blogs',
-        paragraph: 'Our expertise is in delivering top-notch services.',
+        heading: 'Discover Our Insights',
+        paragraph: 'Delivering Expertise Through Top-Notch Services',
         buttonText: 'Contact Us',
         imageUrl: '../../../../assets/images/banner-gif/blogs-banner.png', // Update with correct path
         buttonUrl:'/contact',

@@ -17,7 +17,7 @@
     flex-flow: column;
     z-index: 9999999;
     margin-top: 12px;
-    background: linear-gradient(237.31deg, #7BCD75 0%, #77C1C4) !important;
+    background: linear-gradient(237.31deg, #6979FE 0%, #9F68FB) !important;
     height: 616px;
     overflow-y: auto;
     position: absolute;
@@ -32,10 +32,10 @@
         width: 2px;
       }
       &::-webkit-scrollbar-track {
-        background: #7BCD75 ;
+        background: #6979FE ;
       }
       &::-webkit-scrollbar-thumb {
-        background: #77C1C4;
+        background: #9F68FB;
       }
       &::-webkit-scrollbar-thumb:hover {
         background: #555;
@@ -44,7 +44,7 @@
       position: relative;
        input{
         border-radius: 0;
-        border: 2px solid #77C1C4;
+        border: 2px solid #6979FE;
         padding-right: 45px;
         &:focus{
           outline: none;
@@ -61,7 +61,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(237.31deg, #7BCD75 0%, #77C1C4) !important;
+        background:  linear-gradient(237.31deg, #6979FE 0%, #9F68FB) !important;
         i{
           color: #E7E7E7;
         }

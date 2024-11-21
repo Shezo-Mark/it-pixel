@@ -16,6 +16,7 @@
           &.active{
               position: relative;
               background: linear-gradient(237.31deg, #7BCD75 0%, #77C1C4) !important;
+              background:  linear-gradient(237.31deg, #6979FE 0%, #9F68FB) !important;
               color: white;
               &:before{
                   content: "";
@@ -26,7 +27,7 @@
                   height: 26px;
                   border-top: 13px solid transparent;
                   border-bottom: 13px solid transparent;
-                  border-right: 16px solid #77C1C4;
+                  border-right: 16px solid #9F68FB;
               }
           }
       }
@@ -53,7 +54,7 @@
         }
       }
         a{
-          color: #8986C0;
+          color: #6F77FE;
           font-weight: 800;
           text-decoration: underline;
           margin: 0 5px;
