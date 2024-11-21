@@ -259,39 +259,440 @@ export class ServicesComponent implements OnInit {
             { id: '5', title: 'Work with a Sales Team? Need Calls Routed? – No problem!' },
           ];
           break;
-          case 'social-media':
+
+            case 'social-media':
+              this.tabContents = [
+                {
+                  id: '1',
+                  heading: 'Social Media Management Services',
+                  image: './../../../assets/images/services/service-11.webp',
+                  paragraphs:[
+                    {id:1, descrption: 'Create a lasting presence & Engage your Audience'},
+                    {id:2, descrption: '<strong>RESULTS FOCUSED SOCIAL MEDIA MANAGEMENT</strong>'},
+                    {id:3, descrption: 'Save time and generate measurable results'},
+                    {id:4, descrption: 'Increase brand awareness'},
+                    {id:5, descrption: 'Establish social proof'},
+                    {id:6, descrption: 'Connect and engage with your audience'},
+                    {id:7, descrption: 'Grow followers and network'},
+                    {id:8, descrption: 'Grow followers and network'},
+                    {id:9, descrption: 'Improve customer service'},
+                    {id:10, descrption: 'Enhance trust and reputation'},
+                  ]
+                },
+                {
+                  id: '2',
+                  heading: 'You Have Enough to Do – like running a business!',
+                  image: './../../../assets/images/services/service-12.jpg',
+                  paragraphs:[
+                    {id:1, descrption: 'Let us handle the heavy lifting and time-intensive social media activities so you can focus on doing what you do best'},
+                    {id:2, descrption: 'Running a business is hard enough. At <a href="">Digital Engage</a>, our social media experts can manage your social presence, taking the bulk of the workload off your daily “to-do” list.'},
+                    {id:3, descrption: 'Our professional team can also help you with services like Search engine optimization, Paid search, Reputation management, Managed IT services, Video and photo services, Branding and logo agency, Website hosting services, Website support services, Local SEO Services, and others. Call us today to learn more about our services'},
+                  ]
+                },
+                {
+                  id: '3',
+                  heading: 'Social Media Content – done for you daily!',
+                  image: './../../../assets/images/services/service-13.webp',
+                  paragraphs:[
+                    {id:1, descrption: 'Expertly curated, written and designed content tailored to your brand daily.'},
+                    {id:2, descrption: 'Stunning images and graphics'},
+                    {id:3, descrption: 'Engaging written content'},
+                    {id:4, descrption: 'Relevant industry news and hot topics'},
+                    {id:5, descrption: 'Promotions and special offers'},
+                    {id:6, descrption: 'And more…'},
+                  ]
+                },
+                {
+                  id: '4',
+                  heading: 'Social Planning and Strategy',
+                  image: './../../../assets/images/services/service-14.webp',
+                  paragraphs:[
+                    {id:1, descrption: 'Social media content is only half the battle. Formulating a strategic plan to implement that content and guide its creation is just as important. Our team will align your social media management plan with your goals and key performance indicators that matter most to your brand, making sure we’re always moving the needle in the right direction.'},
+                  ]
+                },
+                {
+                  id: '5',
+                  heading: 'Posting and Publication on Auto-pilot',
+                  image: './../../../assets/images/services/service-15.jpg',
+                  paragraphs:[
+                    {id:1, descrption: '✓ Strategy'},
+                    {id:2, descrption: '✓ Content'},
+                    {id:3, descrption: '✓ Posting'},
+                    {id:4, descrption: 'At Digital Engage we have you covered from A-to-Z, from strategy to implementation and posting across the channels that matter the most to your audience. All without you having to lift a finger.'},
+                  ]
+                },
+              ];
+              this.tabLink = [
+                { id: '1', title: 'Social Media Management Services' },
+                { id: '2', title: 'You Have Enough to Do – like running a business!' },
+                { id: '3', title: 'Social Media Content – done for you daily!' },
+                { id: '4', title: 'Social Planning and Strategy' },
+                { id: '5', title: 'Posting and Publication on Auto-pilot' },
+              ];
+              break;
+
+              case 'reputation-management':
             this.tabContents = [
               {
                 id: '1',
-                heading: 'Social Media Management Services',
-                image: './../../../assets/images/services/service-6.webp',
+                heading: 'Reputation Management SERVICES',
+                image: './../../../assets/images/services/service-16.webp',
                 paragraphs:[
-                  {
-                  id:1,
-                  descrption: 'We have the perfect solution – LIVE hot call transfers from prospects ready to hear about what you have to offer.'},
-                  {id:2, descrption: 'Affordable pricing tiers'},
-                  {id:3, descrption: 'Guaranteed results'},
-                  {id:4, descrption: 'Optimized for dozens of niches'},
-                  {id:5, descrption: 'Expert team of pay per call specialists'},
-                  {id:6, descrption: 'Outstanding support'},
+                  {id:1, descrption: 'Take Back Control of your Reputation Online'},
+                  {id:2, descrption: 'Bury Negative Content in Google'},
+                  {id:3, descrption: 'Defensive Protection from Attacks'},
+                  {id:4, descrption: 'Enhance Visibility of the Positive'},
+                  {id:5, descrption: 'Control the Narrative of your Brand'},
+                  {id:6, descrption: 'No more missed sales due to negative reviews or press'},
+                  {id:7, descrption: 'Grow followers and network'},
+                  {id:8, descrption: 'Grow followers and network'},
+                  {id:9, descrption: 'Improve customer service'},
+                  {id:10, descrption: 'Enhance trust and reputation'},
                 ]
               },
               {
                 id: '2',
-                heading: 'You Have Enough to Do – like running a business!',
-                image: './../../../assets/images/services/service-6.webp',
+                heading: "Reputation Management is so essential",
+                image: './../../../assets/images/services/service-17.webp',
                 paragraphs:[
-                  {id:1, descrption: 'Let us handle the heavy lifting and time-intensive social media activities so you can focus on doing what you do best'},
-                  {id:2, descrption: 'Running a business is hard enough. At <a href="">Digital Engage</a>, our social media experts can manage your social presence, taking the bulk of the workload off your daily “to-do” list.'},
-                  {id:3, descrption: 'Our professional team can also help you with services like Search engine optimization, Paid search, Reputation management, Managed IT services, Video and photo services, Branding and logo agency, Website hosting services, Website support services, Local SEO Services, and others. Call us today to learn more about our services'},
+                  {id:1, descrption: ' Customers searching on Google want to learn more about your business and the experiences others have had with your brand. They want to validate that your company has a proven track record of delivering on promises and a history of satisfied customers.'},
+                  {id:2, descrption: '<strong>In the online world this means:</strong>'},
+                  {id:3, descrption: 'Encouraging, collecting, promoting, and prominently publishing user reviews'},
+                  {id:4, descrption: 'Claiming and being active on social media profiles'},
+                  {id:5, descrption: 'Engaging with your audience on social media, forums, other communities, and more.'},
+                  {id:6, descrption: 'Digital Engage is a digital marketing and web design company based in Tennessee. Besides reputation management, our professional team has expertise in services like Search engine optimization, Reputation management, Managed IT services, Video and photo services, Branding and logo agency, Website hosting services, Website support services, and Local SEO Services. Call us today to learn more about our services.'},
+                ]
+              },
+              {
+                id: '3',
+                heading: 'What People Say About You or Your Company Matters',
+                image: './../../../assets/images/services/service-18.jpg',
+                paragraphs:[
+                  {id:1, descrption: 'Even for those companies that employ an in-house PR manager, it is virtually impossible for any singular individual or team to identify, track, sort, and analyze the entirety of the internet looking for “mentions” of a brand or website.'},
+                  {id:2, descrption: 'Fact is, digital dirt often exists even if you aren’t aware of it. And this “dirt” could be tarnishing your brand’s reputation, costing you big and hurting more than just your bottom line.'},
+                  {id:3, descrption: '67.7% of Online Customers are influenced by Reviews According to Moz, up to 67.7% of online buyers admitted that customer reviews made a difference as to which brand, site or company they chose to purchase from.'},
+                  {id:4, descrption: 'A SINGLE Negative Review can Cost up to 22% of New Customers Similar research revealed that a single negative review in the search results can result in a loss of up to 22% of potential new customers.'},
                 ]
               },
             ];
             this.tabLink = [
-              { id: '1', title: 'Social Media Management Services' },
-              { id: '2', title: 'You Have Enough to Do – like running a business!' },
+              { id: '1', title: 'Reputation Management SERVICES' },
+              { id: '2', title: 'Reputation Management is so essential' },
+              { id: '3', title: 'What People Say About You or Your Company Matters' },
             ];
             break;
+
+            case 'branding-logo':
+              this.tabContents = [
+                {
+                  id: '1',
+                  heading: 'Logo Design Services',
+                  image: './../../../assets/images/services/service-19.webp',
+                  paragraphs:[
+                    {id:1, descrption: '<strong>Unique logo designs that your customers will immediately recognize.Identifiable</strong>'},
+                    {id:2, descrption: 'Identifiable'},
+                    {id:3, descrption: 'Attractive'},
+                    {id:4, descrption: 'Variety of pricing options'},
+                    {id:5, descrption: 'Custom created by Our talented graphic designers'},
+                  ]
+                },
+                {
+                  id: '2',
+                  heading: "Branding Services",
+                  image: './../../../assets/images/services/service-19.webp',
+                  paragraphs:[
+                    {id:1, descrption: '<strong>Consistent and comprehensive branding based on your vision and our solid research.</strong>'},
+                    {id:2, descrption: 'Deliberate'},
+                    {id:3, descrption: 'Strategic'},
+                    {id:4, descrption: 'Research-based'},
+                    {id:5, descrption: 'Consistent across print and digital media'},
+                  ]
+                },
+                {
+                  id: '3',
+                  heading: 'The Benefits of Branding and Logo Creation',
+                  image: './../../../assets/images/services/service-20.jpg',
+                  paragraphs:[
+                    {id:1, descrption: 'Instant brand recognition'},
+                    {id:2, descrption: 'Visual representation of your business'},
+                    {id:3, descrption: 'Consistent message in all marketing content'},
+                    {id:4, descrption: 'Besides Branding and Logo Creation, our team has expertise in services like Search engine optimization, Paid search, Social media advertising, Reputation management, Managed IT services, Video and photos services, Website hosting services, Website support services, Local SEO Services, and others. Call us today to learn more about our services.'},
+                  ]
+                },
+                {
+                  id: '4',
+                  heading: 'Why Are Branding and Logo Creation So Important?',
+                  image: './../../../assets/images/services/service-21.webp',
+                  paragraphs:[
+                    {id:1, descrption: 'Customers come to recognize a brand and make assumptions about it based on what they already know. It’s critical that your brand is easily recognizable to customers with a catchy visual. A custom-made logo provides that sight recognition.'},
+                    {id:2, descrption: 'But branding goes beyond just a custom logo. Everything about your business, from design work to the written copy, should convey a consistent message with a consistent style. Our branding service team works with you to capture that message and carry it through all content.'},
+                  ]
+                },
+              ];
+
+
+              this.tabLink = [
+                { id: '1', title: 'Logo Design Services' },
+                { id: '2', title: 'Branding Services' },
+                { id: '3', title: 'The Benefits of Branding and Logo Creation' },
+                { id: '4', title: 'Why Are Branding and Logo Creation So Important?' }
+              ];
+
+              break;
+
+
+              
+            case 'website-hosting':
+              this.tabContents = [
+                {
+                  id: '1',
+                  heading: 'Website Hosting Services',
+                  image: './../../../assets/images/services/service-22.webp',
+                  paragraphs:[
+                    {id:1, descrption: '<strong>We provide secure and best web hosting services for businesses of all sizes.</strong>'},
+                    {id:2, descrption: 'Reliable servers'},
+                    {id:3, descrption: 'Safe and secure'},
+                    {id:4, descrption: '24/7 tech support'},
+                    {id:5, descrption: 'Affordable options available'},
+                  ]
+                },
+                {
+                  id: '2',
+                  heading: "Critical Reasons for Website Hosting",
+                  image: './../../../assets/images/services/service-22.webp',
+                  paragraphs:[
+                    {id:1, descrption: 'Knowledgeable experts'},
+                    {id:2, descrption: 'Fast web service'},
+                    {id:3, descrption: 'Domain name registration'},
+                    {id:4, descrption: 'Email service'},
+                  ]
+                },
+                {
+                  id: '3',
+                  heading: 'Why is Website Hosting So Important?',
+                  image: './../../../assets/images/services/service-23.webp',
+                  paragraphs:[
+                    {id:1, descrption: 'Your website is a portal for your business. It draws customers in, provides them with information, and gives them the opportunity to communicate with you. You can’t afford crashes due to high traffic, glitches in email service, or other problems with your website. Services provided by web hosting companies apply different strategies. If customers search web hosting support companies, website design or hosted website solutions and find your website difficult to use or unreliable, they will find another website. A powerful website is a powerful connection tool. Digital Engage is a secure web hosting company that can provide secure and reliable website services. Whether you are looking for local web hosting service, web hosting media or customized options for your needs.'},
+                  ]
+                },
+                {
+                  id: '4',
+                  heading: 'Shared Website Hosting Services',
+                  image: './../../../assets/images/services/service-24.webp',
+                  paragraphs:[
+                    {id:1, descrption: 'Shared hosting is our most economical option. It is just what it sounds like: multiple websites share one server. This service works best for smaller websites.'},
+
+                  ]
+                },
+
+                {
+                  id: '5',
+                  heading: 'Clustered Website Hosting Services',
+                  image: './../../../assets/images/services/service-24.webp',
+                  paragraphs:[
+                    {id:1, descrption: 'Clustered hosting services utilize multiple servers working together. Spreading the burden of service over many machines reduces the risk that one task will interfere with another and slow down the website. The cost of clustered web hosts is moderate.'},
+
+                  ]
+                },
+
+                {
+                  id: '6',
+                  heading: 'Virtual Private Server Hosting Services',
+                  image: './../../../assets/images/services/service-24.webp',
+                  paragraphs:[
+                    {id:1, descrption: 'Virtual private server hosting can help you ramp up the performance of your website.'},
+                    {id:2, descrption: 'Besides Hosting services, our team has expertise in Search engine optimization, Paid Search, Social media advertising, Reputation management, Managed IT services, Video and photo services, Branding and logo agency,  Website support services, and Local SEO Services. Call us today to learn more about our services.'},
+
+                  ]
+                },
+              ];
+
+
+              this.tabLink = [
+                { id: '1', title: 'Website Hosting Services' },
+                { id: '2', title: 'Critical Reasons for Website Hosting' },
+                { id: '3', title: 'Why is Website Hosting So Important?' },
+                { id: '4', title: 'Shared Website Hosting Services' },
+                { id: '5', title: 'Clustered Website Hosting Services' },
+                { id: '6', title: 'Virtual Private Server Hosting Services' }
+              ];
+
+              break;
+
+
+
+              case 'web-support':
+                this.tabContents = [
+                  {
+                    id: '1',
+                    heading: 'Web Support Services',
+                    image: './../../../assets/images/services/service-25.webp',
+                    paragraphs:[
+                      {id:1, descrption: '<strong>Digital Engage provides one-stop shopping for all your web support needs to create an effective web presence.</strong>'},
+                      {id:2, descrption: 'Search Engine Optimization'},
+                      {id:3, descrption: 'Updating Website Software'},
+                      {id:4, descrption: 'Improving Website Speed'},
+                      {id:5, descrption: 'Adding New Content'},
+                      {id:6, descrption: 'Excellent Customer Support'},
+                    ]
+                  },
+                  {
+                    id: '2',
+                    heading: "Why You Need Web Support Services for Your Business",
+                    image: './../../../assets/images/services/service-26.webp',
+                    paragraphs:[
+                      {id:1, descrption: 'Website Maintenance: For any type of business or organization, website upkeep, and support services are essential.'},
+                      {id:2, descrption: 'Enhanced Online Efficiency: These services improve overall user experience by continuously monitoring website speed, optimizing files and pictures, and quickly fixing any performance-related issues.'},
+                      {id:3, descrption: 'Increased Safety:It is more important than ever to make sure your website is secure in the ever changing digital world. Services for website maintenance are essential for securing your website and your priceless user data.'},
+                      {id:4, descrption: 'Web Support: Our technology experts will monitor your website’s speed to ensure a streamlined website operation.'},
+                    ]
+                  },
+                  {
+                    id: '3',
+                    heading: 'Why Are Web Support Services So Important?',
+                    image: './../../../assets/images/services/service-27.jpg',
+                    paragraphs:[
+                      {id:1, descrption: 'Customers assume that any business has a web presence. To remain competitive, you need a comprehensive digital strategy. You could always create that presence piecemeal with several service providers, but why bother?'},
+                      {id:2, descrption: 'Our team provides every digital service you need to stay in the game, customized for you. When you work with one team, you can ensure every detail is noticed and off-brand.'},
+                    ]
+                  },
+                  {
+                    id: '4',
+                    heading: 'Comprehensive Solutions',
+                    image: './../../../assets/images/services/service-28.webp',
+                    paragraphs:[
+                      {id:1, descrption: 'Our web support services offer technical help to resolve problems with the performance, security, and functioning of your websites. This includes maintaining servers, identifying and fixing technological issues, and speeding up websites.'},
+                      {id:2, descrption: 'On top of that, our graphic designers make it all look good.'},
+  
+                    ]
+                  },
+  
+                  {
+                    id: '5',
+                    heading: 'Content Management',
+                    image: './../../../assets/images/services/service-29.webp',
+                    paragraphs:[
+                      {id:1, descrption: 'We support the upkeep and management of text, photos, videos, and other multimedia on websites. This guarantees that the website will always be up-to-date and pertinent.'},
+  
+                    ]
+                  },
+  
+                  {
+                    id: '6',
+                    heading: 'Benefits of Web Support from Digital Engage',
+                    image: './../../../assets/images/services/service-30.jpg',
+                    paragraphs:[
+                      {id:1, descrption: 'You are the expert on your business, but are you an expert in website development, security, graphic design, and social media? No one person has all the skills necessary to build and maintain an effective web presence. That’s why you need a team to support you.'},
+                      {id:2, descrption: 'Our team works with you to create and maintain a website and digital marketing campaign that matches your vision. Apart from that, our team is always available to offer any technical help required by our clients. We work with you to reflect any changes as your business grows over time.'},
+  
+                    ]
+                  },
+                ];
+  
+  
+                this.tabLink = [
+                  { id: '1', title: 'Web Support Services' },
+                  { id: '2', title: 'Why You Need Web Support Services for Your Business' },
+                  { id: '3', title: 'Why Are Web Support Services So Important?' },
+                  { id: '4', title: 'Comprehensive Solutions' },
+                  { id: '5', title: 'Content Management' },
+                  { id: '6', title: 'Benefits of Web Support from Digital Engage' }
+                ];
+  
+                break;
+  
+                case 'local-seo':
+                this.tabContents = [
+                  {
+                    id: '1',
+                    heading: 'Local SEO Services',
+                    image: './../../../assets/images/services/service-31.jpg',
+                    paragraphs:[
+                      {id:1, descrption: 'Some businesses have a nationwide or global reach and can market on the search engine results pages without worrying about the geographic location of their customers. Other companies, such as car repair shops, restaurants, local stores, and others, do not have that luxury. They depend on customers being at least within driving distance. When it comes for searching local search engine optimization agencies people use different words like: local search engine optimization providers, local search platform, local seo company, and others.'},
+                      {id:2, descrption: 'Local Web Content'},
+                      {id:3, descrption: 'Paid Advertising'},
+                      {id:4, descrption: 'Landing Page Design'},
+                      {id:5, descrption: 'Local Social Media Marketing'},
+                      {id:6, descrption: 'Google My Business Optimization for Local Businesses'},
+                      {id:7, descrption: 'Local Directories'},
+                    ]
+                  },
+                  {
+                    id: '2',
+                    heading: "How Does Local Web Content Work?",
+                    image: './../../../assets/images/services/service-32.jpg',
+                    paragraphs:[
+                      {id:1, descrption: 'Including frequent content that relates to local and community events can draw in consumers from the immediate area. We use the best local SEO tools to help you decide on your content, like a local rank tracker. Consider announcing community activities, highlighting the achievements of people in the neighbourhood, reviewing local attractions, and supporting events happening in the region.'},
+                      {id:2, descrption: 'Case studies offer a way to promote your business while highlighting the local community. Present case studies that showcase a resident of the city or county who benefitted from your goods or services. The case study helps the audience relate to a satisfied customer and to envision how your product will help them in the future.'},
+                      {id:3, descrption: 'Digital Engage has experience in using local SEO tools, identifying, curating, and customizing web content that attracts potential customers, tailored to promote and define the brand image of the business.'},
+                    ]
+                  },
+                  {
+                    id: '3',
+                    heading: 'Paid Advertising',
+                    image: './../../../assets/images/services/service-33.jpg',
+                    paragraphs:[
+                      {id:1, descrption: 'Pay-per-click (PPC) advertising can bring traffic to your website, but a haphazard approach merely wastes money on clicks that don’t translate into sales. Digital Engage conducts keyword research to optimize your PPC strategy and the best local business search engine optimisation tools to draw high-quality inbound traffic that is receptive to your message.'},
+                    ]
+                  },
+                  {
+                    id: '4',
+                    heading: 'Landing Page Design',
+                    image: './../../../assets/images/services/service-33.jpg',
+                    paragraphs:[
+                      {id:1, descrption: 'Your landing page is typically the first glimpse that a potential customer has of your website. Search engine optimization of your landing page (or landing pages) increases the likelihood that local consumers will find your business. An optimized landing page can improve conversion rate and increase the effectiveness of both organic and PPC marketing strategies.'},
+                      {id:2, descrption: 'Digital Engage as a Local Search Engine Optimization Company uses the latest in SEO algorithms to optimize your website so that your business appears before other local businesses in local search results.'},
+  
+                    ]
+                  },
+  
+                  {
+                    id: '5',
+                    heading: 'Local Social Media Marketing',
+                    image: './../../../assets/images/services/service-34.jpg',
+                    paragraphs:[
+                      {id:1, descrption: 'Local SEO strategy must include Social media as it allows for customized messages to be delivered to different segments of the local area. Building a community through social media drives organic web traffic to your website, while supporting local SEO solutions. Social media marketing also generates search queries that boost your site’s rating in search engines. People search different queries such as, local search expert, local search marketing expert and others to achieve their social media marketing goals. Social media sites also connect businesses to sources of content that engage customers and pre-existing communities that could be markets for further business growth. Many social media communities have explicit rules against advertising. Digital Engage can help you grow your social media presence using both paid advertising and other forms of outreach besides advertisement.'},
+  
+                    ]
+                  },
+  
+                  {
+                    id: '6',
+                    heading: 'Google My Business Optimization for Local Businesses',
+                    image: './../../../assets/images/services/service-35.jpg',
+                    paragraphs:[
+                      {id:1, descrption: 'Google My Business (GMB) is Google’s local business review tool that allows consumers to search for local businesses and allows local businesses to establish their reputation through online reviews. When potential customers search for nearby companies, Google displays candidate businesses and multiple locations in the local area. Each listing includes business information, text, images, and other information, including the website URL, phone, and e-mail contact information. Optimization of a business’s GMB listing is an important part of local search engine optimization.'},
+                      {id:2, descrption: 'Digital Engage, is a top local search engine optimization firm, and we optimise Google My Business profiles – google maps to improve their rank on Google searches and ensure the relevance and accuracy of the content. We also help clients to manage their google business profile and respond to consumer feedback.'},
+  
+                    ]
+                  },
+
+                  {
+                    id: '7',
+                    heading: 'Local Directories Marketing',
+                    image: './../../../assets/images/services/service-36.webp',
+                    paragraphs:[
+                      {id:1, descrption: 'In addition to Google My Business, many searchable directories such as the Yellow Pages and Yelp offer opportunities for local customers to review local businesses related to home services local seo services. For most regions of the country, there are many directories, and local SEO companies can find it challenging to keep up with all of them and ensure that the information on them is up to date. Digital Engage is a local search engine optimization firm manages local directory listings so that businesses can draw organic web traffic from local search engine results and respond to reviews to maintain their business and brand reputation.'},
+                      {id:2, descrption: 'Digital Engage offers local SEO services for local businesses as part of a comprehensive set of digital marketing services, including web design, SEO optimization, market research, reputation management, and web advertising management. We have a decade of experience in digital marketing and in-depth knowledge of the Nashville, Knoxville, and Tri-Cities area. Our local search engine marketing company specialises in working with local businesses to develop their brand identity and online presence using the latest digital marketing techniques to add them to local search websites and directories. We are a local search marketing company that cares about its customers growth, so speak with our experts and discover the potential of digital marketing to take your business in a new direction, call (615) 997-0736 today.'},
+  
+                    ]
+                  },
+                ];
+  
+  
+                this.tabLink = [
+                  { id: '1', title: 'Local SEO Services' },
+                  { id: '2', title: 'How Does Local Web Content Work?' },
+                  { id: '3', title: 'Paid Advertising' },
+                  { id: '4', title: 'Landing Page Design' },
+                  { id: '5', title: 'Local Social Media Marketing' },
+                  { id: '6', title: 'Google My Business Optimization for Local Businesses' },
+                  { id: '7', title: 'Local Directories Marketing' }
+                ];
+  
+                break;
+  
+
           case 'home':
           this.tabContents = [
             {
@@ -378,6 +779,8 @@ export class ServicesComponent implements OnInit {
               ]
              },
           ];
+
+
           this.tabLink = [
             { id: '1', title: 'Local Business SEO' },
             { id: '2', title: 'Search Engine Optimization' },

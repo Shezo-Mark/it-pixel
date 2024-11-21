@@ -14,6 +14,11 @@ import { BlogDetailsComponent } from './components/blog-details/blog-details.com
 import { ServiceDetailsComponent } from './components/service-details/service-details.component';
 import { ServicesComponent } from './shared/services/services.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
+import { ReputationManagementComponent } from './components/reputation-management/reputation-management.component';
+import { BrandingLogoComponent } from './components/branding-logo/branding-logo.component';
+import { WebsiteHostingComponent } from './components/website-hosting/website-hosting.component';
+import { WebSupportComponent } from './components/web-support/web-support.component';
+import { LocalSeoComponent } from './components/local-seo/local-seo.component';
 
 
 
@@ -78,6 +83,27 @@ const routes: Routes = [
       path: 'social-media',
       component: SocialMediaComponent
     },
+    {
+      path: 'reputation-management',
+      component: ReputationManagementComponent
+    },
+    {
+      path: 'branding-logo',
+      component: BrandingLogoComponent
+    },
+    {
+      path: 'website-hosting',
+      component: WebsiteHostingComponent
+    },
+    {
+      path: 'web-support',
+      component: WebSupportComponent
+    },
+    {
+      path: 'local-seo',
+      component: LocalSeoComponent
+    },
+
 
   ]
   }

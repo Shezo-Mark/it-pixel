@@ -13,14 +13,12 @@ export class BannerSectionComponent implements OnInit {
     // Define banner content for different routes
     private bannerData: { [key: string]: any } = {
       services: {
-        subTitle: 'OUR SERVICES',
         heading: 'We provide excellent <br> solutions',
         paragraph: 'Our expertise is in delivering top-notch services.',
         buttonText: 'Learn More',
         imageUrl: '../../../../assets/images/banner-gif/services-banner.png', // Update with correct path
       },
       about: {
-        subTitle: 'ABOUT US',
         heading: 'We are born in a <br> connected world.',
         paragraph: 'And there’s almost nothing that we understand better.',
         buttonText: 'Contact Us',
@@ -28,21 +26,18 @@ export class BannerSectionComponent implements OnInit {
         buttonUrl:'/contact',
       },
       contact: {
-        subTitle: 'CONTACT US',
         heading: 'Are you ready for a no <br> obligation quote?',
         buttonText: 'Email Us',
         imageUrl: '../../../../assets/images/banner-gif/contact-banner.png', // Update with correct path
         buttonUrl:'mailto:shehzadamin697@gmail',
       },
       seo: {
-        subTitle: 'Search Engine Optimization',
         heading: 'High Performance SEO Services',
         buttonText: 'Contact Us',
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with correct path
         buttonUrl:'/contact',
       },
       'paid-search': {
-        subTitle: 'Marketing',
         heading: 'Paid Search Marketing',
         paragraph: 'Pay Per Call Marketing is a performance-focused service we provide for our clients where we set up campaigns that generate actual inbound phone calls from interested prospects.',
         buttonText: 'Contact Us',
@@ -50,9 +45,43 @@ export class BannerSectionComponent implements OnInit {
         buttonUrl: '/contact',
       },
       'social-media': {
-        subTitle: 'Social Media',
         heading: 'Social Ad Marketing',
         paragraph: 'The rules of engagement have changed & we can help you stay on top of your game.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'reputation-management': {
+        heading: 'Reputation Management',
+        paragraph: 'Reputation management, also known as ORM (online reputation management) <br> or rep management is the art and science of molding the public’s or your target <br> market’s perception and opinion of you or your business.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'branding-logo': {
+        heading: 'Branding and Logo Creation',
+        paragraph: 'Digital Engage provides comprehensive branding and logo services that capture your vision and message for quick customer recognition.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'website-hosting': {
+        heading: 'Website Hosting Services',
+        paragraph: 'Digital Engage offers website hosting services that are safe, secure, <br> and staffed by experts, 24/7.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'web-support': {
+        heading: 'Top-Notch Website Support Services',
+        paragraph: 'Digital Engage has a team of niche experts ready to provide all-inclusive web <br> support services for our clients.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'local-seo': {
+        heading: 'What Is Local Search Engine Optimization',
+        paragraph: 'In addition to non-digital methods of local advertising—local circulars, direct mailing, billboards, and the like—these businesses have internet tools available to detect and respond to searches within their geographic area. Digital Engage offers local search engine optimization service and other design services to assist businesses within their local area.',
         buttonText: 'Contact Us',
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
         buttonUrl: '/contact',

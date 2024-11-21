@@ -29,6 +29,11 @@ import { ServiceDetailsComponent } from './components/service-details/service-de
 import { ServicesComponent } from './shared/services/services.component';
 import { BannerSectionTwoComponent } from './shared/banner-section-two/banner-section-two.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
+import { ReputationManagementComponent } from './components/reputation-management/reputation-management.component';
+import { BrandingLogoComponent } from './components/branding-logo/branding-logo.component';
+import { WebsiteHostingComponent } from './components/website-hosting/website-hosting.component';
+import { WebSupportComponent } from './components/web-support/web-support.component';
+import { LocalSeoComponent } from './components/local-seo/local-seo.component';
 
 
 
@@ -60,7 +65,12 @@ import { SocialMediaComponent } from './components/social-media/social-media.com
     ServicesComponent,
     ServiceDetailsComponent,
     BannerSectionTwoComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    ReputationManagementComponent,
+    BrandingLogoComponent,
+    WebsiteHostingComponent,
+    WebSupportComponent,
+    LocalSeoComponent,
   ],
   imports: [
     CommonModule,
