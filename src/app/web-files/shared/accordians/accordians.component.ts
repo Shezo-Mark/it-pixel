@@ -327,6 +327,57 @@ export class AccordiansComponent {
                 },
               ]
               break;
+
+              case 'word-press':
+                this.accordionItems = [
+                  {
+                    id: 1,
+                    title: '1. User-Friendly',
+                    expanded: true,
+                    body: [
+                      {
+                        id:1,
+                        descrption: 'The best WordPress sites are user-friendly and optimized to provide the best customer experience. Through careful design and web design expertise, our team can create a WordPress site that is fast, responsive, and fully functional on all viewing platforms. We will make sure that your page runs efficiently with the shortest possible loading times.'
+                      },
+                    ]
+                  },
+                  {
+                    id: 2,
+                    title: '2. SEO-Friendly',
+                    expanded: true,
+                    body: [
+                      {  id:1,  descrption: 'Getting your website on the front page of Google is a priority of our web design experts. Our advanced web designers and web developers with expertise search engine optimization, our team makes SEO-friendly web pages that can drive traffic to your business.'},
+                      {  id:2,  descrption: 'Our team specializes in white-hat SEO techniques, creating high-quality content with optimal keyword placement. We avoid black-hat techniques like keyword stuffing that ultimately lead to poor web design.'},
+                      {  id:3,  descrption: 'When we begin to work on your web page, we will identify keywords that will rank you more highly in search engine results. We will also create meta titles and descriptions that will make your page stand out among your competition.'},
+                    ]
+                  },
+                  {
+                    id: 3,
+                    title: '3. Creative Design',
+                    expanded: true,
+                    body: [
+                      {  id:1,  descrption: 'In addition to optimizing your page for SEO, our team can work with you to create an attractive web page that suits the style of your business. Your website should match your brand identity and make it easy to effectively communicate information to your customers.'},
+                      {  id:2,  descrption: 'In addition to optimizing your page for SEO, our team can work with you to create an attractive web page that suits the style of your business. Your website should match your brand identity and make it easy to effectively communicate information to your customers.Part of effective web design is creating a call to action that invites your customers to view other parts of your website or purchase a good or service. Our team will identify the optimal places for a call to action that will encourage your customers to continue using your website.'},
+                    ]
+                  },
+                ]
+                break;
+
+                case 'shopify':
+                  this.accordionItems = [
+                    {
+                      id: 1,
+                      title: 'What is Shopify?',
+                      expanded: true,
+                      body: [
+                        {
+                          id:1,
+                          descrption: 'Shopify is a great eCommerce platform that helps you create custom online stores. It has great functionality that helps you organize your products, set payment gateways, track all your orders, and even respond to your messages.'
+                        },
+                      ]
+                    },
+                  ]
+                  break;
             
       default:
         this.accordionItems = [

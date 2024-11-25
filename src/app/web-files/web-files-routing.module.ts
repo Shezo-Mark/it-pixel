@@ -19,6 +19,20 @@ import { BrandingLogoComponent } from './components/branding-logo/branding-logo.
 import { WebsiteHostingComponent } from './components/website-hosting/website-hosting.component';
 import { WebSupportComponent } from './components/web-support/web-support.component';
 import { LocalSeoComponent } from './components/local-seo/local-seo.component';
+import { WordPressComponent } from './components/word-press/word-press.component';
+import { WooCommerceComponent } from './components/woo-commerce/woo-commerce.component';
+import { ShopifyComponent } from './components/shopify/shopify.component';
+import { WixDeveloperComponent } from './components/wix-developer/wix-developer.component';
+import { MagentoComponent } from '../web-files/components/magento/magento.component';
+import { SquareSpaceComponent } from './components/square-space/square-space.component';
+import { BigCommerceComponent } from './components/big-commerce/big-commerce.component';
+import { DrupalComponent } from './components/drupal/drupal.component';
+import { JoomlaComponent } from './components/joomla/joomla.component';
+import { HubspotComponent } from './components/hubspot/hubspot.component';
+import { OsCommerceComponent } from './components/os-commerce/os-commerce.component';
+import { PrestashopComponent } from './components/prestashop/prestashop.component';
+import { CaseStudyComponent } from './components/case-study/case-study.component';
+import { OurProjectComponent } from './components/our-project/our-project.component';
 
 
 
@@ -102,6 +116,62 @@ const routes: Routes = [
     {
       path: 'local-seo',
       component: LocalSeoComponent
+    },
+    {
+      path: 'word-press',
+      component: WordPressComponent
+    },
+    {
+      path: 'woo-commerce',
+      component: WooCommerceComponent
+    },
+    {
+      path: 'shopify',
+      component: ShopifyComponent
+    },
+    {
+      path: 'wix-developer',
+      component: WixDeveloperComponent
+    },
+    {
+      path: 'magento',
+      component: MagentoComponent
+    },
+    {
+      path: 'square-space',
+      component: SquareSpaceComponent
+    },
+    {
+      path: 'big-commerce',
+      component: BigCommerceComponent
+    },
+    {
+      path: 'drupal',
+      component: DrupalComponent
+    },
+    {
+      path: 'joomla',
+      component: JoomlaComponent
+    },
+    {
+      path: 'hubspot',
+      component: HubspotComponent
+    },
+    {
+      path: 'Os-Commerce',
+      component: OsCommerceComponent
+    },
+    {
+      path: 'prestashop',
+      component: PrestashopComponent
+    },
+    {
+      path: 'case-study',
+      component: CaseStudyComponent
+    },
+    {
+      path: 'our-project',
+      component: OurProjectComponent
     },
 
 

@@ -19,12 +19,13 @@ export class BannerSectionComponent implements OnInit {
         imageUrl: '../../../../assets/images/banner-gif/services-banner.png', // Update with correct path
       },
       about: {
-        heading: 'We are born in a <br> connected world.',
-        paragraph: 'And there’s almost nothing that we understand better.',
+        heading: 'We believe in building high value',
+        paragraph: 'We connect, explore, create, empower and grow together.',
         buttonText: 'Contact Us',
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with correct path
         buttonUrl:'/contact',
       },
+      
       contact: {
         heading: 'Are you ready for a no <br> obligation quote?',
         buttonText: 'Email Us',
@@ -86,6 +87,98 @@ export class BannerSectionComponent implements OnInit {
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
         buttonUrl: '/contact',
       },
+      'word-press': {
+        heading: 'Custom WordPress Web Design',
+        paragraph: 'Our dedicated team of WordPress web developers can help businesses of any size expand their online presence. Our team will collaborate with you to create a web page that you can be proud of no matter the scope or specialty of your business.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'woo-commerce': {
+        heading: 'WooCommerce Website Design & Development Services',
+        paragraph: 'Get a beautiful, custom WooCommerce website that converts visitors into customers. Our team of expert WooCommerce web designers and developers will create a site that’s perfect for your business.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'shopify': {
+        heading: 'Shopify Experts',
+        paragraph: 'Digital Engage helps you build your custom Shopify Store and provides complete Shopify solutions. From Shopify website design to Shopify apps, we take care of it all!',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'wix-developer': {
+        heading: 'Wix Website Design & Development Services',
+        paragraph: 'At Wix, we know that a great website is a key to success online. That’s why we offer professional, high-quality website design and development services to help you get the most out of your Wix website.s',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'magento': {
+        heading: 'Magento Website Design & Development Services',
+        paragraph: 'Get the best Magento website design & development services from our team of Magento experts. Build your perfect Magento store today!',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'square-space': {
+        heading: 'Squarespace Development & Design Services',
+        paragraph: 'We Offer Complete Squarespace Web Design and Development Services. Our team of Expert Squarespace web developers & Designers helps you create a unique website on the Squarespace platform.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'big-commerce': {
+        heading: 'BigCommerce Website Design & Development Services ',
+        paragraph: 'Whether you’re just getting started with BigCommerce or looking to take your existing store to the next level, our experienced BigCommerce designers and developers can help.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+       'drupal': {
+        heading: 'Drupal Website Design & Development Services',
+        paragraph: 'Our Drupal web designers and expert developers can help you create a website that is both beautiful and functional. Drupal is a powerful content management system that is perfect for creating custom websites.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'joomla': {
+        heading: 'Expert Joomla Web Designers & Developers',
+        paragraph: 'Get the best Joomla design development services from expert Joomla developers at Digital Engage. We offer custom Joomla development, Joomla template design, and Joomla extension development.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'hubspot': {
+        heading: 'HubSpot Website Design & Development Services',
+        paragraph: 'Get the best HubSpot website design and development services from one of the best HubSpot web design firms. HubSpot is a powerful platform that helps businesses grow their online presence. With our Hubspot Agency in Nashville of web designers and developers, you can create a beautiful and effective website that will help you reach your goals including inbound marketing services, search engine marketing, email marketing, social media marketing and others.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'Os-Commerce': {
+        heading: 'OsCommerce Website Design & Development Services',
+        paragraph: 'Get ahead of the competition with a custom OsCommerce website designed and developed by our team of experts. Our services include everything from custom OsCommerce design to development and integration of third-party software.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'prestashop': {
+        heading: 'Prestashop Website Design & Development Services',
+        paragraph: 'Prestashop is a popular eCommerce platform that helps businesses create professional online stores. Our team of Prestashop web designers and developers can help you create a custom Prestashop store that is tailored to your specific business needs.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'case-study': {
+        heading: 'Prestashop Website Design & Development Services',
+        paragraph: 'Prestashop is a popular eCommerce platform that helps businesses create professional online stores. Our team of Prestashop web designers and developers can help you create a custom Prestashop store that is tailored to your specific business needs.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+
 
     };
 

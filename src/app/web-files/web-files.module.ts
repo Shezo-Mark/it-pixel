@@ -34,6 +34,20 @@ import { BrandingLogoComponent } from './components/branding-logo/branding-logo.
 import { WebsiteHostingComponent } from './components/website-hosting/website-hosting.component';
 import { WebSupportComponent } from './components/web-support/web-support.component';
 import { LocalSeoComponent } from './components/local-seo/local-seo.component';
+import { WordPressComponent } from './components/word-press/word-press.component';
+import { WooCommerceComponent } from './components/woo-commerce/woo-commerce.component';
+import { ShopifyComponent } from './components/shopify/shopify.component';
+import { WixDeveloperComponent } from './components/wix-developer/wix-developer.component';
+import { MagentoComponent } from './components/magento/magento.component';
+import { SquareSpaceComponent } from './components/square-space/square-space.component';
+import { BigCommerceComponent } from './components/big-commerce/big-commerce.component';
+import { DrupalComponent } from './components/drupal/drupal.component';
+import { JoomlaComponent } from './components/joomla/joomla.component';
+import { HubspotComponent } from './components/hubspot/hubspot.component';
+import { OsCommerceComponent } from './components/os-commerce/os-commerce.component';
+import { PrestashopComponent } from './components/prestashop/prestashop.component';
+import { CaseStudyComponent } from './components/case-study/case-study.component';
+import { OurProjectComponent } from './components/our-project/our-project.component';
 
 
 
@@ -71,6 +85,20 @@ import { LocalSeoComponent } from './components/local-seo/local-seo.component';
     WebsiteHostingComponent,
     WebSupportComponent,
     LocalSeoComponent,
+    WordPressComponent,
+    WooCommerceComponent,
+    ShopifyComponent,
+    WixDeveloperComponent,
+    MagentoComponent,
+    SquareSpaceComponent,
+    BigCommerceComponent,
+    DrupalComponent,
+    JoomlaComponent,
+    HubspotComponent,
+    OsCommerceComponent,
+    PrestashopComponent,
+    CaseStudyComponent,
+    OurProjectComponent,
   ],
   imports: [
     CommonModule,

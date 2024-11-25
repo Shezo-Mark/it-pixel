@@ -692,6 +692,889 @@ export class ServicesComponent implements OnInit {
   
                 break;
   
+                case 'word-press':
+                  this.tabContents = [
+                    {
+                      id: '1',
+                      heading: 'CUSTOM WORDPRESS DESIGN SERVICES',
+                      image: './../../../assets/images/services/service-37.jpg',
+                      paragraphs:[
+                        {id:1, descrption: '<strong>Custom WordPress Web Design services for designing as well as it looks.</strong>'},
+                        {id:2, descrption: 'User-friendly and Optimized.'},
+                        {id:3, descrption: 'Fast, Responsive, and Fully Functional on all viewing platforms.'},
+                        {id:4, descrption: 'Page Runs Efficiently with The Shortest Possible Loading Times.'},
+                        {id:5, descrption: 'SEO-friendly Web Pages.'},
+                        {id:6, descrption: 'Creative Design That Suits The Style of Your Business.'},
+                      ]
+                    },
+                    {
+                      id: '2',
+                      heading: "What is WordPress?",
+                      image: './../../../assets/images/services/service-38.jpg',
+                      paragraphs:[
+                        {id:1, descrption: 'WordPress hosting is the easiest way to create a website. After the initial design and writing process, WordPress websites take little technical knowledge to maintain—they are the perfect option for on-the-go business owners.'},
+                        {id:2, descrption: 'The WordPress website designer allows you to change the design of your web page however you see fit. After our team takes care of the initial design and development of your page, you can update it whenever you want with a simple click of your mouse. You will never need to speak to a web developer to make changes to your website.'},
+                      ]
+                    },
+                    {
+                      id: '3',
+                      heading: 'How Can a WordPress Site Expand Your Business?',
+                      image: './../../../assets/images/services/service-39.jpg',
+                      paragraphs:[
+                        {id:1, descrption: '<strong>Digital Marketing Strategies</strong>'},
+                        {id:2, descrption: 'Websites make digital marketing easy. A well-designed website can serve as the foundation for digital marketing strategies that encourage customers to visit your website. Once customers land on your website, they can learn more about the service you provide and are much more likely to make a purchase.'},
+                        {id:3, descrption: '<strong>E-Commerce</strong>'},
+                        {id:4, descrption: 'The best way to use your website to expand your business is by adding e-commerce options. With careful web design, we can integrate e-commerce into your website to encourage your customers to purchase your goods or services.'},
+                        {id:5, descrption: 'Additionally, the WordPress designer allows you to integrate subscription services and donations. Donations can be especially helpful for small businesses, and subscription services allow you to provide exclusive, high-quality content to your customers.'},
+                      ]
+                    },
+                    {
+                      id: '4',
+                      heading: 'Conclusion',
+                      image: './../../../assets/images/services/service-40.jpg',
+                      paragraphs:[
+                        {id:1, descrption: 'An effective website can make the difference between a failing business and a successful business. By leveraging our team of expert WordPress web developers, we can create a website that attracts customers and serves as a foundation for further digital marketing strategies.'},
+                        {id:2, descrption: 'Our team at Digital Engage specializes in designing and developing websites on platforms like woocommerce, Shopify, and Wix developers. Our team is also an expert in web development on Joomla, Hubspot, OsCommerce, and Prestashop. For more information contact us about how we can help you create the perfect web page for your business, check our blog section, discussing the best ways to optimize your page for search engines.'},
+    
+                      ]
+                    },
+
+                  ];
+    
+    
+                  this.tabLink = [
+                    { id: '1', title: 'CUSTOM WORDPRESS DESIGN SERVICES' },
+                    { id: '2', title: 'What is WordPress?' },
+                    { id: '3', title: 'How Can a WordPress Site Expand Your Business?' },
+                    { id: '4', title: 'Conclusion' },
+                  ];
+    
+                  break;
+
+
+                  case 'woo-commerce':
+                    this.tabContents = [
+                      {
+                        id: '1',
+                        heading: 'A Woocommerce Development Company That Delivers',
+                        image: './../../../assets/images/services/service-41.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'We’re a leading WooCommerce development company, and our Woocommerce specialists are here to help you create a successful online store. Our team of experts can Woocommerce Web Designers and web developers help you with everything from custom WooCommerce design and development to integration and migration'},
+                          {id:2, descrption: 'With over 10 years of experience in eCommerce, our woocommerce web desginer knows what it takes to create a successful online store. We’re here to help you every step of the way, from planning and development to launch and beyond.'},
+                        ]
+                      },
+                      {
+                        id: '2',
+                        heading: "What is WooCommerce?",
+                        image: './../../../assets/images/services/service-42.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'WooCommerce is a powerful custom plugin development eCommerce platform that enables you to create an online store. It’s a free WordPress plugin that allows you to sell anything, anywhere with custom wordpress themes. The WooCommerce platform is used by millions of businesses around the world, and it’s the perfect solution for small to medium-sized businesses if it’s digital marketing is done properly.'},
+                        ]
+                      },
+                      {
+                        id: '3',
+                        heading: 'Highly Skilled Team of WooCommerce Developers',
+                        image: './../../../assets/images/services/service-43.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'Our team of highly skilled WooCommerce developers can help you with everything from custom WooCommerce development to integration and migration. We’re here to help you create a successful online store.'},
+                        ]
+                      },
+                    ];
+      
+      
+                    this.tabLink = [
+                      { id: '1', title: 'A Woocommerce Development Company That Delivers' },
+                      { id: '2', title: 'What is WooCommerce?' },
+                      { id: '3', title: 'Highly Skilled Team of WooCommerce Developers' },
+                    ];
+      
+                    break;
+
+                    case 'shopify':
+                    this.tabContents = [
+                      {
+                        id: '1',
+                        heading: 'Best Shopify Website Designers',
+                        image: './../../../assets/images/services/service-44.webp',
+                        paragraphs:[
+                          {id:1, descrption: '<strong>We create custom Shopify stores and themes for your eCommerce business that are highly converting. Generate more revenue than ever before.</strong>'},
+                          {id:2, descrption: 'Custom Solutions'},
+                          {id:3, descrption: 'Highly Converting Shopify Store'},
+                          {id:4, descrption: 'Stores That Rank on Google'},
+                          {id:5, descrption: 'Skilled Shopify Experts'},
+                          {id:6, descrption: 'Great Customer Support'},
+                        ]
+                      },
+                      {
+                        id: '2',
+                        heading: "Shopify Store Design & Development Experts",
+                        image: './../../../assets/images/services/service-45.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'We can tailor the store to your store’s needs. Our Certified Shopify Developers are capable of creating customized themes and widgets for your online store. We are not limited to the shopify platform; we develop websites on WordPress, Woocommerce, Magento, Squarespace, and other platforms.  The custom design package provides a couple of design changes, so you can change things around as required. Our web designers specializing in shopify aim to create high-end Shopify solutions at reasonable costs and premium quality.'},
+                        ]
+                      },
+                      {
+                        id: '3',
+                        heading: 'Affordable Custom Shopify Theme Development?',
+                        image: './../../../assets/images/services/service-46.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'Being an industry expert, Our Shopify website design service company has a vast knowledge of designing customized Shopify themes for all kinds of businesses. The team at Digital Engage has shopify experts that use website builders to help you with adding a unique touch to your online store that will make you stand out from your competition. Not only this, but your custom Shopify theme will be an exact representation of the ideas that you have in mind.'},
+                        ]
+                      },
+
+                      {
+                        id: '4',
+                        heading: 'Third-Party API Development',
+                        image: './../../../assets/images/services/service-47.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'We understand the use and deployment of robust and highly efficient API gateways for mobile applications and have experience enabling them to meet the needs of their customers. Our Shopify experts are very knowledgeable and have extensive experience developing scalable APIs.'},
+                          {id:2, descrption: 'Whether you need it for a mobile app or your online store, we ensure you get what you need regarding third-party APIs. Digital Engage also has expertise in platforms such as Bigcommerce, Joomla, Hubspot,OsCommerce, and Prestashop.'},
+                        ]
+                      },
+
+                      {
+                        id: '5',
+                        heading: 'Shopify Store Optimization',
+                        image: './../../../assets/images/services/service-48.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'Increasing and improving the user’s experience can benefit all the parties involved. Our focus is to increase the browsing experience through easy accessibility and secure payment options eliminating all the frequently encountered problems like website crashes, timeouts, and payment declines.'},
+                          {id:2, descrption: 'We optimize your Shopify store to give the perfect blend of optimum user experience and functionality.'},
+                        ]
+                      },
+
+                      {
+                        id: '6',
+                        heading: 'Create Magic with Shopify',
+                        image: './../../../assets/images/services/service-49.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'Shopify gives you complete freedom over what you want to create and what you want to achieve, albeit you need someone on your side who knows their way around it. With Digital Engage on your side, you can make magic happen online. With completely custom online stores that reflect your brand in the best possible way, we make sure that you get the right fit for your business.'},
+                        ]
+                      },
+
+                      {
+                        id: '7',
+                        heading: 'Shopify SEO & Internet Marketing',
+                        image: './../../../assets/images/services/service-50.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'Digital Commerce and Ecommerce Analytics services are critical in improving eCommerce conversion rates and creating digital advertising strategies. Our marketers use search engine optimization techniques that have been tested to ensure you have the highest sales.'},
+                          {id:2, descrption: 'We use the perfect blend of social media marketing, paid ads, and SEO to create a digital marketing strategy for your Shopify Store.'},
+                        ]
+                      },
+
+                      {
+                        id: '8',
+                        heading: 'Quick & Easy to Set Up',
+                        image: './../../../assets/images/services/service-51.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'Shopify eCommerce websites are designed to be easy to set up as quickly as possible for customers. Changes can be made in real-time so that the operations are not affected in any way. Digital Engage makes it our priority to deliver quality projects while meeting deadlines so get in touch today!'},
+                        ]
+                      },
+
+                      {
+                        id: '9',
+                        heading: 'Shopify App Development',
+                        image: './../../../assets/images/services/service-52.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'By designing an App for Shopify you can enhance Shopify functionality and integrate it with third-party software including an ERP or CRM system. Custom Shopify App Development also helps create automation or incorporate functionality not yet available in Shopify.'},
+                          {id:2, descrption: 'Sometimes complex problems require custom applications so it is a critical component in Shopify Development.'},
+                        ]
+                      },
+
+                      {
+                        id: '10',
+                        heading: 'Certified Shopify Partners',
+                        image: './../../../assets/images/services/service-53.webp',
+                        paragraphs:[
+                          {id:1, descrption: 'Working with us you know that you’re working with certified Shopify designers and developers. Digital Engage is a certified Shopify Partner with countless projects under our belt and countless satisfied clients who are now scaling their business with our help and support.'},
+                        ]
+                      },
+                    ];
+      
+      
+                    this.tabLink = [
+                      { id: '1', title: 'Best Shopify Website Designers' },
+                      { id: '2', title: 'Shopify Store Design & Development Experts' },
+                      { id: '3', title: 'Affordable Custom Shopify Theme Development?' },
+                      { id: '4', title: 'Third-Party API Development' },
+                      { id: '5', title: 'Shopify Store Optimization' },
+                      { id: '6', title: 'Create Magic with Shopify' },
+                      { id: '7', title: 'Shopify SEO & Internet Marketing' },
+                      { id: '8', title: 'Quick & Easy to Set Up' },
+                      { id: '9', title: 'Shopify App Development' },
+                      { id: '10', title: 'Certified Shopify Partners' },
+                    ];
+      
+                    break;
+
+                    case 'wix-developer':
+                      this.tabContents = [
+                        {
+                          id: '1',
+                          heading: 'Hire The #1 Best Wix Designer',
+                          image: './../../../assets/images/services/service-54.webp',
+                          paragraphs:[
+                            {id:1, descrption: 'With Wix, you can hire dedicated Wix developers and designers to create a stunning website or online store. Our wix certified developers. Wix website designers can create beautiful websites that are both user-friendly and responsive.'},
+                            {id:2, descrption: 'Digital Engage has a team of expert Wix designers who can help you create a website that reflects your brand and business. Whether you need a simple or complex website, as expected from a professional Wix website designer, we can create a custom solution for you.'},
+                            {id:3, descrption: 'Get in touch with us today to learn more about our Wix design services.'},
+                          ]
+                        },
+                        {
+                          id: '2',
+                          heading: "Your Complete Website Design Solution",
+                          image: './../../../assets/images/services/service-55.webp',
+                          paragraphs:[
+                            {id:1, descrption: 'As a Wix Partner, Digital Engage offers a complete website design solution for businesses of all sizes. We take care of everything from start to finish so you can focus on your business. Whether it’s Shopify, WordPress, WooCommerce, or any other platform, our wix website developers ensure you get the most professional website for your business.'},
+                            {id:2, descrption: 'Our team will help you choose the perfect Wix plan for your needs, and we’ll even help you transfer your existing website to Wix.'},
+                          ]
+                        },
+                        {
+                          id: '3',
+                          heading: 'Wix Web Design Experts',
+                          image: './../../../assets/images/services/service-56.webp',
+                          paragraphs:[
+                            {id:1, descrption: 'Digital Engage has expertise in providing Wix web design and web development services. We have a team of Wix experts who can help you create a stunning website that is responsive and user-friendly.'},
+                            {id:2, descrption: 'We have worked to develop custom Wix websites for businesses of all sizes. No matter your budget, we can help you create a website that reflects your brand. Our team also designs websites and stores on Magento, Squarespace, BigCommerce, and Drupal.'},
+                            {id:3, descrption: 'Get in touch with us today to learn more about our Wix web design services!'},
+                          ]
+                        },
+
+                        {
+                          id: '4',
+                          heading: 'Why Choose Digital Engage?',
+                          image: './../../../assets/images/services/service-57.webp',
+                          paragraphs:[
+                            {id:1, descrption: 'Digital Engage is committed to helping businesses of all sizes grow and succeed online. We offer Wix web development and web design services tailored to your specific needs and budget.'},
+                            {id:2, descrption: '<strong>When you choose Digital Engage, you can expect:</strong>'},
+                            {id:3, descrption: 'A team of Wix experts who are dedicated to helping you succeed'},
+                            {id:4, descrption: 'A comprehensive website design solution that is tailored to your needs'},
+                            {id:5, descrption: 'A user-friendly and responsive website that is optimized for search engines'},
+                            {id:6, descrption: 'Get in touch with us today to learn more about our Wix web design services!'},
+                          ]
+                        },
+                      ];
+        
+        
+                      this.tabLink = [
+                        { id: '1', title: 'Hire The #1 Best Wix Designer' },
+                        { id: '2', title: 'Your Complete Website Design Solution' },
+                        { id: '3', title: 'Wix Web Design Experts' },
+                        { id: '4', title: 'Why Choose Digital Engage?' },
+                      ];
+        
+                      break;
+    
+                      case 'magento':
+                        this.tabContents = [
+                          {
+                            id: '1',
+                            heading: 'Hire Certified',
+                            image: './../../../assets/images/services/service-58.webp',
+                            paragraphs:[
+                              {id:1, descrption: '<strong>Magento Developers</strong'},
+                              {id:2, descrption: 'Magento is the leading eCommerce platform and our experienced Magento developers and web designers are some of the best in the business. With years of experience, our team can help you create the perfect Magento store for your business.'},
+                              {id:3, descrption: 'Get in touch with us today for your free consultation!'},
+                              {id:4, descrption: 'On average, 68% of clicks belong to the first three results with less than 3% of traffic ever clicking through to page #2.'},
+                            ]
+                          },
+                          {
+                            id: '2',
+                            heading: "The Best Magento Web Designers Around",
+                            image: './../../../assets/images/services/service-59.webp',
+                            paragraphs:[
+                              {id:1, descrption: 'Our Magento web designers are the best in the web development business. With years of experience under our belts, our team can help you create the perfect Magento store for your business.'},
+                              {id:2, descrption: 'We know how important it is to have a well-designed website that represents your brand and helps convert visitors into customers.'},
+                              {id:3, descrption: 'Magento is the perfect platform for creating such a powerful eCommerce website, and our Magento web designers are experts at functional Magento stores. We also design websites and online stores on WordPress, WooCommerce, Shopify, Wix Developer, and other platforms.'},
+                            ]
+                          },
+                          {
+                            id: '3',
+                            heading: 'Migrate Your Existing Online Store to Magento',
+                            image: './../../../assets/images/services/service-60.webp',
+                            paragraphs:[
+                              {id:1, descrption: 'Are you looking to migrate your existing online store to Magento? Our team of Magento experts can help. Magento is the perfect platform for businesses that are outgrowing their current eCommerce platform.'},
+                              {id:2, descrption: 'Magento is more powerful and scalable than most other eCommerce platforms and it’s easy to migrate your existing store to Magento.'},
+                              {id:3, descrption: 'This will give your business a boost in traffic and sales. Magento is also more SEO-friendly than most other eCommerce platforms, so you’ll be able to improve your search engine ranking and get more organic traffic.'},
+                            ]
+                          },
+  
+                          {
+                            id: '4',
+                            heading: 'Magento Website Design & UI/UX Services',
+                            image: './../../../assets/images/services/service-61.webp',
+                            paragraphs:[
+                              {id:1, descrption: 'Our Magento web designers can help you create an unmatched functional user interface. We know the importance of visual aesthetics and their relation to user experience. Hence, we make it our job to deliver a unique and lasting website that leaves a mark on your target audience. Our team at Digital Engage also specializes in web development on platforms like Joomla, HubSpot, OsCommerce, and Prestashop.'},
+                            ]
+                          },
+
+                          {
+                            id: '4',
+                            heading: 'Magento Website Development That is Unmatched',
+                            image: './../../../assets/images/services/service-62.webp',
+                            paragraphs:[
+                              {id:1, descrption: 'Magento is a platform that requires expert development to properly utilize. Magento’s documentation is extensive, but a proper Magento website still requires expert Magento web developers. Our Magento developers and designers have years of experience and are some of the best in the business. They will be able to create a Magento website that meets all your needs and exceed your expectations.'},
+                            ]
+                          },
+
+                          {
+                            id: '5',
+                            heading: 'Take Your eCommerce business To New Heights With Magento',
+                            image: './../../../assets/images/services/service-63.webp',
+                            paragraphs:[
+                              {id:1, descrption: 'Magento is the perfect platform for businesses that want to take their eCommerce business to new heights. Magento is more powerful and scalable than most other eCommerce platforms and it’s easy to migrate your existing store to Magento.'},
+                              {id:2, descrption: 'This will give your business a boost in traffic and sales. Magento has built in integrations that help you run your online store more efficiently and productively. Not to mention the compatibility that it has with all the leading search engines like Google and Bing.'},
+                            ]
+                          },
+
+                          {
+                            id: '6',
+                            heading: 'What Services',
+                            image: './../../../assets/images/services/service-64.webp',
+                            paragraphs:[
+                              {id:1, descrption: '<strong>Do We Have To Offer?</strong>'},
+                              {id:2, descrption: 'Our Magento experts offer a wide range of Magento services, including:'},
+                              {id:3, descrption: 'Magento website design'},
+                              {id:4, descrption: 'Magento development'},
+                              {id:5, descrption: 'Magento integration'},
+                              {id:6, descrption: 'Magento migration'},
+                              {id:7, descrption: 'Magento support and maintenance'},
+                              {id:8, descrption: 'Magento SEO'},
+                              {id:9, descrption: 'No matter what your needs are, our Magento experts can help. Contact us today to get started!'},
+                            ]
+                          },
+
+                          {
+                            id: '7',
+                            heading: 'What Services',
+                            image: './../../../assets/images/services/service-65.webp',
+                            paragraphs:[
+                              {id:1, descrption: 'Why Choose Us As Your Magento Partners?'},
+                              {id:2, descrption: 'There are many Magento web design and development companies out there, but why should you choose Digital Engage as your Magento partners? We’re the leading Magento development company because we’re:'},
+                              {id:3, descrption: 'Experienced'},
+                              {id:4, descrption: 'Certified'},
+                              {id:5, descrption: 'Reliable'},
+                              {id:6, descrption: 'Affordable'},
+                              {id:7, descrption: 'We have a team of experienced Magento Certified developers who know every nook and corner of Magento. This means they have the skills and knowledge to create a successful Magento store for your business. We’re also a reliable Magento web development company.'},
+                              {id:8, descrption: 'We know how important it is to meet deadlines and we always deliver on time.'},
+                            ]
+                          },
+                        ];
+          
+          
+                        this.tabLink = [
+                          { id: '1', title: 'Hire Certified' },
+                          { id: '2', title: 'The Best Magento Web' },
+                          { id: '3', title: 'Migrate Your Existing Online Store to Magento' },
+                          { id: '4', title: 'Magento Website Design & UI/UX Services' },
+                          { id: '5', title: 'Magento Website Development That is Unmatched' },
+                          { id: '6', title: 'Take Your eCommerce business To New Heights With Magento' },
+                          { id: '7', title: 'What Services' },
+                          { id: '8', title: 'Why Choose Us As Your Magento Partners?' },
+                        ];
+          
+                        break;
+      
+
+                      
+                        
+                          case 'square-space':
+                          this.tabContents = [
+                            {
+                              id: '1',
+                              heading: 'Top-Rated Squarespace Web Designers',
+                              image: './../../../assets/images/services/service-66.webp',
+                              paragraphs:[
+                                {id:1, descrption: 'Digital Engage is home to some of the top-rated Squarespace web designers and Squarespace web developers in the industry. Our team has years of experience and we can guarantee you will get the best Squarespace web design for your business. We have worked on many web design projects and if you need a Squarespace website design, Digital Engage is the right place to be.'},
+                                {id:2, descrption: 'Our team of professional Squarespace web designers will work with you to create a beautiful and functional website. We can help you choose the perfect Squarespace template for your business, and we will custom-design and develop your site to meet your specific needs.'},
+                                {id:3, descrption: 'Whether you need a simple website or a complex eCommerce site, our Expert Squarespace web developers can help you create the perfect website for your business. We are not limited to Squarespace; our team also designs websites on WordPress, WooCommerce, Shopify, and Wix Developers. Digital Engage is the perfect partner for your Squarespace web design. Contact us today to learn more about our services.'},
+                              ]
+                            },
+                            {
+                              id: '2',
+                              heading: "A Squarespace Design That is Functional & Beautiful",
+                              image: './../../../assets/images/services/service-67.webp',
+                              paragraphs:[
+                                {id:1, descrption: 'When you work with Digital Engage, you can rest assured that your website will be both functional and beautiful. We take the time to understand your business and your goals for your website. We then create a custom Squarespace website design that is created to help you achieve those goals.'},
+                                {id:2, descrption: 'Not only will your Squarespace website design be beautiful, but it will also be easy to use and navigate. Our expert Squarespace web developers team will make sure that your website is designed with your users in mind.'},
+                              ]
+                            },
+                            {
+                              id: '3',
+                              heading: 'The Perfect Partner for Your Squarespace Web Design & Development Needs',
+                              image: './../../../assets/images/services/service-68.webp',
+                              paragraphs:[
+                                {id:1, descrption: 'If you have custom needs and requirements it is quite possible that you will need to look for a partner that specializes in the custom development of Squarespace websites. This is where we come into the picture and function as your one-stop shop for all things related to Squarespace web design and development. Our team of Expert Squarespace web developers can help you create custom websites that will help your business reach new heights of growth and success.'},
+                                {id:2, descrption: 'Contact Us'},
+                              ]
+                            },
+    
+                            {
+                              id: '4',
+                              heading: 'Fully Customizable With Plugins',
+                              image: './../../../assets/images/services/service-69.webp',
+                              paragraphs:[
+                                {id:1, descrption: 'If you can dream it, we can build it. Our team of Expert Squarespace web developers can create custom plugins and integrations to make your website work exactly the way you need it to.'},
+                                {id:2, descrption: 'Whether you need an integration with your CRM or a custom plugin to help with your SEO, our team can help.'},
+                              ]
+                            },
+    
+                            {
+                              id: '5',
+                              heading: 'Benefits of Using Squarespace',
+                              image: './../../../assets/images/services/service-70.webp',
+                              paragraphs:[
+                                {id:1, descrption: 'There are many benefits of using Squarespace for your website. Squarespace is an easy-to-use platform that allows you to create a beautiful and functional website with no programming required. Squarespace website designs are a preference of many small business owners and creative entrepreneurs.'},
+                                {id:2, descrption: 'Squarespace is also a very flexible platform. You can start with a simple website and then add more features and functionality as your business grows.'},
+                                {id:3, descrption: 'Some other benefits of using Squarespace include:'},
+                                {id:4, descrption: 'No programming knowledge is required'},
+                                {id:5, descrption: 'Easy to use'},
+                                {id:6, descrption: 'Flexible'},
+                                {id:7, descrption: 'Scalable'},
+                                {id:8, descrption: 'Affordable'},
+                                {id:9, descrption: 'If you are looking for a website platform that is easy to use and scalable, Squarespace is the perfect choice for your business.'},
+                              ]
+                            },
+  
+                            {
+                              id: '6',
+                              heading: 'Squarespace Offers a Whole WLot of Flexibility',
+                              image: './../../../assets/images/services/service-71.webp',
+                              paragraphs:[
+                                {id:1, descrption: 'There are many reasons to use Squarespace but one of the most important ones is its flexibility. Squarespace allows for a wide range of customization so that you can create the website of your dreams without having to be a programmer or hire one.'},
+                                {id:2, descrption: 'With Squarespace, you can:'},
+                                {id:3, descrption: 'Pick from a wide range of templates'},
+                                {id:4, descrption: 'Customize your template with your own branding'},
+                                {id:5, descrption: 'Add plugins and integrations to make your website work exactly the way you need it to.'},
+                              ]
+                            },
+                            {
+                              id: '7',
+                              heading: 'Affordable Squarespace Website Development Services',
+                              image: './../../../assets/images/services/service-72.webp',
+                              paragraphs:[
+                                {id:1, descrption: 'There are many reasons to use Squarespace but one of the most important ones is its flexibility. Squarespace allows for a wide range of customization so that you can create the website of your dreams without having to be a programmer or hire one.'},
+                                {id:2, descrption: 'We believe that everyone should have access to high-quality web design and development services. That’s why we offer affordable Squarespace development services. We work with you to create a custom quote for your project.'},
+                              ]
+                            },
+                          ];
+            
+            
+                          this.tabLink = [
+                            { id: '1', title: 'Top-Rated Squarespace Web Designers' },
+                            { id: '2', title: 'A Squarespace Design That is Functional & Beautiful' },
+                            { id: '3', title: 'The Perfect Partner for Your Squarespace Web Design & Development Needs' },
+                            { id: '4', title: 'Fully Customizable With Plugins' },
+                            { id: '5', title: 'Benefits of Using Squarespace' },
+                            { id: '6', title: 'Squarespace Offers a Whole WLot of Flexibility' },
+                            { id: '7', title: 'Affordable Squarespace Website Development Services' },
+                          ];
+            
+                          break;
+
+                          case 'big-commerce':
+                            this.tabContents = [
+                              {
+                                id: '1',
+                                heading: 'Looking For Expert',
+                                image: './../../../assets/images/services/service-73.webp',
+                                paragraphs:[
+                                  {id:1, descrption: '<strong>BigCommerce Web Designers?</strong>'},
+                                  {id:2, descrption: 'Digital Engage is your answer. We’re highly skilled BigCommerce web experts, and our big commerce designer has years of experience crafting beautiful, responsive BigCommerce themes.'},
+                                  {id:3, descrption: 'Not only do we design great-looking BigCommerce stores, but we also develop custom functionality to take your store to the next level. From custom product pages to complex integrations, our team can handle it all.'},
+                                  {id:4, descrption: 'If you’re looking for a BigCommerce developer that can help you with both big commerce web design and development, look no further than Digital Engage.'},
+                                  {id:5, descrption: 'Get in touch with us today to learn more about our BigCommerce services.'},
+                                ]
+                              },
+                              {
+                                id: '2',
+                                heading: "Want To Take Your Bigcommerce Store to the Next Level?",
+                                image: './../../../assets/images/services/service-74.webp',
+                                paragraphs:[
+                                  {id:1, descrption: 'We help businesses just like yours with BigCommerce web designer services that create a great user experience and help increase sales.'},
+                                  {id:2, descrption: 'BigCommerce is the perfect platform for businesses looking to take their online presence to the next level. You can contact us today if you’re interested in BigCommerce or any other web designing and development platform like WordPress, WooCommerce, Shopify, or Wix Developers. We’ll be happy to answer all your questions.'},
+                                ]
+                              },
+                              {
+                                id: '3',
+                                heading: 'Why Choose BigCommerce?',
+                                image: './../../../assets/images/services/service-75.webp',
+                                paragraphs:[
+                                  {id:1, descrption: 'BigCommerce gives you the flexibility to create a unique online store that reflects your brand. Working with experts in BigCommerce design and development, you can create a store that is not only beautiful but also optimizes the user experience to increase sales.'},
+                                  {id:2, descrption: 'With BigCommerce you can customize your online store by adding API-level integrations where web designer and web developer can help for app-level extensions. BigCommerce also provides a wide range of BigCommerce themes to choose from, so you can find the perfect design for your store.'},
+                                ]
+                              },
+      
+                              {
+                                id: '4',
+                                heading: 'Benefits of a BigCommerce Platform',
+                                image: './../../../assets/images/services/service-76.webp',
+                                paragraphs:[
+                                  {id:1, descrption: '<strong>BigCommerce offers many benefits like:<strong>'},
+                                  {id:2, descrption: 'BigCommerce provides a single platform to run your business from start to finish. BigCommerce stores are fast, reliable, and secure, making them a great choice for businesses that are looking to grow..'},
+                                  {id:3, descrption: 'BigCommerce gives you the flexibility to create a unique online store that reflects your brand. Working with our BigCommerce design and development team, you can get the best expression of your brand online.'},
+                                  {id:4, descrption: 'BigCommerce offers a wide range of BigCommerce web themes to choose from, this gives you the option of creating websites and branding quite easily.'},
+                                  {id:5, descrption: 'If you’re interested in BigCommerce, get in touch with us today.'},
+                                ]
+                              },
+      
+                              {
+                                id: '5',
+                                heading: 'Hire an Experienced BigCommerce Web Development Team',
+                                image: './../../../assets/images/services/service-77.webp',
+                                paragraphs:[
+                                  {id:1, descrption: 'BigCommerce requires expert-level knowledge to design and develop a store.'},
+                                  {id:2, descrption: 'At Digital Engage, our team of BigCommerce experts can help you create a store with all the bells and whistles. Our team has years of experience in BigCommerce and other platforms like Joomla, HubSpot, OsCommerce, and Prestashop, and we are familiar with the ins and outs of the platform. We will work with you to understand your business goals and create a store that is not only beautiful but also gets you a good ranking on Google, all the while selling more of your products or services. If you’re interested in BigCommerce, get in touch with us today.'},
+                                  {id:3, descrption: 'If you’re interested in BigCommerce, get in touch with us today. We offer free consultation and a non-obligation quote.'},
+                                ]
+                              },
+                            ];
+              
+              
+                            this.tabLink = [
+                              { id: '1', title: 'Looking For Expert' },
+                              { id: '2', title: 'Want To Take Your Bigcommerce Store to the Next Level?' },
+                              { id: '3', title: 'Why Choose BigCommerce?' },
+                              { id: '4', title: 'Benefits of a BigCommerce Platform' },
+                              { id: '5', title: 'Hire an Experienced BigCommerce Web Development Team' },
+                            ];
+              
+                            break;
+          
+                            case 'drupal':
+                              this.tabContents = [
+                                {
+                                  id: '1',
+                                  heading: 'Hire The Best Drupal',
+                                  image: './../../../assets/images/services/service-78.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: '<strong>Web Designer</strong>'},
+                                    {id:2, descrption: 'Digital Engage is your best option for Drupal website design and development services. We have a team of expert Drupal developers who can create a custom website that meets your specific needs.'},
+                                    {id:3, descrption: 'We are a full-service digital agency, which means we can help you with every aspect of your website, from the initial planning stages to the launch and ongoing maintenance and online marketing.'},
+
+                                  ]
+                                },
+                              
+                            
+                                {
+                                  id: '2',
+                                  heading: 'We Have the Drupal Expertise You Need',
+                                  image: './../../../assets/images/services/service-79.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: '<strong>Digital Engage has a team of Drupal experts who can help you with every aspect of your Drupal website.Our services include:<strong>'},
+                                    {id:2, descrption: 'Drupal Website Design Services'},
+                                    {id:3, descrption: 'Drupal Website Development'},
+                                    {id:4, descrption: 'Drupal Website Maintenance'},
+                                    {id:5, descrption: 'We can help you keep your Drupal website up-to-date and running smoothly. We offer security updates, performance enhancements, and bug fixes.'},
+                                    {id:6, descrption: 'Get in touch with us today to learn more about our Drupal website development and design services.'},
+                                  ]
+                                },
+        
+                                {
+                                  id: '3',
+                                  heading: 'Experienced Drupal Web Development Team',
+                                  image: './../../../assets/images/services/service-80.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'Drupal requires a team of expert developers to create a custom website. Drupal is a complex CMS, and it can be difficult to find developers with the necessary skills and experience.'},
+                                    {id:2, descrption: 'Digital Engage has a team of Drupal experts who can help you with every aspect of your Drupal website. We have years of experience working with Drupal, and we are familiar with all the ins and outs of the CMS.'},
+                                    {id:3, descrption: 'We offer Drupal website design, web development, and maintenance services. We help you with every aspect of your website, from the design to the development and ongoing, even online marketing.'},
+                                    {id:4, descrption: 'Whether it’s WordPress, WooCommerce, Shopify, or Wix Developers, our team ensures exceptional web design delivers professional digital solutions.'},
+                                    {id:5, descrption: 'Get in touch with us today to learn more about our Drupal website design and development services.'},
+                                  ]
+                                },
+
+                                
+                                
+                                {
+                                  id: '4',
+                                  heading: 'What Makes Our Drupal Web Design Better Than Others?',
+                                  image: './../../../assets/images/services/service-81.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'When you choose Digital Engage for Drupal web design, you can be confident that you are getting the best possible service. The Drupal web design process is important to us, and we take the time to get to know your business and understand your needs. We then create a custom Drupal website that meets your specific needs.'},
+                                    {id:2, descrption: 'Our Drupal web designers  and web developers are experienced and skilled in creating Drupal websites that are both aesthetically pleasing and functional. We take the time to understand your business and your goals, so we can create a Drupal website that will help you achieve your objectives.'},
+                                    {id:3, descrption: 'Get in touch with us today to learn more about our Drupal website design and development services.'},
+                                  ]
+                                },
+                                {
+                                  id: '5',
+                                  heading: 'The Importance of hiring Drupal developers',
+                                  image: './../../../assets/images/services/service-82.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'With Drupal, you have the freedom to create any kind of website you want. Drupal is a very flexible CMS, and it can be used to create anything from simple websites to complex web applications.'},
+                                    {id:2, descrption: 'If you don’t hire someone that knows their stuff, you could end up with a Drupal CMS that doesn’t work the way you want it to. You need Drupal web developers and designers who are experienced and knowledgeable about Drupal’s capabilities like Drupal module development.'},
+                                    {id:3, descrption: 'When you hire us, you get the Drupal expertise you need. We have years of experience working with Drupal, and we have the required skills to create a great Drupal website. We offer Drupal website design, Drupal web development, and maintenance services. Our expert team also uses platforms like Magento, Squarespace, BigCommerce, and Prestashop for designing websites. '},
+                                  ]
+                                },
+
+                                {
+                                  id: '6',
+                                  heading: 'Choose Us As Your Drupal Partners',
+                                  image: './../../../assets/images/services/service-83.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'Digital Engage is your Drupal partner. We will work with you to create a Drupal website that meets your specific needs. We make sure that you’re the one in control, while we provide you with the Drupal expertise you need to succeed.'},
+                                    {id:2, descrption: 'Digital Engage also provides search engine optimization, paid ads, and social media management, web design and other services so you get everything you need for your digital presence when you hire us as your Drupal Developer. Contact us today to learn more about our Drupal website design and development services.'},
+                                  ]
+                                },
+
+                              ];
+                
+                
+                              this.tabLink = [
+                                { id: '1', title: 'Hire The Best Drupal' },
+                                { id: '2', title: 'We Have the Drupal Expertise You Need' },
+                                { id: '3', title: 'Experienced Drupal Web Development Team' },
+                                { id: '4', title: 'What Makes Our Drupal Web Design Better Than Others?' },
+                                { id: '5', title: 'The Importance of hiring Drupal developers' },
+                                { id: '6', title: 'Choose Us As Your Drupal Partners' },
+                              ];
+                
+                              break;
+            
+                              
+                            case 'joomla':
+                              this.tabContents = [
+                                {
+                                  id: '1',
+                                  heading: 'Hire The Best Joomla Developers in The Market!',
+                                  image: './../../../assets/images/services/service-84.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'Digital Engage is the leading Joomla development company. We offer expert Joomla development services to help you create a stunning website that is both powerful and easy to use.'},
+                                    {id:2, descrption: 'Our team of experienced Joomla developers can create custom Joomla components, modules, and plugins as well as provide Joomla support and maintenance services.'},
+                                    {id:3, descrption: 'We also offer Joomla templates and Joomla extensions that are specifically designed for businesses of all sizes. If you are looking for a affordable and reliable Joomla development servoces, then look no further than Digital Engage. Contact us today to learn more about our Joomla services.'},
+
+                                  ]
+                                },
+                              
+                            
+                                {
+                                  id: '2',
+                                  heading: 'Why Should You Get a Joomla Website ?',
+                                  image: './../../../assets/images/services/service-85.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'In today’s world, the majority of people use the internet to search for products and services. They wish to see a website that is not only informative but also visually appealing. Desing a website by keeping the user experience in mind. Joomla is one of the most popular Content Management Systems (CMS) that helps you create a stunning website without any hassles.'},
+                                    {id:2, descrption: 'A Joomla website is also very easy to use. With Joomla, you can easily add and edit content, images, videos, and more. You can also create user accounts so that people can log in and access your website.'},
+                                  ]
+                                },
+        
+                                {
+                                  id: '3',
+                                  heading: 'Top-Rated Joomla Website Design Services',
+                                  image: './../../../assets/images/services/service-86.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'Our expert developers have years of experience in Joomla website development. We offer a wide range of Joomla web design services that are specifically tailored to meet your business needs.'},
+                                    {id:2, descrption: 'Some of the Joomla web design services that we offer include:'},
+                                    {id:3, descrption: 'Joomla Template Design'},
+                                    {id:4, descrption: 'Joomla Component Development'},
+                                    {id:5, descrption: 'Joomla Module Development'},
+                                    {id:6, descrption: 'Joomla Plugin Development'},
+                                    {id:7, descrption: 'Joomla Support and Maintenance'},
+                                    {id:8, descrption: 'We know the importance of creating a website that is both user-friendly and visually appealing. That’s why we offer custom Joomla website design services to help you create a website that is perfect for your business.'},
+                                  ]
+                                },
+
+                                
+                                
+                                {
+                                  id: '4',
+                                  heading: 'Why Choose Digital Engage for Joomla Development?',
+                                  image: './../../../assets/images/services/service-87.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'When you choose Digital Engage as your Joomla Expert, you can be sure that you are getting the best Joomla development services in the market. We offer a wide range of benefits that you can enjoy when you choose us as your Joomla development partner.'},
+                                    {id:2, descrption: 'Some of the benefits of choosing us to include:'},
+                                    {id:3, descrption: 'Expert developers with years of experience in Joomla development'},
+                                    {id:4, descrption: 'A wide range of Joomla development services to choose from'},
+                                    {id:5, descrption: 'Affordable Joomla development rates'},
+                                    {id:6, descrption: 'Fast and efficient delivery of projects'},
+                                    {id:7, descrption: 'Excellent customer support'},
+                                    {id:8, descrption: 'Search engines optimized Joomla websites'},
+                                  ]
+                                },
+
+                                {
+                                  id: '5',
+                                  heading: 'What are the benefits of using Joomla?',
+                                  image: './../../../assets/images/services/service-88.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'There are many benefits of using Joomla for website development. Some of these benefits include:'},
+                                    {id:2, descrption: 'Joomla websites are very easy to use and you can easily add and edit content, images, videos, and more.'},
+                                    {id:3, descrption: 'Joomla is very user-friendly and you can create user accounts so that people can log in and access your website.'},
+                                    {id:4, descrption: 'Joomla is very flexible and you can create a website that is perfect for your business.'},
+                                    {id:5, descrption: 'Joomla is very affordable and you can get started with Joomla for as little as $10 per month.'},
+                                  ]
+                                },
+
+                                {
+                                  id: '6',
+                                  heading: 'Build The Perfect Online Store With Joomla',
+                                  image: './../../../assets/images/services/service-89.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'Some of the features that you can use to build your online store include:'},
+                                    {id:2, descrption: 'Joomla eCommerce Templates'},
+                                    {id:3, descrption: 'Joomla eCommerce Extensions'},
+                                    {id:4, descrption: 'Joomla Payment Gateways'},
+                                    {id:5, descrption: 'With Joomla, you can easily build an online store that is perfect for your business. Contact us today to learn more about our Joomla eCommerce services.'},
+                                  ]
+                                },
+
+                                {
+                                  id: '7',
+                                  heading: 'What Makes Us Stand Out From The Crowd?',
+                                  image: './../../../assets/images/services/service-90.webp',
+                                  paragraphs:[
+                                    {id:1, descrption: 'Digital Engage has set the standard for excellence in Joomla development. Our Joomla web developers have years of experience and will take the best possible route for your project.'},
+                                    {id:2, descrption: 'The Digital Engage team also has extensive expertise in designing websites and online stores using Shopify, WordPress, WooCommerce, and Wix Developers.  We understand that every business is different, and we take the time to understand your specific needs.'},
+                                  ]
+                                },
+
+                              ];
+                
+                
+                              this.tabLink = [
+                                { id: '1', title: 'Hire The Best Joomla Developers in The Market!' },
+                                { id: '2', title: 'Why Should You Get a Joomla Website ?' },
+                                { id: '3', title: 'Top-Rated Joomla Website Design Services' },
+                                { id: '4', title: 'Why Choose Digital Engage for Joomla Development?' },
+                                { id: '5', title: 'What are the benefits of using Joomla?' },
+                                { id: '6', title: 'Build The Perfect Online Store With Joomla' },
+                                { id: '7', title: 'What Makes Us Stand Out From The Crowd?' },
+                              ];
+                
+                              break;
+
+
+                              case 'hubspot':
+                                this.tabContents = [
+                                  {
+                                    id: '1',
+                                    heading: 'Hire the Best HubSpot',
+                                    image: './../../../assets/images/services/service-91.webp',
+                                    paragraphs:[
+                                      {id:1, descrption: 'Web Designers & Developers'},
+                                      {id:2, descrption: 'When it comes to HubSpot website design and development, you need to make sure that you hire the best. With our team of experts, you can be confident that your website will be designed and developed to meet your specific needs. We will work with you to create a custom HubSpot website that will help you achieve your business goals.'},
+                                      {id:3, descrption: 'Get in touch with us today to learn more about our HubSpot website design and development services. We would be happy to answer any questions you may have.'},
+  
+                                    ]
+                                  },
+                                
+                              
+                                  {
+                                    id: '2',
+                                    heading: 'Why Hire an Expert HubSpot Website Design Agency?',
+                                    image: './../../../assets/images/services/service-92.webp',
+                                    paragraphs:[
+                                      {id:1, descrption: 'There are many benefits of hiring an expert HubSpot web design agency. One of the biggest benefits is that you will have a team of experts working on your website. This means that your website will be designed and developed to an industry standard.'},
+                                      {id:2, descrption: 'Another benefit of hiring hubspot web design companies is that you will get access to HubSpot’s powerful platform. Our HubSpot development company provides users with the tools they need to create and search engine optimization for their websites. HubSpot also offers a variety of digital marketing and sales tools to help businesses grow their customer base.'},
+                                      {id:3, descrption: 'Our expert team also uses platforms like Magento, Squarespace, BigCommerce, and Drupal for designing websites. If you are looking for the best HubSpot website design and development services, then contact our team today. We would be happy to answer any questions you may have.'},
+                                    ]
+                                  },
+          
+                                  {
+                                    id: '3',
+                                    heading: 'Why Choose Us As Your HubSpot Partners?',
+                                    image: './../../../assets/images/services/service-93.webp',
+                                    paragraphs:[
+                                      {id:1, descrption: 'When you partner with us, you can be sure that you are partnering with the best in the business. Digital Engage has a team of HubSpot experts who will work with you to create a custom website that is perfect for your needs. We will take into account your brand, target audience, and business goals to create a website that is ideal for your operations and growth. Our web developers at Digital Engage are also experts in designing websites on other platforms such as WordPress, WooCommerce, Shopify, and Wix Developers. We have a team of HubSpot experts who are ready to help you with your website desing by expert designers. Contact us today to learn more about our HubSpot services.'},
+                                      {id:2, descrption: 'We have a team of HubSpot experts who are ready to help you with your website. Contact us today to learn more about our HubSpot services.'},
+                                    ]
+                                  },
+  
+                                ];
+                  
+                  
+                                this.tabLink = [
+                                  { id: '1', title: 'Hire the Best HubSpot' },
+                                  { id: '2', title: 'Why Hire an Expert HubSpot Website Design Agency?' },
+                                  { id: '3', title: 'Why Choose Us As Your HubSpot Partners?' },
+                                ];
+                  
+                                break;
+
+                                case 'Os-Commerce':
+                                  this.tabContents = [
+                                    {
+                                      id: '1',
+                                      heading: 'What is OsCommerce?',
+                                      image: './../../../assets/images/services/service-94.webp',
+                                      paragraphs:[
+                                        {id:1, descrption: 'OsCommerce is an open source eCommerce platform that is widely used by small and medium businesses to create their online stores. It is a highly flexible and customizable platform that offers a wide range of features and add-ons to make your store more user-friendly and functional.'},
+                                        {id:2, descrption: 'OsCommerce has been around for over a decade and is one of the most popular eCommerce platforms available today. It is used by more than 280,000 online shop owners and has a large community of developers and users who contribute to its development.'},
+                                        {id:3, descrption: 'OsCommerce is free to download and use, making it an ideal platform for small businesses that are on a tight budget. It is also easy to set up and use, even for those with no technical expertise. The OsCommerce team is quite helpful when it comes to help and support so that is a plus as well.'},
+    
+                                      ]
+                                    },
+                                  
+                                
+                                    {
+                                      id: '2',
+                                      heading: 'What are The Benefits of OsCommerce ?',
+                                      image: './../../../assets/images/services/service-95.webp',
+                                      paragraphs:[
+                                        {id:1, descrption: 'There are many benefits of using OsCommerce for your online store. Some of the main benefits include:'},
+                                        {id:2, descrption: 'OsCommerce is an open-source platform, which means it is free to download and use.'},
+                                        {id:3, descrption: 'It is a highly flexible and customizable platform that offers a wide range of features and add-ons.'},
+                                        {id:4, descrption: 'It has a large community of developers and users who contribute to its development.'},
+                                        {id:5, descrption: 'It is easy to set up and use, even for those with no technical expertise.'},
+                                        {id:6, descrption: 'There are many benefits of using OsCommerce for your online store. Digital Engage will help you get the most out of OsCommerce and create a unique and visually appealing store that is sure to capture the attention of your target audience.'},
+                                      ]
+                                    },
+            
+                                    {
+                                      id: '3',
+                                      heading: 'OsCommerce Website Development Services',
+                                      image: './../../../assets/images/services/service-96.webp',
+                                      paragraphs:[
+                                        {id:1, descrption: 'Your OsCommerce website is the foundation of your online business. It is important to have a well-designed and developed website by expert web developers and web designers that meets the needs of your business. With our website design and development services, you can be sure that your OsCommerce website will be well-designed, developed, and search engine optimized to meet the needs of your business.'},
+                                        {id:2, descrption: 'We offer a wide range of OsCommerce development services that can help you create a unique and visually appealing online store.'},
+                                      ]
+                                    },
+    
+                                    
+                                    
+                                    {
+                                      id: '4',
+                                      heading: 'Why Do You Need Experts For OsCommerce Development?',
+                                      image: './../../../assets/images/services/service-97.webp',
+                                      paragraphs:[
+                                        {id:1, descrption: 'As OsCommerce is an open-source platform, anyone can download and use it. However, to get the most out of OsCommerce, it is important to hire an OsCommerce developer who can create a custom-designed and developed store that meets the specific needs of your business. Digital Engage has a team of professional OsCommerce developers who have worked on many OsCommerce projects. Our team also works professionally on other platforms like WordPress, WooCommerce, Shopify, and Wix Developers. We have the experience and expertise to develop a custom OsCommerce store that meets the specific needs of your business.'},
+                                        {id:2, descrption: 'Digital Engage has a team of professional OsCommerce developers who have worked on many OsCommerce projects. We have the experience and expertise to develop a custom OsCommerce store that meets the specific needs of your business.'},
+                                      ]
+                                    },
+    
+                                  ];
+                    
+                    
+                                  this.tabLink = [
+                                    { id: '1', title: 'What is OsCommerce?' },
+                                    { id: '2', title: 'What are The Benefits of OsCommerce ?' },
+                                    { id: '3', title: 'OsCommerce Website Development Services' },
+                                    { id: '4', title: 'Why Do You Need Experts For OsCommerce Development?' },
+                                  ];
+                    
+                                  break;
+
+                                  
+                                case 'prestashop':
+                                  this.tabContents = [
+                                    {
+                                      id: '1',
+                                      heading: 'Hire The Top Prestashop Web Designers',
+                                      image: './../../../assets/images/services/service-98.webp',
+                                      paragraphs:[
+                                        {id:1, descrption: 'Digital Engage is a leading Prestashop development company with a team of expert Prestashop developers. We have extensive experience in Prestashop web design and development and can create a custom Prestashop store that meets your specific business requirements.'},
+                                        {id:2, descrption: 'Our team of Prestashop designers and developers are experts in creating responsive Prestashop stores that look great on all devices. We also offer Prestashop customization services to help you tailor your store to your specific needs.'},
+                                        {id:3, descrption: 'If you are looking for a Prestashop development company that can help you create a professional online store, contact Digital Engage today. We will work with you to create a custom Prestashop store that is perfect for your business.'},
+    
+                                      ]
+                                    },
+                                  
+                                  ];
+                    
+                    
+                                  this.tabLink = [
+                                    { id: '1', title: 'Hire The Top Prestashop Web Designers' },
+                                  ];
+                    
+                                  break;
+    
+    
 
           case 'home':
           this.tabContents = [
@@ -792,6 +1675,108 @@ export class ServicesComponent implements OnInit {
             { id: '8', title: 'Website Design' },
           ];
           break;
+
+
+          case 'about':
+            this.tabContents = [
+              {
+                id: '1',
+                heading: 'Local Business SEO',
+                image: './../../../assets/images/services/seo-5.webp',
+                paragraphs:[
+                  {
+                    id:1,
+                    descrption: 'Search engine optimization is a critical component to any digital marketing strategy, but if you run a local business you also need to consider <a href="">localized SEO</a> services that can bring you hyper-targeted traffic right to your front door.'},
+                ]
+               },
+              {
+                id: '2',
+                heading: 'Search Engine Optimization',
+                image: './../../../assets/images/services/seo-1.webp',
+                paragraphs:[
+                  {
+                    id:1,
+                    descrption: 'Over 80% of all buying decisions starting with a search on Google, Bing, or another search engine. Can your brand afford to sit back while the competition takes advantage of <a href="">this?</a>'},
+                  {
+                    id:2,
+                    descrption: 'On average, 68% of clicks belong to the first three results with less than 3% of traffic ever clicking through to page #2.'},
+                ]
+               },
+              {
+                id: '3',
+                heading: 'PPC Management',
+                image: './../../../assets/images/services/service-5.webp',
+                paragraphs:[
+                  {
+                    id:1,
+                    descrption: 'Few digital marketing strategies have the potential to yield immediate ROI and scale in the way that pay <a href="">per click (PPC) management</a> services do. Our talented PPC optimization team can help devise, launch and optimize a PPC'},
+                ]
+               },
+               {
+                id: '4',
+                heading: 'Reputation Management Services',
+                image: './../../../assets/images/services/service-5.webp',
+                paragraphs:[
+                  {
+                    id:1,
+                    descrption: 'In today’s hyper-competitive landscape, few things can impact business as much as your reputation. That means having the ability to <a href="">control and narrate</a> your brand’s story in the way to effectively earn trust and establish authority.'},
+                ]
+               },
+               {
+                id: '5',
+                heading: 'Google Maps Marketing',
+                image: './../../../assets/images/services/service-2.webp',
+                paragraphs:[
+                  {
+                    id:1,
+                    descrption: 'Few mediums can beat Google Maps or Google My Business (GMB) listings when it comes to local marketing. GMB properties are responsible for the majority of phone calls and walk-ins directly to local businesses. With competition in local markets heating up, optimizing and ranking these properties takes specialized knowledge along with careful strategy and implementation. We’ll help you claim and rank your GMB listing, driving laser focused localized traffic to your site and in your doors.'},
+                ]
+               },
+               {
+                id: '6',
+                heading: 'Social Media Management',
+                image: './../../../assets/images/services/service-5.webp',
+                paragraphs:[
+                  {
+                    id:1,
+                    descrption: 'Second only to Google, <a hef="">social media</a> is a powerhouse of a marketing tool that can be leveraged to drive performance at your business. It’s a safe and effectively, powerful medium to promote your brand when utilized properly. Consumers on both the B2C and B2B spectrum now expect your brand to have a well-maintained social presence. Digital Engage will help you grow your audience and manage platforms so that your able to interact with prospects and customers in real time'},
+                ]
+               },
+               {
+                id: '7',
+                heading: 'On-Page Optimization',
+                image: './../../../assets/images/services/service-5.webp',
+                paragraphs:[
+                  {
+                    id:1,
+                    descrption: 'In 2018 and beyond, having a website isn’t enough. That website must be optimized to improve ranking, provide an excellent customer experience, and drive action (i.e. sales, clicks, and leads). Your website is your best employee, available 24/7/365. Let us help make sure it’s operating at peak performance, driving the results your brand expects and deserves.'},
+                ]
+               },
+               {
+                id: '8',
+                heading: 'Website Design',
+                image: './../../../assets/images/services/service-5.webp',
+                paragraphs:[
+                  {
+                    id:1,
+                    descrption: 'Is your brand in need of a <a href="">website or web design update?</a> Digital Engage can help design a website for your company that effectively communicates your brand’s mission, values, benefits and connects with your audience while driving sales and growth. We have the experience to bring your vision to life, captivating specific target audiences with the experience you desire.'},
+                ]
+               },
+            ];
+  
+  
+            this.tabLink = [
+              { id: '1', title: 'Local Business SEO' },
+              { id: '2', title: 'Search Engine Optimization' },
+              { id: '3', title: 'PPC Management' },
+              { id: '4', title: 'Reputation Management Services' },
+              { id: '5', title: 'Google Maps Marketing' },
+              { id: '6', title: 'Social Media Management' },
+              { id: '7', title: 'On-Page Optimization' },
+              { id: '8', title: 'Website Design' },
+            ];
+            break;
+
          case '':
           this.tabContents = [
             {
