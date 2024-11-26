@@ -1,3 +1,6 @@
+.mobile_view{
+  display: none;
+}
 @media screen and (max-width:991px){
     .mob_reverse{
         flex-direction: column-reverse;
@@ -46,11 +49,11 @@
         top: 0px;
         left: -100%;
         bottom: 0;
-        width: 100%;
-        background: #0A253A;
+        width: 70%;
+        background: linear-gradient(237.31deg, #6979FE 0%, #9F68FB) !important;
         height: 100%;
         transition: 0.5s;
-        padding: 50px 20px 30px 10px;
+        padding: 10px 20px 30px 10px;
         z-index: 99;
         overflow-y: auto;
     }
@@ -158,4 +161,14 @@
     .hero_section_banner {
         height: 35vh;
     }
+    .mobile_view{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      img{
+        width: 200px;
+      }
+    }
 }
+

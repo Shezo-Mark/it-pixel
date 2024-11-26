@@ -13,10 +13,18 @@
     <div class="container">
       <a class="navbar-brand" routerLink="/home"><img src="../../../../assets/images/header_icons/header-logo.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span></span>
+          <span></span>
+          <span></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mobile_view">
+            <a class="nav-link active" aria-current="page" routerLink="/home"><img src="../../../../assets/images/header_icons/footer_logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span></span>
+            </button>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
           </li>
@@ -97,6 +105,43 @@
                       <p>Renk Online In Your Area</p>
                     </div>
                   </a>
+                    </li>
+                  </div>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Who We Are
+            </a>
+            <div class="dropdown-menu container" aria-labelledby="navbarDropdown">
+                  <div class="dropdown_nav">
+                    <li class="w-33">
+                      <a class="dropdown-item" routerLink="/about">
+                      <span><i class="fa-brands fa-searchengin"></i></span>
+                        <div class="item_info">
+                          <h6>About Us</h6>
+                          <p>Renk Your Website Organically</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="w-33">
+                      <a class="dropdown-item" routerLink="/case-study">
+                      <span><i class="fa-brands fa-searchengin"></i></span>
+                        <div class="item_info">
+                          <h6>Case Study</h6>
+                          <p>Renk Your Website Organically</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="w-33">
+                      <a class="dropdown-item" routerLink="/our-project">
+                      <span><i class="fa-brands fa-searchengin"></i></span>
+                        <div class="item_info">
+                          <h6>Our Project</h6>
+                          <p>Renk Your Website Organically</p>
+                        </div>
+                      </a>
                     </li>
                   </div>
 
@@ -220,15 +265,6 @@
                   </div>
 
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/case-study">Case Study</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/our-project">Our Project</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="/blogs">Blogs</a>

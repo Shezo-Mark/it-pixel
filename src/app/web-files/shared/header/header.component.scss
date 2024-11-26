@@ -90,7 +90,6 @@ header{
      .dropdown{
        position: unset !important;
        .dropdown-menu{
-        // max-width: 100%;
         left: 50%;
         top: 80px !important;
         transform: translateX(-50%);
@@ -107,6 +106,10 @@ header{
             li{
                width: 25%;
                margin-bottom: 15px;
+               &.w-33{
+                width: 33.33%;
+              }
+
               a{
                 padding:7px 5px !important;
                 border-radius: 5px;
@@ -184,4 +187,31 @@ header{
       font-weight: 700 !important;
      }
    }
+}
+
+@media screen and (max-width: 991px){
+  .navbar-collapse{
+    .nav-item{
+      margin-right: 0 !important
+      ;
+      .nav-link{
+        color: #fff !important;
+      }
+    }
+    .dropdown{
+      .dropdown-menu{
+        transform: translateX(0) !important;
+         .dropdown_nav{
+          flex-flow: column;
+          li{
+            width: 100% !important;
+            .w-33{
+              width: 100%;
+            }
+
+          }
+         }
+      }
+    }
+  }
 }
