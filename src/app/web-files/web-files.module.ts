@@ -48,6 +48,14 @@ import { OsCommerceComponent } from './components/os-commerce/os-commerce.compon
 import { PrestashopComponent } from './components/prestashop/prestashop.component';
 import { CaseStudyComponent } from './components/case-study/case-study.component';
 import { OurProjectComponent } from './components/our-project/our-project.component';
+import { MedicalComponent } from './components/medical/medical.component';
+import { FinancialComponent } from './components/financial/financial.component';
+import { LocalBusinessComponent } from './components/local-business/local-business.component';
+import { ECommerceComponent } from './components/e-commerce/e-commerce.component';
+import { LegalMarketingComponent } from './components/legal-marketing/legal-marketing.component';
+import { HomeServicesComponent } from './components/home-services/home-services.component';
+import { HealthFitnessComponent } from './components/health-fitness/health-fitness.component';
+import { HvacComponent } from './components/hvac/hvac.component';
 
 
 
@@ -99,6 +107,14 @@ import { OurProjectComponent } from './components/our-project/our-project.compon
     PrestashopComponent,
     CaseStudyComponent,
     OurProjectComponent,
+    MedicalComponent,
+    FinancialComponent,
+    LocalBusinessComponent,
+    ECommerceComponent,
+    LegalMarketingComponent,
+    HomeServicesComponent,
+    HealthFitnessComponent,
+    HvacComponent,
   ],
   imports: [
     CommonModule,

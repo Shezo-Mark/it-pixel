@@ -178,6 +178,59 @@ export class BannerSectionComponent implements OnInit {
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
         buttonUrl: '/contact',
       },
+      'medical': {
+        heading: 'Digital Marketing For Medical',
+        paragraph: 'Increase service line revenue through innovative digital marketing strategies',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'finacial': {
+        heading: 'SEO Marketing For Financial Services',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'local-business': {
+        heading: 'Local SEO Helps Businesses',
+        paragraph: 'Local SEO helps businesses promote their products and services to local prospects and customers',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'eCommerce': {
+        heading: 'Ecommerce SEO online',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'legal-marketing': {
+        heading: 'Legal Marketing',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'home-services': {
+        heading: 'Digital Marketing for Home Services',
+        paragraph: 'At Digital Engage, we offer professional digital marketing services for home services. Our team of digital marketers has helped numerous home service business owners elevate their digital marketing campaigns.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'health-fitness': {
+        heading: 'Digital Marketing for Health & Fitness Companies',
+        paragraph: 'Are you a health and fitness company looking to expand your online establishment and increase your customer base? Look no further than Digital Engage! Our team of experts specializes in Digital Marketing for Health & Fitness service Companies, including online media marketing and various effective marketing strategies.  Get in touch with us to learn more about our service.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
+      'hvac': {
+        heading: 'Digital Marketing For HVAC Companies',
+        paragraph: 'Digital Marketing for HVAC companies is highly crucial. If you have an HVAC company and want to promote its growth, digital marketing techniques from Digital Engage will greatly benefit you. Make an appointment with one of our professionals by contacting us right away.',
+        buttonText: 'Contact Us',
+        imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
+        buttonUrl: '/contact',
+      },
 
 
     };

@@ -1573,8 +1573,589 @@ export class ServicesComponent implements OnInit {
                                   ];
                     
                                   break;
+
+                                  case 'medical':
+                                    this.tabContents = [
+                                      {
+                                        id: '1',
+                                        heading: 'Digital Marketing For Medical',
+                                        image: './../../../assets/images/services/service-99.jpg',
+                                        paragraphs:[
+                                          {id:1, descrption: 'The medical industry is growing increasingly competitive throughout the United States. As additional entrants continue to flood the market, it’s more essential than ever to employ a robust digital marketing strategy. While traditional advertising strategies are still essential, successful medical companies must increase their online exposure to survive in the modern marketplace.'},
+                                          {id:2, descrption: 'At Digital Engage, we specialize in helping medical companies increase their online presence. Let’s look at the expert services we provide to our medical clients.'},      
+                                        ]
+                                      },
+                                    
+                                  
+                                      {
+                                        id: '2',
+                                        heading: 'Medical SEO',
+                                        image: './../../../assets/images/services/service-100.jpg',
+                                        paragraphs:[
+                                          {id:1, descrption: 'Search Engine Optimization (SEO) is the process of optimizing your website to yield strong web search results. If you’re placed at the top of specific keyword searches, you’ll be able to generate organic web traffic that provides results. SEO is a complicated process that requires the expertise of an experienced doctor digital marketing agency.'},
+                                          {id:2, descrption: 'At Digital Engage, we can help your medical company increase its ranking on the world’s top search engines.'},
+                                        ]
+                                      },
+              
+                                      {
+                                        id: '3',
+                                        heading: 'Medical Web Design',
+                                        image: './../../../assets/images/services/service-101.jpg',
+                                        paragraphs:[
+                                          {id:1, descrption: 'Your website is an online representative of your brand. If you want consumers to take your business seriously, it’s critical to utilize web design that instills trust in users. We utilize high-end web design principles to create attractive medical websites, which are also highly functional.'},
+                                        ]
+                                      },
+      
+                                      
+                                      
+                                      {
+                                        id: '4',
+                                        heading: 'Medical Paid Search',
+                                        image: './../../../assets/images/services/service-102.jpg',
+                                        paragraphs:[
+                                          {id:1, descrption: 'While organic traffic can help you improve your current revenue streams, paid search is also a critical component of any online marketing strategy. We can help you target specific medical keywords that are relevant to your company and its services. We’re profoundly experienced medical internet marketing experts for digital marketing campaigns working with leading search engines to develop effective paid search campaigns. Also when we talk about paid search for physicians it is important to have a positive track record for achieving our goals. Digital Marketing is a crucial step for growing your business. Paid Marketing efforts can help when people search queries like: medical device companies, digital marketing for physician, doctor digital marketing provider, healthcare marketing nashville, medical device marketing, and others.'},
+                                        ]
+                                      },
+
+                                      {
+                                        id: '5',
+                                        heading: 'Medical Social Media Advertising',
+                                        image: './../../../assets/images/services/service-103.jpg',
+                                        paragraphs:[
+                                          {id:1, descrption: 'Social media isn’t something you usually associate with medical services, but it’s becoming an increasingly essential component of the industry. As more consumers move to social media for online entertainment and content, medical doctor marketing has become a critical aspect for all major platforms. Our firm can help you manage your social media advertising and build an organic social media platform that takes advantages of all channels.'},
+                                        ]
+                                      },
+
+                                      {
+                                        id: '6',
+                                        heading: 'Target Local Markets',
+                                        image: './../../../assets/images/services/service-104.jpg',
+                                        paragraphs:[
+                                          {id:1, descrption: 'Consumers can be distrustful of national organizations—it’s vital to prove that you have a genuine local presence. We can help medical companies target specific markets. We help our clients to increase authentic engagement with their local communities.'},
+                                          {id:2, descrption: 'We have considerable experience helping medical companies increase exposure in Tri-Cities, Johnson City, Knoxville, and Nashville, Tennessee. We can work with you to expand your reach into other areas of the country, too. If you operate a company with a local presence in various regions, it’s critical to target each market individually.'},
+                                        ]
+                                      },
+
+                                      {
+                                        id: '7',
+                                        heading: 'Accessing New Patients and Customers',
+                                        image: './../../../assets/images/services/service-105.webp',
+                                        paragraphs:[
+                                          {id:1, descrption: 'No matter your medical niche, it’s critical to access new patients and customers. Digital Engage is a leading doctor SEO company that has a proven track record of helping medical companies to increase their exposure to patients and customers. We’re uniquely positioned as a doctor marketing agency to help you use modern technology to increase your revenue streams.'},
+                                        ]
+                                      },
+
+                                      {
+                                        id: '8',
+                                        heading: 'To improve your digital marketing strategy',
+                                        image: './../../../assets/images/services/service-106.webp',
+                                        paragraphs:[
+                                          {id:1, descrption: 'The longer you wait to improve your digital marketing strategy, the longer you’re missing out on valuable customers. Our medical marketing team has the unique experience in doctor seo marketing required to take your company or organization to the next level. Our focus is on providing you with concrete results—we strive to improve your online presence and increase your brand’s recognition.'},
+                                          {id:2, descrption: 'If you want to assess your current approach, we provide free consultations for all potential clients. We can help you develop a comprehensive strategy for improving your digital marketing results.'},
+                                        ]
+                                      },
+      
+                                    ];
+                      
+                      
+                                    this.tabLink = [
+                                      { id: '1', title: 'Digital Marketing For Medical' },
+                                      { id: '2', title: 'Medical SEO' },
+                                      { id: '3', title: 'Medical Web Design' },
+                                      { id: '4', title: 'Medical Paid Search' },
+                                      { id: '5', title: 'Medical Social Media Advertising' },
+                                      { id: '6', title: 'Target Local Markets' },
+                                      { id: '7', title: 'Accessing New Patients and Customers' },
+                                      { id: '8', title: 'To improve your digital marketing strategy' },
+                                    ];
+                      
+                                    break;
+                                    case 'finacial':
+                                      this.tabContents = [
+                                        {
+                                          id: '1',
+                                          heading: 'Go Local',
+                                          image: './../../../assets/images/services/serivce-107.webp',
+                                          paragraphs:[
+                                            {id:1, descrption: 'SEO gives you the ability to target local markets. Many people make the mistake of thinking that digital marketing doesn’t provide you with access to nearby customers. Our team can help you focus on clients in your geographical region, so you pop relevant search engine results pages.'},
+                                            {id:2, descrption: 'Digital Engage has extensive experience helping our clients tap into regional markets. We provide the best SEO services for finance companies, SEO for banking, and others. If you need SEO tips for finance companies, and financial institutions Digital Engage will help to optimize your financial institution for better ranking. When users search on a search engine results page with these words finance seo services near me or others. We can help to rank such keywords.'},      
+                                          ]
+                                        },
+                                      
+                                    
+                                        {
+                                          id: '2',
+                                          heading: 'SEO Marketing for Financial Services',
+                                          image: './../../../assets/images/services/serivce-108.webp',
+                                          paragraphs:[
+                                            {id:1, descrption: 'Financial services internet marketing is critical if you want your financial firm to stay on top of SEO for Financial Trends. While the industry has traditionally relied on paying for leads, many financial services firms are now searching financial services SEO agency for banks to access new clients. Online strategy can help financial services firms gain access to an organic workflow.'},
+                                            {id:2, descrption: 'Search Engine Optimization (SEO) is one of the most critical components of any digital marketing strategy. Bank SEO involves optimizing your website to yield better search results. By ranking higher on the world’s top search engines, you’ll be able to increase your site’s organic traffic exponentially through your bank SEO services.'},
+                                            {id:3, descrption: 'If you’re looking for experts in search engine optimisation financial marketing to gain access to new clients, it’s critical to rank competitively for the relevant keywords through digital campaign (financial services). Our firm will help you assess the most active keywords for your line of work, and employ a strategy that yields concrete results for your top financial SEO agencies. You can build long-term, organic traffic that enables you to access your niche’s most profitable clients so they can have the very experience you’re willing to offer at your bank or credit union.'},
+                                            {id:4, descrption: 'Google alone experiences millions of searches every minute. If you’re not currently ranked highly on its search engine through online marketing for finance agencies, you’re losing valuable customers. It’s time to let Digital Engage change your approach with our SEO services!'},
+                                          ]
+                                        },
+                
+                                        {
+                                          id: '3',
+                                          heading: 'Focus on Your Services',
+                                          image: './../../../assets/images/services/serivce-109.webp',
+                                          paragraphs:[
+                                            {id:1, descrption: 'YAs a business owner or manager, it’s critical to focus on the components of your firm that matter. If you’re looking online visibility for a financial services company, it’s essential to dedicate your time to the operational aspect of your company. By allowing us to take care of your finance online marketing services, you can build the components of your business that are important to you.'},
+                                            {id:2, descrption: 'While we’re happy to educate our clients on the latest SEO trends for finance, we’re also pleased to provide a full-service approach that eliminates your marketing responsibilities.'},
+                                          ]
+                                        },
+        
+                                        
+                                        
+                                        {
+                                          id: '4',
+                                          heading: 'Targeting All SEO Elements',
+                                          image: './../../../assets/images/services/serivce-110.webp',
+                                          paragraphs:[
+                                            {id:1, descrption: 'Google, for example, has over 200 SEO factors that it considers when determining the top search results for different keywords'},
+                                            {id:2, descrption: '<strong>Some of the most prominent factors include:</strong>'},
+                                            {id:3, descrption: 'Page responsiveness'},
+                                            {id:4, descrption: 'Page speed'},
+                                            {id:5, descrption: 'Keywords'},
+                                            {id:6, descrption: 'Content length'},
+                                            {id:7, descrption: 'Backlinks'},
+                                            {id:8, descrption: 'At Digital Engage, we have developed a comprehensive approach to target the most critical elements of the SEO process including finance SEO services and website design. In doing so, we’re able to provide our clients with immediate results. If you’re looking for a team that helps you tackle your SEO from multiple angles, Digital Engage is the perfect partner.'},
+                                          ]
+                                        },
+  
+                                        {
+                                          id: '5',
+                                          heading: 'Who We Serve',
+                                          image: './../../../assets/images/services/serivce-111.webp',
+                                          paragraphs:[
+                                            {id:1, descrption: 'We have offices in Johnson City, Knoxville and Nashville, Tennessee. We work with clients across the state in addition to domestic and international partners that are looking to increase their online exposure.'},
+                                          ]
+                                        },
+  
+                                        {
+                                          id: '6',
+                                          heading: 'Concrete Results',
+                                          image: './../../../assets/images/services/serivce-112.webp',
+                                          paragraphs:[
+                                            {id:1, descrption: 'At Digital Engage, we’re continually testing our results. We’ll provide key metrics on your website’s SEO improvements and performance. Our services are dedicated to providing our clients with real value'},
+
+                                          ]
+                                        },
+        
+                                      ];
+                        
+                        
+                                      this.tabLink = [
+                                        { id: '1', title: 'Go Local' },
+                                        { id: '2', title: 'SEO Marketing for Financial Services' },
+                                        { id: '3', title: 'Focus on Your Services' },
+                                        { id: '4', title: 'Targeting All SEO Elements' },
+                                        { id: '5', title: 'Who We Serve' },
+                                        { id: '6', title: 'Concrete Results' },
+                                      ];
+                        
+                                      break;
+
+                                      case 'local-business':
+                                      this.tabContents = [
+                                        {
+                                          id: '1',
+                                          heading: 'Local SEO Helps Businesses',
+                                          image: './../../../assets/images/services/service-113.jpg',
+                                          paragraphs:[
+                                            {id:1, descrption: 'If you run a business that relies on a local customer base, you may not realize the importance of digital marketing. Many local business owners make the mistake of thinking that digital marketing is only relevant to online business owners, or big corporations. In reality, various digital marketing strategies can help you increase foot traffic at your local business, too.'},
+                                            {id:2, descrption: 'Search Engine Optimization (SEO) is the process of designing or tweaking a website so that it improves its current page ranking. The closer your website is to the top of search engine results, the more traffic you’ll experience. Businesses around the world use SEO to drive traffic to their sites.'},      
+                                            {id:3, descrption: 'SEO is a complicated process. You’ll need the expertise of a specialist SEO marketing firm to help you implement it. That’s where Digital Engage comes in—we provide our clients with access to affordable, high-quality SEO services.'},      
+                                          ]
+                                        },
+                                      
+                                    
+                                        {
+                                          id: '2',
+                                          heading: 'A Comprehensive SEO Approach',
+                                          image: './../../../assets/images/services/service-114.jpg',
+                                          paragraphs:[
+                                            {id:1, descrption: 'Google is known to consider over 200 different factors when it determines the rankings for each keyword on its search engine. Keyword density, page speed, mobile responsiveness, content quality, and a range of other factors are all crucial for your SEO. At Digital Engage, we employ a comprehensive approach that ensures all your bases are covered.'},
+                                            {id:2, descrption: 'We’ve determined the most important factors and developed a strategy that utilizes each of them effectively. We help you target all aspects of your search engine optimization.'},
+                                          ]
+                                        },
+                
+                                        {
+                                          id: '3',
+                                          heading: 'Focus on Your Services',
+                                          image: './../../../assets/images/services/service-115.jpg',
+                                          paragraphs:[
+                                            {id:1, descrption: 'YAs a business owner or manager, it’s critical to focus on the components of your firm that matter. If you’re looking online visibility for a financial services company, it’s essential to dedicate your time to the operational aspect of your company. By allowing us to take care of your finance online marketing services, you can build the components of your business that are important to you.'},
+                                            {id:2, descrption: 'While we’re happy to educate our clients on the latest SEO trends for finance, we’re also pleased to provide a full-service approach that eliminates your marketing responsibilities.'},
+                                          ]
+                                        },
+        
+                                        
+                                        
+                                        {
+                                          id: '4',
+                                          heading: 'Who We Serve',
+                                          image: './../../../assets/images/services/service-116.jpg',
+                                          paragraphs:[
+                                            {id:1, descrption: 'At Digital Engage, we work with a broad range of customers to improve their SEO performance. We’re happy to take on projects in almost any niche, although, we do focus particular attention on a few specific industries.'},
+                                            {id:2, descrption: '<strong>Below is an idea of the industries we specialize in:</strong>'},
+                                            {id:3, descrption: 'Law Firms'},
+                                            {id:4, descrption: 'Medical Companies'},
+                                            {id:5, descrption: 'Tech Companies'},
+                                            {id:6, descrption: 'Restaurants'},
+                                            {id:7, descrption: 'Education Sector'},
+                                            {id:8, descrption: 'Home Services'},
+                                            {id:9, descrption: 'Our offices are in Nashville, Knoxville and Johnson, Tennessee. We also work with clients throughout the country.'},
+                                          ]
+                                        },
+                                      ];
+                        
+                        
+                                      this.tabLink = [
+                                        { id: '1', title: 'Local SEO Helps Businesses' },
+                                        { id: '2', title: 'A Comprehensive SEO Approach' },
+                                        { id: '3', title: 'Who We Serve' },
+                                        { id: '4', title: 'Concrete SEO Results' },
+                                      ];
+                        
+                                      break;
+
+                                      case 'eCommerce':
+                                        this.tabContents = [
+                                          {
+                                            id: '1',
+                                            heading: 'eCommerce SEO Online',
+                                            image: './../../../assets/images/services/service-117.jpg',
+                                            paragraphs:[
+                                              {id:1, descrption: 'If you run an online business, you know how important it is to generate traffic to your online store. The most successful eCommerce websites use a range of strategies to generate traffic and convert sales. One of the most critical components of any eCommerce digital marketing strategy is Search Engine Optimization (SEO).'},
+                                              {id:2, descrption: 'SEO is the process of optimizing your online store for search engine results. By using a comprehensive optimization approach, you can improve the ranking of your website on the world’s major search engines.'},      
+                                              {id:3, descrption: 'At Digital Engage, we help our clients dramatically improve their search engine performance. By developing organic web traffic, we ensure our clients experience increased sales and stronger revenue streams.'},      
+                                            ]
+                                          },
+                                        
+                                      
+                                          {
+                                            id: '2',
+                                            heading: 'Focusing on All Critical SEO Elements',
+                                            image: './../../../assets/images/services/service-118.jpg',
+                                            paragraphs:[
+                                              {id:1, descrption: 'Search Engine Optimization is an extremely complex process that requires a comprehensive strategy. Google and other leading search engines consider a wide range of variables when they determine which websites should rank at the top of search results.'},
+                                              {id:2, descrption: 'Some critical factors include keyword density, page speed, backlinks, page authority, content length, mobile-friendliness, and more. It is thought there are over 200 elements that determine your search engine performance.'},
+                                              {id:3, descrption: 'At Digital Engage, we focus on the most critical elements of SEO to help you immediately improve your current performance. We continuously test our results to provide you with concrete evidence of SEO improvement.'},
+                                            ]
+                                          },
+                  
+                                          {
+                                            id: '3',
+                                            heading: 'The Importance of Search Results',
+                                            image: './../../../assets/images/services/service-119.jpg',
+                                            paragraphs:[
+                                              {id:1, descrption: 'Google alone experiences over 3.8 million searches per minute. As many consumers begin to leave traditional shopping for eCommerce, it’s critical to invest in your search engine performance. By targeting specific keywords, you can ensure that your eCommerce business ranks highly within your niche.'},
+                                              {id:2, descrption: 'Organic traffic can help drive consumers to your eCommerce store. If you’re looking to generate interest in your products, it’s crucial to rank as highly as possible on major search engines.'},
+                                            ]
+                                          },
+          
+                                          
+                                          
+                                          {
+                                            id: '4',
+                                            heading: 'More Than Just Paid Traffic',
+                                            image: './../../../assets/images/services/service-120.jpg',
+                                            paragraphs:[
+                                              {id:1, descrption: 'Many eCommerce businesses focus on paying for traffic to their online stores. While this is often an effective conversion technique, it also has its costs. If you’re paying for web traffic, you’ll always need to verify that your conversions are outweighing your advertising costs.'},
+                                              {id:2, descrption: 'Organic traffic is a long-term investment. While you will need to ensure your SEO strategy is up to date, you won’t need to continually invest money in generating traffic. Organic traffic provides you with free conversions without the constant need to purchase online ads.'},
+                                              {id:3, descrption: 'Not only will strong SEO improve your web traffic, but it will also enhance the reputation of your company. Companies that rank well on search results establish authority with consumers. By becoming a top search result performer, you’ll be able to improve your company’s branding.'},
+                                            ]
+                                          },
+
+                                          
+                                          {
+                                            id: '5',
+                                            heading: 'Who We Serve',
+                                            image: './../../../assets/images/services/service-121.jpg',
+                                            paragraphs:[
+                                              {id:1, descrption: 'At Digital Engage, we work with clients throughout Tennessee—we have offices in Nashville, Knoxville, and Johnson City. We also work with online clients throughout the country.'},
+                                            ]
+                                          },
+                                        ];
+                          
+                          
+                                        this.tabLink = [
+                                          { id: '1', title: 'eCommerce SEO Online' },
+                                          { id: '2', title: 'Focusing on All Critical SEO Elements' },
+                                          { id: '3', title: 'The Importance of Search Results' },
+                                          { id: '4', title: 'More Than Just Paid Traffic' },
+                                          { id: '5', title: 'Who We Serve' },
+                                        ];
+                          
+                                        break;
     
+                                        case 'legal-marketing':
+                                          this.tabContents = [
+                                            {
+                                              id: '1',
+                                              heading: 'Digital Marketing For Legal',
+                                              image: './../../../assets/images/services/service-122.jpg',
+                                              paragraphs:[
+                                                {id:1, descrption: 'If you’ve got a legal firm services  in the Tri-Cities, TN, then you know you’ve got some serious competition.'},
+                                                {id:2, descrption: 'So, how can you differentiate yourself and your law offices from the masses?'},      
+                                                {id:3, descrption: 'Well, a comprehensive and well-crafted digital-marketing strategy complements your offline advertising spectacularly and ensures that your online presence is prominent and well-positioned.'},      
+                                                {id:4, descrption: 'Whatever your marketing needs and budget, Digital Engage can create a strategy to get your law firm noticed.'},      
+                                                {id:5, descrption: 'How do we achieve this? Well, it all starts with search-engine optimization, or SEO. Read on.'},      
+                                                {id:6, descrption: 'At Digital Engage, we specialize in helping Law Firms increase their online presence. Let’s look at the expert services we provide to our Legal clients.'},      
+                                              ]
+                                            },
+                                          
+                                        
+                                            {
+                                              id: '2',
+                                              heading: 'Legal SEO',
+                                              image: './../../../assets/images/services/service-123.jpg',
+                                              paragraphs:[
+                                                {id:1, descrption: 'Central to any digital-marketing strategy, search engine optimization (SEO) ensures that your website ranks higher on leading search engines.'},
+                                                {id:2, descrption: 'The core objective of SEO is to enhance and promote your law firm’s website. The upshot is increased visitation and visibility on the SERPs (search engine results pages). But SEO extends far beyond ranking in the first spot for some keywords.'},
+                                                {id:3, descrption: 'That said, here at Digital Engage, we don’t overlook keywords. We’ll make sure they are relevant, so you get a stream of high-quality organic traffic.'},
+                                                {id:4, descrption: 'SEO has so many moving parts that a consultation is pivotal to getting you going. Get in touch, and we’ll arrange for a quick and casual chat to assess your general needs. Then we’ll create a personalized legal SEO strategy for your firm that is in line with your budget.'},
+                                                {id:5, descrption: 'Search results are about more than national visibility, though. Let’s face it, someone seeking legal advice is far more likely to search for a firm in the Tri-Cities, TN, than for an outfit hundreds of miles away. That’s why local SEO counts.'},
+                                              ]
+                                            },
+                    
+                                            {
+                                              id: '3',
+                                              heading: 'Go Local with SEO',
+                                              image: './../../../assets/images/services/service-124.jpg',
+                                              paragraphs:[
+                                                {id:1, descrption: 'With a local SEO campaign, you reach a host of potential clients throughout Nashville, Knoxville, Johnson City, Kingsport, and Bristol.'},
+                                                {id:2, descrption: 'We’ll ensure your company crops up when people search for phrases associated with your offerings in the Tri-Cities.'},
+                                                {id:3, descrption: 'We’ll take care of GoogleMyBusiness for you and optimize a website for your location. Then, we’ll employ a smart local SEO campaign to drive highly relevant and localized traffic to your pages. If those looking for help get greeted with a responsive site and a welcoming brand, half of the job is done.'},
+                                                {id:4, descrption: 'Local SEO done well translates to an increase in conversions to your firm. Get things started with that consultation.'},
+                                              ]
+                                            },
+            
+                                            
+                                            
+                                            {
+                                              id: '4',
+                                              heading: 'Social Media for Legal',
+                                              image: './../../../assets/images/services/service-125.jpg',
+                                              paragraphs:[
+                                                {id:1, descrption: 'While you might not immediately associate legal firms with social media, don’t underestimate the gravity of your presence on those platforms. After all, that’s where your potential clients spend time.'},
+                                                {id:2, descrption: 'We understand that managing a Facebook page isn’t the best use of your time, so we’ll take all that off your hands.'},
+                                                {id:3, descrption: 'Whatever your preferred channel, we’ll build an organic campaign that will put you in direct contact with your client base. We’ll also discuss your paid options on each platform.'},
+                                              ]
+                                            },
+  
+                                            
+                                            {
+                                              id: '5',
+                                              heading: 'Ramp Up Your Presence With Digital Marketing',
+                                              image: './../../../assets/images/services/service-126.jpg',
+                                              paragraphs:[
+                                                {id:1, descrption: 'If you think your law firm in the Tri-Cities, TN could benefit from a comprehensive digital-marketing strategy, don’t put things off any longer.'},
+                                                {id:2, descrption: 'Get in touch, and we’ll give you a completely free consultation and get things started.'},
+                                                {id:3, descrption: 'Through an enhanced online presence, your rock-solid reputation, and improved brand recognition, you can expect tangible results from Digital Engage campaigns. We appreciate that sales count, not vanity metrics. With a combination of national and local SEO alongside social-media marketing, you can grow your legal firm more quickly. Complement your offline advertising with an online campaign, and you’ll wonder why you didn’t get started sooner!'},
+                                                {id:4, descrption: 'Call us today for that consultation.'},
+                                              ]
+                                            },
+                                          ];
+                            
+                            
+                                          this.tabLink = [
+                                            { id: '1', title: 'Digital Marketing For Legal' },
+                                            { id: '2', title: 'Legal SEO' },
+                                            { id: '3', title: 'Go Local with SEO' },
+                                            { id: '4', title: 'Social Media for Legal' },
+                                            { id: '5', title: 'Ramp Up Your Presence With Digital Marketing' },
+                                          ];
+                            
+                                          break;
+      
+                                          case 'home-services':
+                                            this.tabContents = [
+                                              {
+                                                id: '1',
+                                                heading: 'Increase Your Home Service Website Traffic With Digital Engage',
+                                                image: './../../../assets/images/services/service-127.jpg',
+                                                paragraphs:[
+                                                  {id:1, descrption: 'At Digital Engage, we understand that there is a need for a personalized plan for each home service. That is why our team of digital marketers analyzes your social media channels, marketing channels, and social media posts and devises a digital strategy that works best for you. We help you reach potential customers through our digital marketing services.'},
+                                                  {id:2, descrption: 'Our team is experienced in helping home service business owners increase website traffic. Our team does this through email marketing, digital marketing, online marketing, social media marketing, search engine rankings optimization, and Google ads.'},      
+                                                ]
+                                              },
+                                            
+                                          
+                                              {
+                                                id: '2',
+                                                heading: 'Our Paid Search Services',
+                                                image: './../../../assets/images/services/service-128.jpg',
+                                                paragraphs:[
+                                                  {id:1, descrption: 'We understand that driving traffic to your online channels is crucial to taking your home service business to the next level. Hence, we offer paid search services to help you achieve your marketing goals.'},
+                                                  {id:2, descrption: 'So why wait? Contact us not to learn more about our paid search services and bring a more targeted audience to your website.'},
+                                                ]
+                                              },
+                      
+                                              {
+                                                id: '3',
+                                                heading: 'Paid Advertising Services for Home Services',
+                                                image: './../../../assets/images/services/service-129.jpg',
+                                                paragraphs:[
+                                                  {id:1, descrption: 'We also offer paid advertising services for home divisions at our agency. Our team is experienced in running email campaigns, marketing automation, PPC campaigns, and mobile marketing across various online channels. The experienced team uses the latest Internet marketing techniques for local services and ensures that your digital ads reach the right target audience.'},
+                                                  {id:2, descrption: 'Digital Engage uses the latest digital technologies and marketing techniques to ensure that your online campaigns attract as many potential customers as possible. Call us today, and let us devise a marketing strategy for you that takes your home office business to the next level.'},
+                                                ]
+                                              },
+              
+                                              
+                                              
+                                              {
+                                                id: '4',
+                                                heading: 'SEO Services for Home Services Companies',
+                                                image: './../../../assets/images/services/service-130.jpg',
+                                                paragraphs:[
+                                                  {id:1, descrption: 'Search engine optimization has recently become a crucial part of any marketing strategy. It helps boost your rankings in search engine results and ultimately drives more traffic to your website. Our team of SEO experts ensures that you have relevant keywords and reach a target audience that is most likely to convert.'},
+                                                  {id:2, descrption: 'We put a particular emphasis on SEO in our content marketing strategy and avoid using traditional advertising methods that are less converting men compared to our new and innovative digital marketing techniques.'},
+                                                  {id:3, descrption: 'Take your search engine rankings to the top with Digital Engage. Call us today, and let us help you with your SEO approach.'},
+                                                ]
+                                              },
     
+                                              
+                                              {
+                                                id: '5',
+                                                heading: 'Web Design Services for Your Home Services Company',
+                                                image: './../../../assets/images/services/service-131.jpg',
+                                                paragraphs:[
+                                                  {id:1, descrption: 'At our agency, we design responsive web pages that work just as well on mobile devices as on your computer. A webpage is one of the most crucial digital channels for services from home, as it is the face of your online home services brand. We also ensure that we optimize your website so that they rank high on the search engines.'},
+                                                  {id:2, descrption: 'So if you are looking for a website that is not only aesthetically appealing but also functional, get in touch with our agency today and let us help you build a website that truly represents your home service brand.'},
+                                                ]
+                                              },
+                                            ];
+                              
+                              
+                                            this.tabLink = [
+                                              { id: '1', title: 'Increase Your Home Service Website Traffic With Digital Engage' },
+                                              { id: '2', title: 'Our Paid Search Services' },
+                                              { id: '3', title: 'Paid Advertising Services for Home Services' },
+                                              { id: '4', title: 'SEO Services for Home Services Companies' },
+                                              { id: '5', title: 'Web Design Services for Your Home Services Company' },
+                                            ];
+                              
+                                            break;
+                                            case 'health-fitness':
+                                              this.tabContents = [
+                                                {
+                                                  id: '1',
+                                                  heading: 'Digital Marketing Services for Health & Fitness Firms',
+                                                  image: './../../../assets/images/services/service-132.jpg',
+                                                  paragraphs:[
+                                                    {id:1, descrption: 'At Digital Engage, we specialize in providing top-notch marketing services to Health & Fitness Companies of all sizes. With our team of experienced marketing professionals, we can help you develop and implement a custom marketing strategy tailored to your business needs and goals.'},   
+                                                  ]
+                                                },
+                                              
+                                            
+                                                {
+                                                  id: '2',
+                                                  heading: 'Digital Marketing Services for Health & Fitness Firms',
+                                                  image: './../../../assets/images/services/service-133.jpg',
+                                                  paragraphs:[
+                                                    {id:1, descrption: 'Whether you’re looking to increase your social media presence, improve your search engine rankings, or launch a targeted email marketing campaign, we have the expertise to help you achieve your objectives.'},
+                                                    {id:2, descrption: 'So why wait? Contact us now, and let us help you take your establishment to new heights with the power of digital marketing!'},
+                                                  ]
+                                                },
+                        
+                                                {
+                                                  id: '3',
+                                                  heading: 'Why Health & Fitness Companies Need Digital Marketing',
+                                                  image: './../../../assets/images/services/service-134.jpg',
+                                                  paragraphs:[
+                                                    {id:1, descrption: 'In today’s digital age, health, and fitness businesses need a robust online presence to grow and thrive. The fitness industry is highly competitive, and more than traditional marketing efforts are required to attract and retain customers.'},
+                                                  ]
+                                                },
+                
+                                                
+                                                
+                                                {
+                                                  id: '4',
+                                                  heading: 'Why Health & Fitness Companies Need Digital Marketing',
+                                                  image: './../../../assets/images/services/service-135.jpg',
+                                                  paragraphs:[
+                                                    {id:1, descrption: 'That’s where digital marketing comes in. By leveraging social media platforms, influencer marketing, and other marketing strategies, fitness marketing services can help health and wellness businesses establish themselves as leading brands in the fitness industry. Health club and fitness marketing companies can support health and fitness brands to reach a bigger audience and connect with potential customers in a way that traditional marketing efforts simply can’t.'},
+                                                    {id:2, descrption: 'So if you’re a fitness business looking to grow your customer base and establish your brand as a leader in the health and wellness industry, Get in touch with us today and let us help you establish your business on a larger scale.'},
+                                                  ]
+                                                },
+                                              ];
+                                
+                                
+                                              this.tabLink = [
+                                                { id: '1', title: 'Digital Marketing Services for Health & Fitness Firms' },
+                                                { id: '2', title: 'Digital Marketing Services for Health & Fitness Firms' },
+                                                { id: '3', title: 'Why Health & Fitness Companies Need Digital Marketing' },
+                                                { id: '4', title: 'Why Health & Fitness Companies Need Digital Marketing' },
+                                              ];
+                                
+                                              break;
+          
+                                              case 'hvac':
+                                                this.tabContents = [
+                                                  {
+                                                    id: '1',
+                                                    heading: 'Top Rated Online Marketing For HVAC Companies',
+                                                    image: './../../../assets/images/services/service-136.webp',
+                                                    paragraphs:[
+                                                      {id:1, descrption: 'Because it enables HVAC businesses to connect with their target market and advertise their goods and services online, digital marketing is essential for every HVAC company. Digital marketing from Digital Engage will help HVAC companies increase their visibility and reach out to a larger audience online. HVAC businesses can ensure that their website and content appear at the top of search engine results pages by using our targeted online ads, marketing on social media, and search engine optimization (SEO).'},   
+                                                    ]
+                                                  },
+                                                
+                                              
+                                                  {
+                                                    id: '2',
+                                                    heading: 'SEO Services For HVAC Companies',
+                                                    image: './../../../assets/images/services/service-137.webp',
+                                                    paragraphs:[
+                                                      {id:1, descrption: 'For HVAC businesses, search engine optimization is essential since it increases their online visibility and aids in improving their position on search engine results in pages. Our SEO services will help HVAC companies improve their website’s search engine ranking, which can lead to increased organic traffic from search engines. This is important because more traffic means more potential customers. SEO entails making a website search engine friendly as well as for users. This means that an HVAC company’s website will load faster, have straightforward and intuitive navigation, and be mobile-friendly, improving the user experience.'},
+                                                    ]
+                                                  },
+                          
+                                                  {
+                                                    id: '3',
+                                                    heading: 'Local SEO For HVAC Companies',
+                                                    image: './../../../assets/images/services/service-138.webp',
+                                                    paragraphs:[
+                                                      {id:1, descrption: 'Local SEO is vital to a successful digital marketing strategy for HVAC companies that serve specific geographic areas. HVAC companies can optimize their website for local search by including local keywords, location-based content, and a clear description of their service area. Any internet reference of a company’s name, address, and phone number is referred to as a local citation. Building local citations on reputable business directories, such as Yelp, Yellow Pages, and Angie’s List, can help HVAC companies to improve their local search rankings. Digital Engage specializes in Local SEO for HVAC Companies. Our practices provide guaranteed growth in outreach for HVAC companies. Contact us today and book an appointment.'},
+                                                    ]
+                                                  },
+                  
+                                                  
+                                                  
+                                                  {
+                                                    id: '4',
+                                                    heading: 'Social Media Marketing For HVAC Businesses',
+                                                    image: './../../../assets/images/services/service-139.webp',
+                                                    paragraphs:[
+                                                      {id:1, descrption: 'Social media marketing is essential for HVAC companies because it allows them to connect with their target audience, build relationships, and promote their products and services. Our social media marketing enables HVAC businesses to reach a larger audience and raise brand awareness. HVAC businesses may develop a solid online presence and position themselves as authorities in their industry by producing informative information and interacting with followers. We’ll provide your business with the best possible social media presence.'},
+                                                    ]
+                                                  },
+
+                                                   
+                                                  {
+                                                    id: '5',
+                                                    heading: 'Video & Photo Marketing For HVAC Businesses',
+                                                    image: './../../../assets/images/services/service-140.webp',
+                                                    paragraphs:[
+                                                      {id:1, descrption: 'Video and photo marketing are potent tools from Digital Engage for HVAC companies to promote their products and services, showcase their expertise, and engage with their target audience. HVAC companies can use video and photo marketing to demonstrate their products in action, showcasing their features and benefits. This can help potential customers better understand what the product does and how it can benefit them. Before-and-after photos are a great way to demonstrate the effectiveness of HVAC services such as air duct cleaning, furnace repair, or AC installation. By showcasing the transformation, HVAC companies can build credibility and trust with potential customers.'},
+                                                    ]
+                                                  },
+                                                ];
+                                  
+                                  
+                                                this.tabLink = [
+                                                  { id: '1', title: 'Top Rated Online Marketing For HVAC Companies' },
+                                                  { id: '2', title: 'SEO Services For HVAC Companies' },
+                                                  { id: '3', title: 'Local SEO For HVAC Companies' },
+                                                  { id: '4', title: 'Social Media Marketing For HVAC Businesses' },
+                                                  { id: '5', title: 'Video & Photo Marketing For HVAC Businesses' },
+                                                ];
+                                  
+                                                break;
+            
+      
 
           case 'home':
           this.tabContents = [
