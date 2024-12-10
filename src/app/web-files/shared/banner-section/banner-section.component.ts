@@ -25,7 +25,7 @@ export class BannerSectionComponent implements OnInit {
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with correct path
         buttonUrl:'/contact',
       },
-      
+
       contact: {
         heading: 'Are you ready for a no <br> obligation quote?',
         buttonText: 'Email Us',
@@ -33,8 +33,9 @@ export class BannerSectionComponent implements OnInit {
         buttonUrl:'mailto:shehzadamin697@gmail',
       },
       seo: {
-        heading: 'High Performance SEO Services',
-        buttonText: 'Contact Us',
+        heading: 'Elevate Your Online <br> Presence',
+        paragraph: 'Your digital success starts here. Let IT-Pixel transform your online visibility.',
+        buttonText: 'Get Started Now',
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with correct path
         buttonUrl:'/contact',
       },
