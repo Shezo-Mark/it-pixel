@@ -15,9 +15,9 @@ const routes: Routes = [
     loadChildren: () => import('./web-files/web-files.module').then((m) => m.WebFilesModule),
   },
 ];
-// {useHash: true}
+// 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
