@@ -40,7 +40,7 @@ export class BannerSectionComponent implements OnInit {
         buttonUrl:'/contact',
       },
       'paid-search': {
-        heading: 'Boost Your ROI with Cutting-Edge PPC Services',
+        heading: 'Boost Your ROI with <br> Cutting-Edge PPC Services',
         paragraph: 'Drive results, maximize your ROI, and dominate your market with IT-Pixels tailored PPC solutions.',
         buttonText: 'Claim Your Free PPC Audit Now',
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with the correct path
