@@ -30,6 +30,28 @@
     color: $dark !important;
   }
 }
+
+.btn_outline{
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.18) !important;
+  border-radius: 0px!important;
+  padding: 7px 35px 7px 35px !important;
+  background: $brand-gray !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: $dark !important;;
+  letter-spacing: 2px !important;
+  transition: .5s !important;
+
+  &.sm{
+    padding: 6px 30px 6px 30px !important;
+    font-size: 13px !important;
+  }
+  &:hover{
+    border-radius: 0 !important;
+    color: $white !important;
+    background: $brand-purple !important;
+  }
+}
 .btn_brand_blue{
   box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.18);
   border-radius: 0px 10px 0px 10px;
@@ -68,27 +90,6 @@
   &:hover{
     background-color: $brand-red;
     border-radius: 10px 0px 10px 0px;
-    color: $white;
-  border: 1px solid $brand-red;
-
-  }
-}
-.btn_outline{
-  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.18);
-  padding: 10px 30px 10px 30px;
-  background-color: $white;
-  font-weight: 500;
-  font-size: 10px;
-  color: $brand-blue;
-  letter-spacing: 2px;
-  transition: .5s;
-  border: 1px solid $brand-blue;
-  &.sm{
-    padding: 6px 30px 6px 30px;
-    font-size: 8px;
-  }
-  &:hover{
-    background-color: $brand-red;
     color: $white;
   border: 1px solid $brand-red;
 

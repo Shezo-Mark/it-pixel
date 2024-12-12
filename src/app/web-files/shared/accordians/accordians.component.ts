@@ -28,79 +28,151 @@ export class AccordiansComponent {
         this.accordionItems = [
           {
             id: 1,
-            title: 'Proven Expertise', expanded: true,
+            title: 'How long does it take to generate results?', expanded: true,
             body: [
               {
                 id:1,
-                descrption: 'Stay ahead of the latest SEO trends and techniques.'
+                descrption: 'Generating SEO results typically takes about 4 to 6 months. However, significant improvements may take up to one year or even longer. The speed at which you see results is dependent on numerous factors such as your website’s age, its current state, the amount of content, and the competitiveness within your industry. Remember that SEO is a long-term strategy and requires continuous effort.'
               },
             ]
 
         },
           {
             id: 2,
-            title: 'B2B Focused', expanded: false,
+            title: 'How do you predict the length of time and the cost of an SEO campaign?', expanded: false,
             body:
             [
               {
                 id:1,
-                descrption: 'Tailored for small startups and mid-sized companies.'},
+                descrption: 'Predicting the length of time and cost of an SEO campaign can be complex as there are a plethora of factors that contribute to these elements. Here’s a basic manner to estimate:'},
+                {
+                  id:2,
+                  descrption: '1. Scrutinize the website: Assessment of the website is crucial. It includes understanding the structure, content, link portfolio, and keyword density. You should also review the website’s technical aspects like its loading speed, URL structure, and mobile optimization.'},
+                  {
+                    id:3,
+                    descrption: '2. Define the Goals: The scope of your SEO campaign greatly depends on what you want to achieve. Goals can range from improving domain authority to boosting organic traffic or pushing a specific set of keywords in top rankings.'},
+                    {
+                      id:4,
+                      descrption: '3. Keyword Research: Research is vital to understand how your targeted keywords are ranking. If they’re ranking on the second or third page of SERPs, it may take less time and cost to push them further. But if they’re nowhere in sight, then it might take more time and cost.'},
+                      {
+                        id:5,
+                        descrption: '4. Competitive Analysis: Understanding what your competitors are doing is also important. If you’re competing with highly authoritative sites, time and effort will increase.'},
+                        {
+                          id:6,
+                          descrption: '5. Create a Strategy: Based on the above factors, create a strategy that includes on-page optimization, content creation, link-building etc., and estimate the time each of these'},
             ]
           },
           {
             id: 3,
-            title: 'Authenticity & Resilience', expanded: false,
+            title: 'Is there a discount for combining SEO and PPC?', expanded: false,
             body:
             [
               {
                 id:1,
-                descrption: 'Transparent and results-driven approach.'},
+                descrption: 'Yes, Helium SEO can discuss offering a discount when combining these services.'},
             ]
           },
           {
             id: 4,
-            title: 'Cutting-Edge Technology', expanded: false,
+            title: 'Does Helium SEO offer Web Design?', expanded: false,
             body:
             [
               {
                 id:1,
-                descrption: 'Leveraging advanced tools for success.'},
-            ]
-          },
-        ];
-        break;
-      case 'paid-search':
-        this.accordionItems = [
-          {
-            id: 1,
-            title: 'Risk-Free Audit',
-            expanded: true,
-            body: [
-              {
-                id:1,
-                descrption: 'Let us analyze your current campaigns for opportunities.'
-              },
+                descrption: 'Yes Helium does. Please contact us to get more details.'},
             ]
           },
           {
-            id: 2,
-            title: 'Limited-Time Offer', expanded: false,
-            body: [
-              {
-                id:1,
-                descrption: 'Get 20% off your first campaign when you sign up this month.'
-              },
+            id: 5,
+            title: 'What is the difference between National SEO campaigns and Local SEO campaigns?', expanded: false,
+            body:
+            [
+              { id:1,
+                descrption: 'National SEO campaigns target a broader, nationwide audience. They are used by businesses that offer products or services across an entire nation or even internationally. These campaigns focus on ranking for broad keyword terms and do not necessarily focus on a specific geographical area.'},
+                { id:2,
+                  descrption: 'On the other hand, Local SEO campaigns target a specific geographical area such as a city, state, or region. This strategy is helpful for local businesses that want to attract customers in their immediate area. Local SEO campaigns focus on geographical keyword terms and also aim to increase visibility on local listing sites and directories.'},
+
             ]
           },
           {
-            id: 3,
-            title: 'Proven Track Record',
-            expanded: false,
-            body: [
+            id: 6,
+            title: 'Why is content important for SEO?', expanded: false,
+            body:
+            [
               {
                 id:1,
-                descrption: 'See why clients experience up to 300% ROI improvements.'
-              },
+                descrption: 'Content is crucial for SEO for several reasons:'},
+                {
+                  id:2,
+                  descrption: '1. Relevant and Quality Content Attracts Search Engines: Search engines are designed to provide users with the most relevant results. High-quality, relevant content is likely to get a higher ranking on search engine results pages, leading to increased visibility and traffic.'},
+                  {
+                    id:3,
+                    descrption: '2. Keywords Usage: Quality content allows businesses to incorporate keywords that consumers use to search for the products or services they offer. This helps search engines to index the website appropriately and improve its ranking.'},
+                    {
+                      id:4,
+                      descrption: '3. Increased User Engagement: High-quality content is likely to resonate more with users, keeping them engaged longer. The more time users spend on a webpage, the more search engines consider the site to be valuable, leading to improved rankings.'},
+                      {
+                        id:5,
+                        descrption: '4. Backlinking: If your content is high quality and valuable, other websites are more likely to link to it, improving your backlink profile. Backlinks are a crucial component of SEO as they signify credibility and relevance to search engines.'},
+                        {
+                          id:6,
+                          descrption: '5. Improved User Experience: Quality content enhances the user experience, as it provides users with the information they are looking for. A positive user experience can lead to higher conversion rates, repeat visits, and positive reviews/social shares– all signals that search engines recognize and reward with improved ranking positions.'},
+            ]
+          },
+          {
+            id: 7,
+            title: 'Why are backlinks important for SEO?', expanded: false,
+            body:
+            [
+              {
+                id:1,
+                descrption: 'Backlinks are important for SEO for several reasons:'},
+                {
+                  id:2,
+                  descrption: '1. Improved Organic Ranking: Backlinks help in better search engine rankings. When your content gets linked to other sites, it improves your chances of ranking higher in search results.'},
+                  {
+                    id:3,
+                    descrption: '2. Faster Indexing: Backlinks help search engine bots discover links to your site and index your website faster.'},
+                    {
+                      id:4,
+                      descrption: '3. Referral Traffic: One of the major benefits of backlinks is that they help get referral traffic. Usually, referral traffic is targeted and has a low bounce rate.'},
+                      {
+                        id:5,
+                        descrption: '4. Builds Your Authority: Backlinks from authoritative, relevant, and well-respected websites can increase the authority of your website in the eye of search engines.'},
+                        {
+                          id:6,
+                          descrption: '5. Increases Brand Visibility: The more backlinks you have, the more your brand is visible online.'},
+                          {
+                            id:7,
+                            descrption: '6. Builds Network: Backlinks not only bring traffic but can also serve as a networking tool. It can help you build relationships with key people in your industry which can be very beneficial.Remember healthy and search-engine-approved link-building strategies are key. Creating spammy or unnatural ways of building backlinks may harm your site’s reputation and SEO.'},
+            ]
+          },
+          {
+            id: 8,
+            title: 'What are the most important local SEO ranking factors?', expanded: false,
+            body:
+            [
+              {
+                id:1,
+                descrption: '1. Google My Business Listing: This is a key factor for improving your ranking on local searches. It provides Google with accurate information about your business such as location, business category, hours of operation, etc.'},
+                {
+                  id:2,
+                  descrption: '2. Online Reviews: Google takes into account the number and the quality of reviews on your Google My Business listing. Reviews show that your business is legitimate and provides value to customers.'},
+                  {
+                    id:3,
+                    descrption: '3. NAP Consistency: NAP (Name, Address, Phone number) must be consistent across all platforms that contain information about your business, like directories, website, and social media profiles.'},
+                    {
+                      id:4,
+                      descrption: '4. Local Keywords: Including local keywords on your website is critical for appearing in local search results. Google uses these keywords to understand what your business offers and where it’s located.'},
+                      {
+                        id:5,
+                        descrption: '5. Mobile-Friendly Website: With the increase in mobile searches, having a mobile-friendly website affects ranking. Google prefers websites that are mobile-friendly, providing a good user experience.'},
+                        {
+                          id:6,
+                          descrption: '6. High-Quality Backlinks: Backlinks act as a vote of confidence from other websites. The more high-quality local backlinks you have, the more credible your business appears to Google.'},
+                          {
+                            id:7,
+                            descrption: '7. Website Loading Speed: Google takes website loading speed into account when ranking web pages. The faster your website loads, the better.'},
             ]
           },
        ];

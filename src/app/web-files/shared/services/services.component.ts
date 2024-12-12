@@ -114,52 +114,73 @@ export class ServicesComponent implements OnInit {
         this.tabContents = [
           {
             id: '1',
-            heading: 'Keyword Research and Optimization',
+            heading: 'Search Engine Optimization',
             image: './../../../assets/images/services/seo-1.webp',
             paragraphs:[
-              {
-              id:1,
-              descrption: 'Discover the power of the right keywords. We ensure your content connects with your audience and drives traffic to your site.'},
-            ]
-          },
-          { id: '2',
-            heading: 'Content and SEO Optimization',
-            image: 'assets/images/services/seo-2.webp',
-            paragraphs:[
-              {id:1, descrption: 'Refine your content to ensure its engaging, relevant, and fully optimized for search engines.'},
+              {id:1,
+              descrption: 'Technical SEO'},
+              {id:2,
+                descrption: 'Market Share and SEO ROI Analysis'},
+                {id:3,
+                  descrption: 'Link Building'},
+                  {id:4,
+                    descrption: 'Local SEO'},
+                    {id:5,
+                      descrption: 'Keyword Research'},
+                      {id:6,
+                        descrption: 'Competitor Research'},
+                        {id:7,
+                          descrption: 'Ecommerce SEO, SaaS SEO, Healthcare SEO'},
+              
             ]
           },
           {
-            id: '3',
-            heading: 'Website Analysis',
+            id: '2',
+            heading: 'AI Content Campaigns',
             image: 'assets/images/services/service-1.webp',
             paragraphs:[
-              {id:1, descrption: 'Comprehensive analysis to uncover technical issues and improve site performance.'},
+              {id:1, descrption: 'Outline Generation'},
+              {id:2, descrption: 'Article Writing'},
+              {id:3, descrption: 'Mass Page Campaigns'},
+              {id:4, descrption: 'OnPage Optimizations'},
+              {id:5, descrption: 'Programmatic Entity Optimization'},
+              {id:6, descrption: 'Internal Linking'},
             ]
          },
-         { id: '4',
-          heading: 'Local SEO',
+         { id: '3',
+          heading: 'Analytics, Reporting, and Data',
           image: 'assets/images/services/seo-4.webp',
           paragraphs:[
-            {id:1, descrption: 'Be visible to customers in your area, driving foot traffic and local leads.'},
+            {id:1, descrption: '800m Record database'},
+            {id:2, descrption: 'Looker Studio In-Depth Report (weekly/Monthly)'},
+            {id:3, descrption: 'Multi-Touch Attribution Dashboard'},
+            {id:4, descrption: 'Project Management Dashboard'},
+            {id:5, descrption: 'Helium’s Proprietary Content Campaign Dashboard'},
            
           ]
          },
-         { id: '5',
-          heading: 'Tailored SEO Strategy',
+         { id: '4',
+          heading: 'PPC: Search and Social',
           image: 'assets/images/services/seo-4.webp',
           paragraphs:[
-            {id:1, descrption: 'Personalized plans to align with your goals and deliver measurable results.'},
+            {id:1, descrption: 'Facebook'},
+            {id:2, descrption: 'Instagram'},
+            {id:3, descrption: 'Google'},
+            {id:4, descrption: 'Bing'},
+            {id:5, descrption: 'LinkedIn'},
+            {id:6, descrption: 'Multi-touch Attribution'},
+            {id:7, descrption: 'A/B tests'},
+            {id:8, descrption: 'We can work with you are existing creative or assist your company in creative asset generation'},
+            
            
           ]
          },
         ];
         this.tabLink = [
-          { id: '1', title: 'Keyword Research and Optimization' },
-          { id: '2', title: 'Content and SEO Optimization' },
-          { id: '3', title: 'Website Analysis' },
-          { id: '4', title: 'Local SEO' },
-          { id: '5', title: 'Tailored SEO Strategy' },
+          { id: '1', title: 'Search Engine Optimization' },
+          { id: '2', title: 'AI Content Campaigns' },
+          { id: '3', title: 'Analytics, Reporting, and Data' },
+          { id: '4', title: 'PPC: Search and Social' },
         ];
         break;
         case 'paid-search':
