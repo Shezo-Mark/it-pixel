@@ -33,8 +33,8 @@ export class BannerSectionComponent implements OnInit {
         buttonUrl:'mailto:shehzadamin697@gmail',
       },
       seo: {
-        heading: 'Elevate Your Online <br> Presence',
-        paragraph: 'Your digital success starts here. Let IT-Pixel transform your online visibility.',
+        heading: 'Increase Your Return on  <br>Investment on Every Dollar  <br> Spent on SEO',
+        paragraph: 'Make better decisions using Helium’s data and measure the exact impact<br> of your SEO campaign.',
         buttonText: 'Get Started Now',
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with correct path
         buttonUrl:'/contact',

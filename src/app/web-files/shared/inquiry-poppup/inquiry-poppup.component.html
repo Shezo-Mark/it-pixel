@@ -1,0 +1,54 @@
+
+<section class="section_inquiry" *ngIf="isModalShow">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="banner_filter">
+          <div class="d-flex justify-content-between align-items-center mb-md-4 mb-3">
+            <h4 class="mb-0">Have a specific inquiry?</h4>
+            <button (click)="closeModal()" type="button" class="btn-close"></button>
+          </div>
+            <form action="">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <span class="input-group-text" id="name"><i class="fa-regular fa-user"></i></span>
+                            <input type="text" class="form-control" placeholder="Enter Your Name" aria-label="Username" aria-describedby="name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <span class="input-group-text" id="email"><i class="fa-regular fa-envelope"></i></span>
+                            <input type="email" class="form-control" placeholder="Enter Your Email" aria-label="Email" aria-describedby="email">
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="number"><i class="fa-solid fa-mobile-screen"></i></span>
+                    <input type="text" class="form-control" placeholder="Enter Your Phone Number" aria-label="Phone Number" aria-describedby="number">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="subject"><i class="fa-solid fa-pen"></i></span>
+                    <input type="text" class="form-control" placeholder="Write Subject" aria-label="Subject" aria-describedby="subject">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+                </div>
+                <div class="">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="text-end">
+                    <button class="btn btn_brand mt-md-4 mt-3 ms-auto">Submit Form</button>
+                </div>
+            </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

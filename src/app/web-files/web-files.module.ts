@@ -11,7 +11,6 @@ import { AboutComponent } from './components/about/about.component';
 import { ConsultationComponent } from './shared/consultation/consultation.component';
 import { CaseStudiesComponent } from './shared/case-studies/case-studies.component';
 import { ProjectsComponent } from './shared/projects/projects.component';
-import { ClientSliderComponent } from './shared/client-slider/client-slider.component';
 import { DevelopmentProcessComponent } from './shared/development-process/development-process.component';
 import { CaseStudyDetailsComponent } from './components/case-study-details/case-study-details.component';
 import { WhyChooseUsComponent } from './shared/why-choose-us/why-choose-us.component';
@@ -56,6 +55,7 @@ import { LegalMarketingComponent } from './components/legal-marketing/legal-mark
 import { HomeServicesComponent } from './components/home-services/home-services.component';
 import { HealthFitnessComponent } from './components/health-fitness/health-fitness.component';
 import { HvacComponent } from './components/hvac/hvac.component';
+import { InquiryPoppupComponent } from './shared/inquiry-poppup/inquiry-poppup.component';
 
 
 
@@ -71,7 +71,6 @@ import { HvacComponent } from './components/hvac/hvac.component';
     ConsultationComponent,
     CaseStudiesComponent,
     ProjectsComponent,
-    ClientSliderComponent,
     DevelopmentProcessComponent,
     CaseStudiesComponent,
     CaseStudyDetailsComponent,
@@ -115,6 +114,8 @@ import { HvacComponent } from './components/hvac/hvac.component';
     HomeServicesComponent,
     HealthFitnessComponent,
     HvacComponent,
+    InquiryPoppupComponent
+
   ],
   imports: [
     CommonModule,
