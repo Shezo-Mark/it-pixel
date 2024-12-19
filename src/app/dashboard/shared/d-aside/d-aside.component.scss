@@ -59,6 +59,10 @@ aside{
           background: linear-gradient(180deg, #FFFFFF 3.05%, #E7E7E7 94.51%) !important;
           color: #282828 !important;
         }
+        &.is_active{
+          background: linear-gradient(180deg, #FFFFFF 3.05%, #E7E7E7 94.51%) !important;
+          color: #282828 !important;
+        }
       }
     }
    }
