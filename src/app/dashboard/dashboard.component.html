@@ -1,10 +1,10 @@
 
 <div id="main-wrapper">
 
-  <app-d-aside></app-d-aside>
+  <app-d-aside [isAsideActive]="isAsideActive"></app-d-aside>
   <div class="content-body">
-    <app-d-header></app-d-header>
-     <router-outlet></router-outlet>
+    <app-d-header (asideToggled)="toggleAsideState($event)"></app-d-header>
+      <section class="section_router_main px-4 py-3"><router-outlet></router-outlet></section>
      <app-d-footer></app-d-footer>
   </div>
 

@@ -1,43 +1,32 @@
-<aside class="bg_linear" [class.is_toggle]="isToggled">
-  <div class="view_dropdown dropdown_main">
-    <button class="dropdown_toggler">Check Out <i class="fa-solid fa-caret-down"></i></button>
-    <ul class="dropdown_items bg_linear">
-      <li><a class="dropdown-item" href="#">View Site</a></li>
-      <li><a class="dropdown-item" href="#">View Dashboard</a></li>
-    </ul>
-  </div>
-  <!-- <a class="nav-link active" aria-current="page" routerLink="/home"><img src="../../../../assets/images/header_icons/footer_logo.svg" alt=""></a> -->
+<aside class="bg_linear" [class.is_toggle]="isAsideActive">
   <ul class="aside_list">
-    <li class="aside_item"><a routerLink="post" class="aside_link"><span class="aside_icon"><i class="fa-solid fa-signs-post"></i></span>Post</a></li>
-    <li class="aside_item"><a href="" class="aside_link"><span class="aside_icon"><i class="fa-solid fa-file-arrow-up"></i></span>Pages</a></li>
-  <li class="aside_item dropdown_main">
-    <button class="dropdown_toggler is_active">Users Rolls<i class="fa-solid fa-caret-down"></i></button>
-    <ul class="dropdown_items bg_linear show">
-      <li><a class="dropdown-item" href="#">Add New User</a></li>
-      <li><a class="dropdown-item" href="#">Administrator</a></li>
-      <li><a class="dropdown-item" href="#">Users</a></li>
-    </ul>
-  </li>
-  <li class="aside_item dropdown_main">
-    <button class="dropdown_toggler">Our Team<i class="fa-solid fa-caret-down"></i></button>
-    <ul class="dropdown_items bg_linear">
-      <li><a class="dropdown-item" href="#">View Site</a></li>
-      <li><a class="dropdown-item" href="#">View Dashboard</a></li>
-    </ul>
-  </li>
-  <li class="aside_item dropdown_main">
-    <button class="dropdown_toggler">Testimonials<i class="fa-solid fa-caret-down"></i></button>
-    <ul class="dropdown_items bg_linear">
-      <li><a class="dropdown-item" href="#">View Site</a></li>
-      <li><a class="dropdown-item" href="#">View Dashboard</a></li>
-    </ul>
-  </li>
-    <!-- <li class="aside_item"><a href="" class="aside_link is_active"><span class="aside_icon"></span>Users</a></li>
-    <li class="aside_item"><a href="" class="aside_link is_active"><span class="aside_icon"></span>Pages</a></li>
-    <li class="aside_item"><a href="" class="aside_link is_active"><span class="aside_icon"></span>Pages</a></li>
-    <li class="aside_item"><a href="" class="aside_link is_active"><span class="aside_icon"></span>Pages</a></li>
-    <li class="aside_item"><a href="" class="aside_link is_active"><span class="aside_icon"></span>Pages</a></li>
-    <li class="aside_item"><a href="" class="aside_link is_active"><span class="aside_icon"></span>Pages</a></li> -->
+
+    <li class="aside_item" *ngFor="let menu of asideMenu; let i = index">
+
+      <ng-container *ngIf="menu.type === 'link'">
+        <a [routerLink]="menu.link" class="aside_link"  (click)="toggleDropdown(i)" [class.is_active]="activeDropdown === i">
+          <span class="aside_icon"><i class="{{ menu.icon }}"></i></span>
+           <span class="menulable"> {{ menu.label }}</span>
+        </a>
+      </ng-container>
+
+      <ng-container *ngIf="menu.type === 'dropdown'">
+        <div class="dropdown_main">
+          <button class="dropdown_toggler" (click)="toggleDropdown(i)" [class.is_active]="activeDropdown === i">
+            <div class="aside_text">
+              <span class="aside_icon"><i class="{{ menu.icon }}"></i></span>
+              <span class="menulable">{{ menu.label }}</span>
+            </div>
+            <i [class.is_active]="activeDropdown === i" class="fa-solid fa-caret-right"></i>
+          </button>
+          <ul class="dropdown_items bg_linear" [class.show]="activeDropdown === i">
+            <li *ngFor="let item of menu.items">
+              <a class="dropdown-item" [routerLink]="item.link">{{ item.label }}</a>
+            </li>
+          </ul>
+        </div>
+      </ng-container>
+    </li>
   </ul>
 
 </aside>

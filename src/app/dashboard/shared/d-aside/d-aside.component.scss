@@ -3,10 +3,6 @@ aside{
   background-color: blue;
   height: 100%;
   transition: .2s;
-  &.is_toggle{
-   width: 0;
-    transition: .2s;
-  }
   .dropdown_main{
    width: 100%;
    position: relative;
@@ -31,19 +27,24 @@ aside{
       background: linear-gradient(180deg, #FFFFFF 3.05%, #E7E7E7 94.51%) !important;
      color: #282828 !important;
     }
+    i{
+      transition: .2s;
+      &.is_active{
+        transform: rotate(180deg);
+      }
+    }
    }
    ul{
     width:0;
     transition: .2s !important;
-    // opacity: 0;
     position: absolute;
     top: 0;
     right: 0%;
     z-index: -1;
     list-style: none;
     &.show{
-      right: -100%;
-      width: 100%;
+      right: -250px;
+      width: 250px;
       z-index: 9;
       transition: .2s !important;
     }
@@ -125,3 +126,55 @@ aside{
 }
 
 
+.is_toggle{
+  width: 80px;
+   transition: .2s;
+   .dropdown_main{
+    .dropdown_toggler{
+      position: relative;
+      justify-content: center;
+      margin-bottom: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      > i{
+         position: absolute;
+         right: 0;
+         display: none;
+      }
+      .aside_text{
+        .aside_icon{
+          margin-right: 0;
+          display: flex;
+          i{
+            font-size: 20px;
+          }
+        }
+        .menulable{
+          display: none;
+        }
+      }
+    }
+   }
+   .aside_list{
+    .aside_item{
+      .aside_link{
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    ;
+        .aside_icon{
+          margin-right: 0;
+          display: flex;
+          justify-content: center;
+          i{
+            font-size: 20px !important;
+          }
+        }
+        .menulable{
+          display: none;
+        }
+      }
+    }
+   }
+ }

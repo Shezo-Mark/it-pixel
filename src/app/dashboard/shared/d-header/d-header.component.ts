@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { SharedServiceService } from '../shared-service.service';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-d-header',
@@ -7,14 +6,10 @@ import { SharedServiceService } from '../shared-service.service';
   styleUrls: ['./d-header.component.scss']
 })
 export class DHeaderComponent {
-  isToggled = false;
-  constructor(private toggleclass: SharedServiceService) {}
+  AsideToggler = false;
+  @Output() asideToggled = new EventEmitter<boolean>();
   toggleAside(): void {
-    this.toggleclass.toggleAsideClass();
-  }
-  ngOnInit(): void {
-    this.toggleclass.toggleClass$.subscribe(toggle => {
-      this.isToggled = toggle;
-    });
+    this.AsideToggler = this.AsideToggler ? false : true ;
+    this.asideToggled.emit(this.AsideToggler);  // Emit event when button is clicked
   }
 }
