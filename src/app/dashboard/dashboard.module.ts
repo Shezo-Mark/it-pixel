@@ -10,6 +10,7 @@ import { DHomeComponent } from './components/d-home/d-home.component';
 import { DAsideComponent } from './shared/d-aside/d-aside.component';
 import { PagesComponent } from './components/pages/pages.component';
 import { PostComponent } from './components/post/post.component';
+import { AddNewUserComponent } from './components/users/add-new-user/add-new-user.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { PostComponent } from './components/post/post.component';
     DAsideComponent,
     PagesComponent,
     PostComponent,
+    AddNewUserComponent,
   ],
   imports: [
     CommonModule,

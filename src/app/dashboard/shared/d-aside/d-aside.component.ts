@@ -43,7 +43,7 @@ export class DAsideComponent {
     label: 'Users Rolls',
     icon: 'fa-solid fa-users',
     items: [
-      { label: 'Add New User', link: '#' },
+      { label: 'Add New User', link: 'add-user' },
       { label: 'Administrator', link: '#' },
       { label: 'Users', link: '#' }
     ]

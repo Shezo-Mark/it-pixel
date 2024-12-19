@@ -1,3 +1,4 @@
+import { AddNewUserComponent } from './components/users/add-new-user/add-new-user.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard.component';
@@ -11,6 +12,7 @@ const routes: Routes = [
     children: [
       {path:'pages', component: PagesComponent},
       {path:'posts', component: PostComponent},
+      {path:'add-user', component: AddNewUserComponent},
     ],
   },
 ];
