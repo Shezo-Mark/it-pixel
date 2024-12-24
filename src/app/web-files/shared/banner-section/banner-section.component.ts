@@ -25,7 +25,7 @@ export class BannerSectionComponent implements OnInit {
         imageUrl: '../../../../assets/images/banner-gif/about-banner.png', // Update with correct path
         buttonUrl:'/contact',
       },
-
+                         
       contact: {
         heading: 'Are you ready for a no <br> obligation quote?',
         buttonText: 'Email Us',

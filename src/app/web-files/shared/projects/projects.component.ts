@@ -35,34 +35,34 @@ export class ProjectsComponent {
   projects = [
     { subject: 'Html', id: '1', title: 'Successfundtrader', image: 'assets/images/projects/Successfundtrader.jpg', ProjectImageDetails: 'assets/images/projects/Successfundtrader-d.jpg'},
 
-    { subject: 'Html', id: '2', title: 'The Runner', image: 'assets/images/projects/the-runner.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg', },
-    { subject: 'Sass', id: '3', title: 'Sass Here', image: 'assets/images/site-images/project-2.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg'},
+    { subject: 'Html', id: '2', title: 'Penrose', image: 'assets/images/projects/Penrose.jpg', ProjectImageDetails: 'assets/images/projects/Penrose-d.jpg', },
+    { subject: 'Sass', id: '3', title: 'Fastpitch', image: 'assets/images/projects/Fastpitch.jpg', ProjectImageDetails: 'assets/images/projects/Fastpitch-d.jpg'},
 
 
     { subject: 'Sass', id: '4', title: 'Top10pokersites', image: 'assets/images/projects/Top10pokersites.jpg', ProjectImageDetails: 'assets/images/projects/Top10pokersites-d.jpg',},
-    { subject: 'Tailwind', id: '5', title: 'Tailwind Here', image: 'assets/images/site-images/project-3.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg'},
+    { subject: 'Tailwind', id: '5', title: 'eNeighbr - Courier', image: 'assets/images/projects/eNeighbr - Courier.jpg', ProjectImageDetails: 'assets/images/projects/eNeighbr - Courier-d.jpg'},
     { subject: 'Tailwind', id: '6', title: 'Zoplenti', image: 'assets/images/projects/Zoplenti.jpg', ProjectImageDetails: 'assets/images/projects/Zoplenti-d.jpg',},
 
 
-    { subject: 'Bulma', id: '7', title: 'Bulma Here', image: 'assets/images/site-images/project-4.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Bootstrap', id: '8', title: 'Bootstrap Here', image: 'assets/images/site-images/project-5.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Ui', id: '9', title: 'Ui/Ux Here', image: 'assets/images/site-images/project-6.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Less', id: '10', title: 'Less Here', image: 'assets/images/site-images/project-7.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Php', id: '1', title: 'Php Here', image: 'assets/images/site-images/project-8.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Laravel', id: '1', title: 'Laravel Here', image: 'assets/images/site-images/project-9.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Angular', id: '1', title: 'Angular Here', image: 'assets/images/site-images/project-10.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Wix', id: '1', title: 'Wix Here', image: 'assets/images/site-images/project-11.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'WebFlow', id: '1', title: 'WebFlow Here', image: 'assets/images/site-images/project-12.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Wordpress', id: '1', title: 'Wordpress Here', image: 'assets/images/site-images/project-13.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Custom_Theme', id: '1', title: 'Custom_Theme Here', image: 'assets/images/site-images/project-14.png', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Theme_Development', id: '1', title: 'Theme_Development Here', image: 'assets/images/site-images/project-15.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Theme_Customization', id: '1', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-16.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Wordpress', id: '1', title: 'Wordpress Here', image: 'assets/images/site-images/project-17.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Angular', id: '1', title: 'Angular Here', image: 'assets/images/site-images/project-18.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Angular', id: '1', title: 'Angular Here', image: 'assets/images/site-images/project-19.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Theme_Customization', id: '1', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-20.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Theme_Customization', id: '1', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-21.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
-    { subject: 'Theme_Customization', id: '1', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-22.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',}
+    { subject: 'Bulma', id: '7', title: 'Bean - Financial Management', image: 'assets/images/projects/Bean - Financial Management.jpg', ProjectImageDetails: 'assets/images/projects/Bean - Financial Management-d.jpg',},
+    { subject: 'Bootstrap', id: '8', title: 'Revr - Residencial investment market', image: 'assets/images/projects/Revr - Residencial investment market.png', ProjectImageDetails: 'assets/images/projects/Revr - Residencial investment market-d.png',},
+    { subject: 'Ui', id: '9', title: 'Greeking', image: 'assets/images/projects/Greeking.jpg', ProjectImageDetails: 'assets/images/projects/Greeking-d.jpg',},
+    { subject: 'Less', id: '10', title: 'Renno', image: 'assets/images/projects/Renno.jpg', ProjectImageDetails: 'assets/images/projects/Renno-d.jpg',},
+    { subject: 'Php', id: '11', title: 'Milena Dubs', image: 'assets/images/projects/Milena Dubs.png', ProjectImageDetails: 'assets/images/projects/Milena Dubs-d.png',},
+    { subject: 'Laravel', id: '12', title: 'Dispatch.d - Logistics', image: 'assets/images/projects/Dispatch.d - Logistics.png', ProjectImageDetails: 'assets/images/projects/Dispatch.d - Logistics-d.jpg',},
+    { subject: 'Angular', id: '13', title: 'InAppChat - API', image: 'assets/images/projects/InAppChat - API.png', ProjectImageDetails: 'assets/images/projects/InAppChat - API-d.jpg',},
+    { subject: 'Wix', id: '14', title: 'ALT - Advanced Lipedema Treatment', image: 'assets/images/projects/ALT - Advanced Lipedema Treatment.png', ProjectImageDetails: 'assets/images/projects/ALT - Advanced Lipedema Treatment-d.png',},
+    { subject: 'WebFlow', id: '15', title: 'BOA - Chat & Tasks', image: 'assets/images/projects/BOA - Chat & Tasks.png', ProjectImageDetails: 'assets/images/projects/BOA - Chat & Tasks-d.jpg',},
+    { subject: 'Wordpress', id: '16', title: 'Zada - Cryptocurrency & Blockchain', image: 'assets/images/projects/Zada - Cryptocurrency & Blockchain.png', ProjectImageDetails: 'assets/images/projects/Zada - Cryptocurrency & Blockchain-d.jpeg',},
+    { subject: 'Custom_Theme', id: '17', title: 'ExpoParis - Art & Exhibitions', image: 'assets/images/projects/ExpoParis - Art & Exhibitions.png', ProjectImageDetails: 'assets/images/projects/ExpoParis - Art & Exhibitions-d.jpg',},
+    { subject: 'Theme_Development', id: '18', title: 'Panacea - Cryptocurrency Wallet', image: 'assets/images/projects/Panacea - Cryptocurrency Wallet.jpg', ProjectImageDetails: 'assets/images/projects/Panacea - Cryptocurrency Wallet-d.jpg',},
+    { subject: 'Theme_Customization', id: '19', title: 'Grow Online - Ad Platform', image: 'assets/images/projects/Grow Online - Ad Platform.png', ProjectImageDetails: 'assets/images/projects/Grow Online - Ad Platform-d.jpg',},
+    { subject: 'Wordpress', id: '20', title: 'REN - Message Manager', image: 'assets/images/projects/REN - Message Manager.png', ProjectImageDetails: 'assets/images/projects/REN - Message Manager-d.jpg',},
+    { subject: 'Angular', id: '21', title: 'Hyyer Creative - Creative Agency', image: 'assets/images/projects/Hyyer Creative - Creative Agency.jpg', ProjectImageDetails: 'assets/images/projects/Hyyer Creative - Creative Agency-d.jpg',},
+    { subject: 'Angular', id: '22', title: 'First Phase Media - Investments', image: 'assets/images/projects/First Phase Media - Investments.png', ProjectImageDetails: 'assets/images/projects/First Phase Media - Investments-d.jpg',},
+    { subject: 'Theme_Customization', id: '23', title: 'TrueNAS - Software & Devices', image: 'assets/images/projects/TrueNAS - Software & Devices.png', ProjectImageDetails: 'assets/images/projects/TrueNAS - Software & Devices-d.jpg',},
+    { subject: 'Theme_Customization', id: '24', title: 'Muso.ai - AI for Spotify', image: 'assets/images/projects/Muso.ai - AI for Spotify.png', ProjectImageDetails: 'assets/images/projects/Muso.ai - AI for Spotify-d.jpg',},
+    { subject: 'Theme_Customization', id: '25', title: 'Neutrl - Environmental Sustainability', image: 'assets/images/projects/Neutrl - Environmental Sustainability.png', ProjectImageDetails: 'assets/images/projects/Neutrl - Environmental Sustainability-d.jpg',}
   ];
   filterProject(isAllCase: boolean, subject: string) {
     if (isAllCase) {

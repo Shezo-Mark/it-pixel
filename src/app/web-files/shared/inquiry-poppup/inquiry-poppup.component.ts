@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class InquiryPoppupComponent {
   isModalShow: boolean = false;
   ngOnInit(): void {
-    this.isModalShow = true;
+    this.isModalShow = false;
   }
   closeModal(): void {
     this.isModalShow = false;
