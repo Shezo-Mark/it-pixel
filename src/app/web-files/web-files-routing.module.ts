@@ -41,6 +41,7 @@ import { LegalMarketingComponent } from './components/legal-marketing/legal-mark
 import { HomeServicesComponent } from './components/home-services/home-services.component';
 import { HealthFitnessComponent } from './components/health-fitness/health-fitness.component';
 import { HvacComponent } from './components/hvac/hvac.component';
+import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 
 
 
@@ -100,6 +101,10 @@ const routes: Routes = [
     {
       path: 'service-detail/:id',
       component: ServiceDetailsComponent
+    },
+    {
+      path: 'project-detail/:id',
+      component: ProjectDetailsComponent
     },
     {
       path: 'social-media',

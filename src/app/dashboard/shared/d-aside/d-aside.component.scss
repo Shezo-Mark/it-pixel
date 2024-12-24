@@ -85,7 +85,7 @@ aside{
     padding: 0;
     list-style: none;
     .aside_item{
-      &.dropdown_main{
+      .dropdown_main{
         .dropdown_items{
           background-color: white;
           li{
@@ -94,6 +94,13 @@ aside{
               font-weight: 800;
               color: #fff;
               padding:3px 7px 0 10px;
+
+            }
+            &.is_active{
+              background: linear-gradient(180deg, #FFFFFF 3.05%, #E7E7E7 94.51%) !important;
+              a{
+                color: #282828 !important;
+              }
             }
             &:hover{
               background: linear-gradient(180deg, #FFFFFF 3.05%, #E7E7E7 94.51%) !important;

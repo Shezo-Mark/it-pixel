@@ -56,6 +56,7 @@ import { HomeServicesComponent } from './components/home-services/home-services.
 import { HealthFitnessComponent } from './components/health-fitness/health-fitness.component';
 import { HvacComponent } from './components/hvac/hvac.component';
 import { InquiryPoppupComponent } from './shared/inquiry-poppup/inquiry-poppup.component';
+import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 
 
 
@@ -114,7 +115,8 @@ import { InquiryPoppupComponent } from './shared/inquiry-poppup/inquiry-poppup.c
     HomeServicesComponent,
     HealthFitnessComponent,
     HvacComponent,
-    InquiryPoppupComponent
+    InquiryPoppupComponent,
+    ProjectDetailsComponent
 
   ],
   imports: [

@@ -16,9 +16,14 @@ const routes: Routes = [
     loadChildren: () => import('./web-files/web-files.module').then((m) => m.WebFilesModule),
   },
 ];
-// 
+//
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {useHash: true})],
+  imports: [
+    RouterModule.forRoot(routes, {
+      useHash: true,
+      scrollPositionRestoration: 'enabled', // Restores the scroll position to the top
+      anchorScrolling: 'enabled', // Allows scrolling to anchors
+    })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

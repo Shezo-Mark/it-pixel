@@ -31,16 +31,6 @@ export class DevelopmentProcessComponent {
       id: 5,
       title: 'Post-Launch Support',
       description: 'After launch, we provide ongoing support and maintenance to ensure your website remains up to date, secure, and functioning properly.'
-    },
-    {
-      id: 6,
-      title: 'Asma Dilshad',
-      description: 'Web Developer.'
-    },
-    {
-      id: 7,
-      title: 'Shehad Amin',
-      description: 'Web Developer.'
     }
   ];
 }

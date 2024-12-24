@@ -33,28 +33,36 @@ export class ProjectsComponent {
   ];
   // Define project data
   projects = [
-    { subject: 'Html', title: 'Html Here', image: 'assets/images/site-images/project-1.jpg' },
-    { subject: 'Sass', title: 'Sass Here', image: 'assets/images/site-images/project-2.jpg' },
-    { subject: 'Tailwind', title: 'Tailwind Here', image: 'assets/images/site-images/project-3.jpg' },
-    { subject: 'Bulma', title: 'Bulma Here', image: 'assets/images/site-images/project-4.jpg' },
-    { subject: 'Bootstrap', title: 'Bootstrap Here', image: 'assets/images/site-images/project-5.jpg' },
-    { subject: 'Ui', title: 'Ui/Ux Here', image: 'assets/images/site-images/project-6.jpg' },
-    { subject: 'Less', title: 'Less Here', image: 'assets/images/site-images/project-7.jpg' },
-    { subject: 'Php', title: 'Php Here', image: 'assets/images/site-images/project-8.jpg' },
-    { subject: 'Laravel', title: 'Laravel Here', image: 'assets/images/site-images/project-9.jpg' },
-    { subject: 'Angular', title: 'Angular Here', image: 'assets/images/site-images/project-10.jpg' },
-    { subject: 'Wix', title: 'Wix Here', image: 'assets/images/site-images/project-11.jpg' },
-    { subject: 'WebFlow', title: 'WebFlow Here', image: 'assets/images/site-images/project-12.jpg' },
-    { subject: 'Wordpress', title: 'Wordpress Here', image: 'assets/images/site-images/project-13.jpg' },
-    { subject: 'Custom_Theme', title: 'Custom_Theme Here', image: 'assets/images/site-images/project-14.png' },
-    { subject: 'Theme_Development', title: 'Theme_Development Here', image: 'assets/images/site-images/project-15.jpg' },
-    { subject: 'Theme_Customization', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-16.jpg' },
-    { subject: 'Wordpress', title: 'Wordpress Here', image: 'assets/images/site-images/project-17.jpg' },
-    { subject: 'Angular', title: 'Angular Here', image: 'assets/images/site-images/project-18.jpg' },
-    { subject: 'Angular', title: 'Angular Here', image: 'assets/images/site-images/project-19.jpg' },
-    { subject: 'Theme_Customization', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-20.jpg' },
-    { subject: 'Theme_Customization', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-21.jpg' },
-    { subject: 'Theme_Customization', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-22.jpg' }
+    { subject: 'Html', id: '1', title: 'Successfundtrader', image: 'assets/images/projects/Successfundtrader.jpg', ProjectImageDetails: 'assets/images/projects/Successfundtrader-d.jpg'},
+
+    { subject: 'Html', id: '2', title: 'The Runner', image: 'assets/images/projects/the-runner.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg', },
+    { subject: 'Sass', id: '3', title: 'Sass Here', image: 'assets/images/site-images/project-2.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg'},
+
+
+    { subject: 'Sass', id: '4', title: 'Top10pokersites', image: 'assets/images/projects/Top10pokersites.jpg', ProjectImageDetails: 'assets/images/projects/Top10pokersites-d.jpg',},
+    { subject: 'Tailwind', id: '5', title: 'Tailwind Here', image: 'assets/images/site-images/project-3.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg'},
+    { subject: 'Tailwind', id: '6', title: 'Zoplenti', image: 'assets/images/projects/Zoplenti.jpg', ProjectImageDetails: 'assets/images/projects/Zoplenti-d.jpg',},
+
+
+    { subject: 'Bulma', id: '7', title: 'Bulma Here', image: 'assets/images/site-images/project-4.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Bootstrap', id: '8', title: 'Bootstrap Here', image: 'assets/images/site-images/project-5.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Ui', id: '9', title: 'Ui/Ux Here', image: 'assets/images/site-images/project-6.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Less', id: '10', title: 'Less Here', image: 'assets/images/site-images/project-7.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Php', id: '1', title: 'Php Here', image: 'assets/images/site-images/project-8.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Laravel', id: '1', title: 'Laravel Here', image: 'assets/images/site-images/project-9.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Angular', id: '1', title: 'Angular Here', image: 'assets/images/site-images/project-10.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Wix', id: '1', title: 'Wix Here', image: 'assets/images/site-images/project-11.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'WebFlow', id: '1', title: 'WebFlow Here', image: 'assets/images/site-images/project-12.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Wordpress', id: '1', title: 'Wordpress Here', image: 'assets/images/site-images/project-13.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Custom_Theme', id: '1', title: 'Custom_Theme Here', image: 'assets/images/site-images/project-14.png', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Theme_Development', id: '1', title: 'Theme_Development Here', image: 'assets/images/site-images/project-15.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Theme_Customization', id: '1', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-16.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Wordpress', id: '1', title: 'Wordpress Here', image: 'assets/images/site-images/project-17.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Angular', id: '1', title: 'Angular Here', image: 'assets/images/site-images/project-18.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Angular', id: '1', title: 'Angular Here', image: 'assets/images/site-images/project-19.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Theme_Customization', id: '1', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-20.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Theme_Customization', id: '1', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-21.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',},
+    { subject: 'Theme_Customization', id: '1', title: 'Theme_Customization Here', image: 'assets/images/site-images/project-22.jpg', ProjectImageDetails: 'assets/images/projects/the-runner-d.jpg',}
   ];
   filterProject(isAllCase: boolean, subject: string) {
     if (isAllCase) {

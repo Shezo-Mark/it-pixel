@@ -4,23 +4,23 @@
     <li class="aside_item" *ngFor="let menu of asideMenu; let i = index">
 
       <ng-container *ngIf="menu.type === 'link'">
-        <a [routerLink]="menu.link" class="aside_link"  (click)="toggleDropdown(i)" [class.is_active]="activeDropdown === i">
+        <a [routerLink]="menu.link" class="aside_link" [routerLinkActive]="'is_active'">
           <span class="aside_icon"><i class="{{ menu.icon }}"></i></span>
-           <span class="menulable"> {{ menu.label }}</span>
+          <span class="menulable">{{ menu.label }}</span>
         </a>
       </ng-container>
 
       <ng-container *ngIf="menu.type === 'dropdown'">
         <div class="dropdown_main">
-          <button class="dropdown_toggler" (click)="toggleDropdown(i)" [class.is_active]="activeDropdown === i">
+          <button class="dropdown_toggler" (click)="toggleDropdown(menu, i)" [class.is_active]="menu.is_Active">
             <div class="aside_text">
               <span class="aside_icon"><i class="{{ menu.icon }}"></i></span>
               <span class="menulable">{{ menu.label }}</span>
             </div>
-            <i [class.is_active]="activeDropdown === i" class="fa-solid fa-caret-right"></i>
+            <i class="fa-solid fa-caret-right"></i>
           </button>
-          <ul class="dropdown_items bg_linear" [class.show]="activeDropdown === i">
-            <li *ngFor="let item of menu.items">
+          <ul class="dropdown_items bg_linear" [class.show]="menu.is_Active">
+            <li *ngFor="let item of menu.items; let ind = index" [routerLinkActive]="'is_active'">
               <a class="dropdown-item" [routerLink]="item.link">{{ item.label }}</a>
             </li>
           </ul>
@@ -28,5 +28,4 @@
       </ng-container>
     </li>
   </ul>
-
 </aside>

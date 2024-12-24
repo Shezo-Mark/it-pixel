@@ -35,8 +35,9 @@
               <img [src]="project.image" alt="">
             </a>
             <div class="case_Info">
-              <a routerLink="/asma"><h3>{{ project.title }}</h3></a>
-              <a routerLink="/asma">Read More ⟶</a>
+              <a  [routerLink]="['/project-detail', project.id]" [state]="project"><h3>{{ project.title }}</h3></a>
+              <a  [routerLink]="['/project-detail', project.id]" [state]="project"
+              >Read More ⟶</a>
             </div>
           </div>
         </div>
