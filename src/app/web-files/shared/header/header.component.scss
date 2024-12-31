@@ -190,6 +190,9 @@ header{
 }
 
 @media screen and (max-width: 991px){
+  .navbar-brand{
+    max-width: 200px;
+  }
   .navbar-collapse{
     .nav-item{
       margin-right: 0 !important

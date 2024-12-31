@@ -6,4 +6,8 @@
     width: 100%;
     position: relative;
   }
+  main{
+    height: calc(100vh - 93px);
+    overflow-y: auto;
+  }
 }

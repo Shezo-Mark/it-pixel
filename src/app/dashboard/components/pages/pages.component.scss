@@ -1,0 +1,15 @@
+.page_item{
+  margin-top: 10px;
+  .page_box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    h5{
+      font-size: 15px;
+      font-weight: 700;
+    }
+  }
+}

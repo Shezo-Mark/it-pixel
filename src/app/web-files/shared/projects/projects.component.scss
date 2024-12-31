@@ -1,6 +1,6 @@
 .section_projects{
   .dateFilter{
-    width: 366px;
+    width: 500px;
     text-align: right;
     margin-left: auto;
     position: absolute;
@@ -93,6 +93,20 @@
   .project_filter_data {
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      width: 2px;
+    }
+    &::-webkit-scrollbar-track {
+      background: #9F68FB;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #6979FE;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
     .project_item {
       width: 100%;
       margin-bottom: 15px;
